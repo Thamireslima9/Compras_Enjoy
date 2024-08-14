@@ -61,5 +61,12 @@ namespace Compras_Enjoy
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+             Cadastro_tela telaCadastro = new Cadastro_tela();
+
+            telaCadastro.ShowDialog();
+        }
     }
 }
