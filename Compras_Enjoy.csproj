@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compra_tela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra_tela.Designer.cs">
+      <DependentUpon>Compra_tela.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

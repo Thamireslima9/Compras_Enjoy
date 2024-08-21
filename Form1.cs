@@ -68,5 +68,15 @@ namespace Compras_Enjoy
 
             telaCadastro.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSalveImage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

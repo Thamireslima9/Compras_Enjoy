@@ -39,7 +39,42 @@ namespace Compras_Enjoy
 
         private void BttEnviarCadastro_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(TxbNameCadas.Text + "\n" + TxbEmailCadas + "\n" + TxbSenhaCadas + "\n" + TxbConfSenha);
+            MessageBox.Show(
+                "Nome: " + TxbNameCadas.Text + 
+                "\nEmail: " + TxbEmailCadas.Text + 
+                "\nDia: " + CbxDiaNasci.Text + 
+                "\nMês: " + CbxMês.Text +
+                "\nAno: " + TxbAnoNasc.Text);
+        }
+
+        private void LblEmailCadastro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSenhaCadastro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 telainicial = new Form1();
+
+            telainicial.ShowDialog();
+        }
+
+        private void BttEnter_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+               "Nome: " + TxbEmailLogin.Text +
+               "\nEmail: " + TxbSenhaLogin);
+               
+        }
+
+        private void TxbSenhaLogin_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
