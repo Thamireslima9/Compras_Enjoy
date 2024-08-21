@@ -33,7 +33,8 @@
             this.BtnVoltar = new System.Windows.Forms.Button();
             this.lblNomeEnjoy = new System.Windows.Forms.Label();
             this.PnlCadastro = new System.Windows.Forms.Panel();
-            this.BttEnter = new System.Windows.Forms.Button();
+            this.LblTitleRegistration = new System.Windows.Forms.Label();
+            this.TxbAnoNasc = new System.Windows.Forms.TextBox();
             this.LblOR = new System.Windows.Forms.Label();
             this.BttEnviarCadastro = new System.Windows.Forms.Button();
             this.LblAnoNasci = new System.Windows.Forms.Label();
@@ -50,14 +51,13 @@
             this.TxbSenhaCadas = new System.Windows.Forms.TextBox();
             this.TxbEmailCadas = new System.Windows.Forms.TextBox();
             this.TxbNameCadas = new System.Windows.Forms.TextBox();
+            this.BttEnter = new System.Windows.Forms.Button();
             this.PnlLogin = new System.Windows.Forms.Panel();
-            this.TxbAnoNasc = new System.Windows.Forms.TextBox();
-            this.LblTitleRegistration = new System.Windows.Forms.Label();
-            this.LblTitleLogin = new System.Windows.Forms.Label();
-            this.LblEmailLogin = new System.Windows.Forms.Label();
-            this.TxbEmailLogin = new System.Windows.Forms.TextBox();
-            this.LblSenhaLogin = new System.Windows.Forms.Label();
             this.TxbSenhaLogin = new System.Windows.Forms.TextBox();
+            this.LblSenhaLogin = new System.Windows.Forms.Label();
+            this.TxbEmailLogin = new System.Windows.Forms.TextBox();
+            this.LblEmailLogin = new System.Windows.Forms.Label();
+            this.LblTitleLogin = new System.Windows.Forms.Label();
             this.PnlLayout2.SuspendLayout();
             this.PnlCadastro.SuspendLayout();
             this.PnlLogin.SuspendLayout();
@@ -121,20 +121,26 @@
             this.PnlCadastro.Controls.Add(this.TxbNameCadas);
             this.PnlCadastro.Location = new System.Drawing.Point(43, 91);
             this.PnlCadastro.Name = "PnlCadastro";
-            this.PnlCadastro.Size = new System.Drawing.Size(541, 501);
+            this.PnlCadastro.Size = new System.Drawing.Size(550, 501);
             this.PnlCadastro.TabIndex = 17;
             // 
-            // BttEnter
+            // LblTitleRegistration
             // 
-            this.BttEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttEnter.ForeColor = System.Drawing.Color.Maroon;
-            this.BttEnter.Location = new System.Drawing.Point(161, 293);
-            this.BttEnter.Name = "BttEnter";
-            this.BttEnter.Size = new System.Drawing.Size(112, 32);
-            this.BttEnter.TabIndex = 17;
-            this.BttEnter.Text = "Entrar";
-            this.BttEnter.UseVisualStyleBackColor = true;
-            this.BttEnter.Click += new System.EventHandler(this.BttEnter_Click);
+            this.LblTitleRegistration.AutoSize = true;
+            this.LblTitleRegistration.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitleRegistration.ForeColor = System.Drawing.Color.Maroon;
+            this.LblTitleRegistration.Location = new System.Drawing.Point(200, 37);
+            this.LblTitleRegistration.Name = "LblTitleRegistration";
+            this.LblTitleRegistration.Size = new System.Drawing.Size(123, 29);
+            this.LblTitleRegistration.TabIndex = 19;
+            this.LblTitleRegistration.Text = "Cadastro";
+            // 
+            // TxbAnoNasc
+            // 
+            this.TxbAnoNasc.Location = new System.Drawing.Point(351, 381);
+            this.TxbAnoNasc.Name = "TxbAnoNasc";
+            this.TxbAnoNasc.Size = new System.Drawing.Size(95, 20);
+            this.TxbAnoNasc.TabIndex = 18;
             // 
             // LblOR
             // 
@@ -338,6 +344,18 @@
             this.TxbNameCadas.Size = new System.Drawing.Size(279, 20);
             this.TxbNameCadas.TabIndex = 0;
             // 
+            // BttEnter
+            // 
+            this.BttEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttEnter.ForeColor = System.Drawing.Color.Maroon;
+            this.BttEnter.Location = new System.Drawing.Point(161, 293);
+            this.BttEnter.Name = "BttEnter";
+            this.BttEnter.Size = new System.Drawing.Size(112, 32);
+            this.BttEnter.TabIndex = 17;
+            this.BttEnter.Text = "Entrar";
+            this.BttEnter.UseVisualStyleBackColor = true;
+            this.BttEnter.Click += new System.EventHandler(this.BttEnter_Click);
+            // 
             // PnlLogin
             // 
             this.PnlLogin.BackColor = System.Drawing.Color.White;
@@ -348,56 +366,18 @@
             this.PnlLogin.Controls.Add(this.LblEmailLogin);
             this.PnlLogin.Controls.Add(this.BttEnter);
             this.PnlLogin.Controls.Add(this.LblTitleLogin);
-            this.PnlLogin.Location = new System.Drawing.Point(645, 91);
+            this.PnlLogin.Location = new System.Drawing.Point(590, 91);
             this.PnlLogin.Name = "PnlLogin";
             this.PnlLogin.Size = new System.Drawing.Size(424, 501);
             this.PnlLogin.TabIndex = 18;
             // 
-            // TxbAnoNasc
+            // TxbSenhaLogin
             // 
-            this.TxbAnoNasc.Location = new System.Drawing.Point(351, 381);
-            this.TxbAnoNasc.Name = "TxbAnoNasc";
-            this.TxbAnoNasc.Size = new System.Drawing.Size(95, 20);
-            this.TxbAnoNasc.TabIndex = 18;
-            // 
-            // LblTitleRegistration
-            // 
-            this.LblTitleRegistration.AutoSize = true;
-            this.LblTitleRegistration.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitleRegistration.ForeColor = System.Drawing.Color.Maroon;
-            this.LblTitleRegistration.Location = new System.Drawing.Point(200, 37);
-            this.LblTitleRegistration.Name = "LblTitleRegistration";
-            this.LblTitleRegistration.Size = new System.Drawing.Size(123, 29);
-            this.LblTitleRegistration.TabIndex = 19;
-            this.LblTitleRegistration.Text = "Cadastro";
-            // 
-            // LblTitleLogin
-            // 
-            this.LblTitleLogin.AutoSize = true;
-            this.LblTitleLogin.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitleLogin.ForeColor = System.Drawing.Color.Maroon;
-            this.LblTitleLogin.Location = new System.Drawing.Point(170, 123);
-            this.LblTitleLogin.Name = "LblTitleLogin";
-            this.LblTitleLogin.Size = new System.Drawing.Size(83, 29);
-            this.LblTitleLogin.TabIndex = 20;
-            this.LblTitleLogin.Text = "Login";
-            // 
-            // LblEmailLogin
-            // 
-            this.LblEmailLogin.AutoSize = true;
-            this.LblEmailLogin.ForeColor = System.Drawing.Color.Maroon;
-            this.LblEmailLogin.Location = new System.Drawing.Point(44, 172);
-            this.LblEmailLogin.Name = "LblEmailLogin";
-            this.LblEmailLogin.Size = new System.Drawing.Size(38, 13);
-            this.LblEmailLogin.TabIndex = 20;
-            this.LblEmailLogin.Text = "Email: ";
-            // 
-            // TxbEmailLogin
-            // 
-            this.TxbEmailLogin.Location = new System.Drawing.Point(100, 165);
-            this.TxbEmailLogin.Name = "TxbEmailLogin";
-            this.TxbEmailLogin.Size = new System.Drawing.Size(279, 20);
-            this.TxbEmailLogin.TabIndex = 20;
+            this.TxbSenhaLogin.Location = new System.Drawing.Point(100, 228);
+            this.TxbSenhaLogin.Name = "TxbSenhaLogin";
+            this.TxbSenhaLogin.Size = new System.Drawing.Size(279, 20);
+            this.TxbSenhaLogin.TabIndex = 21;
+            this.TxbSenhaLogin.TextChanged += new System.EventHandler(this.TxbSenhaLogin_TextChanged);
             // 
             // LblSenhaLogin
             // 
@@ -410,13 +390,33 @@
             this.LblSenhaLogin.TabIndex = 20;
             this.LblSenhaLogin.Text = "Senha: ";
             // 
-            // TxbSenhaLogin
+            // TxbEmailLogin
             // 
-            this.TxbSenhaLogin.Location = new System.Drawing.Point(100, 228);
-            this.TxbSenhaLogin.Name = "TxbSenhaLogin";
-            this.TxbSenhaLogin.Size = new System.Drawing.Size(279, 20);
-            this.TxbSenhaLogin.TabIndex = 21;
-            this.TxbSenhaLogin.TextChanged += new System.EventHandler(this.TxbSenhaLogin_TextChanged);
+            this.TxbEmailLogin.Location = new System.Drawing.Point(100, 165);
+            this.TxbEmailLogin.Name = "TxbEmailLogin";
+            this.TxbEmailLogin.Size = new System.Drawing.Size(279, 20);
+            this.TxbEmailLogin.TabIndex = 20;
+            // 
+            // LblEmailLogin
+            // 
+            this.LblEmailLogin.AutoSize = true;
+            this.LblEmailLogin.ForeColor = System.Drawing.Color.Maroon;
+            this.LblEmailLogin.Location = new System.Drawing.Point(44, 172);
+            this.LblEmailLogin.Name = "LblEmailLogin";
+            this.LblEmailLogin.Size = new System.Drawing.Size(38, 13);
+            this.LblEmailLogin.TabIndex = 20;
+            this.LblEmailLogin.Text = "Email: ";
+            // 
+            // LblTitleLogin
+            // 
+            this.LblTitleLogin.AutoSize = true;
+            this.LblTitleLogin.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitleLogin.ForeColor = System.Drawing.Color.Maroon;
+            this.LblTitleLogin.Location = new System.Drawing.Point(170, 123);
+            this.LblTitleLogin.Name = "LblTitleLogin";
+            this.LblTitleLogin.Size = new System.Drawing.Size(83, 29);
+            this.LblTitleLogin.TabIndex = 20;
+            this.LblTitleLogin.Text = "Login";
             // 
             // Cadastro_tela
             // 
