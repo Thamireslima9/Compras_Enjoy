@@ -66,6 +66,9 @@
     <Compile Include="Cadastro_tela.Designer.cs">
       <DependentUpon>Cadastro_tela.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Compra_tela.resx">
+      <DependentUpon>Compra_tela.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
