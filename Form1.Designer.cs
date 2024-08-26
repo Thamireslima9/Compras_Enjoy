@@ -34,6 +34,8 @@
             this.CbxFiltro = new System.Windows.Forms.ComboBox();
             this.lblFiltro = new System.Windows.Forms.Label();
             this.PnlCeramica = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnSalveImage1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.LblPrice1 = new System.Windows.Forms.Label();
@@ -43,6 +45,7 @@
             this.TxbDescrição1 = new System.Windows.Forms.TextBox();
             this.LblDescriçaõ1 = new System.Windows.Forms.Label();
             this.PnlJardim = new System.Windows.Forms.Panel();
+            this.BtnSalveImage2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.LblPrice2 = new System.Windows.Forms.Label();
@@ -55,10 +58,7 @@
             this.PnlLayout1 = new System.Windows.Forms.Panel();
             this.BtnCadastro = new System.Windows.Forms.Button();
             this.lblNomeEnjoy = new System.Windows.Forms.Label();
-            this.BtnSalveImage1 = new System.Windows.Forms.Button();
-            this.BtnSalveImage2 = new System.Windows.Forms.Button();
             this.BtnFinish = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.PnlCeramica.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCeramica)).BeginInit();
             this.PnlJardim.SuspendLayout();
@@ -129,6 +129,25 @@
             this.PnlCeramica.Name = "PnlCeramica";
             this.PnlCeramica.Size = new System.Drawing.Size(189, 329);
             this.PnlCeramica.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AccessibleName = "LblPri";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(76, 157);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Preço";
+            // 
+            // BtnSalveImage1
+            // 
+            this.BtnSalveImage1.Location = new System.Drawing.Point(50, 302);
+            this.BtnSalveImage1.Name = "BtnSalveImage1";
+            this.BtnSalveImage1.Size = new System.Drawing.Size(77, 22);
+            this.BtnSalveImage1.TabIndex = 16;
+            this.BtnSalveImage1.Text = "Salvar";
+            this.BtnSalveImage1.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -220,6 +239,16 @@
             this.PnlJardim.Name = "PnlJardim";
             this.PnlJardim.Size = new System.Drawing.Size(189, 329);
             this.PnlJardim.TabIndex = 12;
+            // 
+            // BtnSalveImage2
+            // 
+            this.BtnSalveImage2.Location = new System.Drawing.Point(51, 302);
+            this.BtnSalveImage2.Name = "BtnSalveImage2";
+            this.BtnSalveImage2.Size = new System.Drawing.Size(77, 22);
+            this.BtnSalveImage2.TabIndex = 17;
+            this.BtnSalveImage2.Text = "Salva";
+            this.BtnSalveImage2.UseVisualStyleBackColor = true;
+            this.BtnSalveImage2.Click += new System.EventHandler(this.BtnSalveImage2_Click);
             // 
             // label7
             // 
@@ -337,25 +366,6 @@
             this.lblNomeEnjoy.TabIndex = 0;
             this.lblNomeEnjoy.Text = "Enjoy Louças";
             // 
-            // BtnSalveImage1
-            // 
-            this.BtnSalveImage1.Location = new System.Drawing.Point(50, 302);
-            this.BtnSalveImage1.Name = "BtnSalveImage1";
-            this.BtnSalveImage1.Size = new System.Drawing.Size(77, 22);
-            this.BtnSalveImage1.TabIndex = 16;
-            this.BtnSalveImage1.Text = "Salvar";
-            this.BtnSalveImage1.UseVisualStyleBackColor = true;
-            // 
-            // BtnSalveImage2
-            // 
-            this.BtnSalveImage2.Location = new System.Drawing.Point(51, 302);
-            this.BtnSalveImage2.Name = "BtnSalveImage2";
-            this.BtnSalveImage2.Size = new System.Drawing.Size(77, 22);
-            this.BtnSalveImage2.TabIndex = 17;
-            this.BtnSalveImage2.Text = "Salvar";
-            this.BtnSalveImage2.UseVisualStyleBackColor = true;
-            this.BtnSalveImage2.Click += new System.EventHandler(this.BtnSalveImage2_Click);
-            // 
             // BtnFinish
             // 
             this.BtnFinish.Location = new System.Drawing.Point(1017, 586);
@@ -364,16 +374,6 @@
             this.BtnFinish.TabIndex = 17;
             this.BtnFinish.Text = "button3";
             this.BtnFinish.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AccessibleName = "LblPri";
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(76, 157);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Preço";
             // 
             // Form1
             // 
