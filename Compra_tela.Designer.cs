@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Compra_tela";
             this.Text = "Compra_tela";
+            this.Load += new System.EventHandler(this.Compra_tela_Load);
             this.ResumeLayout(false);
 
         }
