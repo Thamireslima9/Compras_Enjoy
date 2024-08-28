@@ -19,7 +19,7 @@ namespace Compras_Enjoy
 
         private void Compra_tela_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
