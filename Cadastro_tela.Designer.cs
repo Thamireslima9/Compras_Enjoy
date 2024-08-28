@@ -58,7 +58,6 @@
             this.TxbEmailLogin = new System.Windows.Forms.TextBox();
             this.LblEmailLogin = new System.Windows.Forms.Label();
             this.LblTitleLogin = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.PnlLayout2.SuspendLayout();
             this.PnlCadastro.SuspendLayout();
             this.PnlLogin.SuspendLayout();
@@ -66,8 +65,9 @@
             // 
             // PnlLayout2
             // 
+            this.PnlLayout2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlLayout2.BackColor = System.Drawing.Color.Maroon;
-            this.PnlLayout2.Controls.Add(this.button1);
             this.PnlLayout2.Controls.Add(this.BtnVoltar);
             this.PnlLayout2.Controls.Add(this.lblNomeEnjoy);
             this.PnlLayout2.Location = new System.Drawing.Point(-4, 0);
@@ -77,6 +77,7 @@
             // 
             // BtnVoltar
             // 
+            this.BtnVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnVoltar.BackColor = System.Drawing.Color.Maroon;
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -101,6 +102,7 @@
             // 
             // PnlCadastro
             // 
+            this.PnlCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlCadastro.BackColor = System.Drawing.Color.Maroon;
             this.PnlCadastro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlCadastro.Controls.Add(this.LblTitleRegistration);
@@ -362,6 +364,7 @@
             // 
             // PnlLogin
             // 
+            this.PnlLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlLogin.BackColor = System.Drawing.Color.White;
             this.PnlLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlLogin.Controls.Add(this.TxbSenhaLogin);
@@ -423,16 +426,6 @@
             this.LblTitleLogin.TabIndex = 20;
             this.LblTitleLogin.Text = "Login";
             // 
-            // button1
-            // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageKey = "(nenhum/a)";
-            this.button1.Location = new System.Drawing.Point(840, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(43, 32);
-            this.button1.TabIndex = 17;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Cadastro_tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -444,6 +437,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cadastro_tela";
             this.Text = "Enjoy cadastro";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Cadastro_tela_Load);
             this.PnlLayout2.ResumeLayout(false);
             this.PnlLayout2.PerformLayout();
@@ -486,6 +480,5 @@
         private System.Windows.Forms.Label LblSenhaLogin;
         private System.Windows.Forms.TextBox TxbEmailLogin;
         private System.Windows.Forms.Label LblEmailLogin;
-        private System.Windows.Forms.Button button1;
     }
 }
