@@ -98,7 +98,7 @@
             this.TbxCopoCristal = new System.Windows.Forms.TextBox();
             this.LblDescriçãoCeramicaDoceira = new System.Windows.Forms.Label();
             this.TbxDescriçãoCeramicaDoceira = new System.Windows.Forms.TextBox();
-            this.PnlCeramicaDoceira = new System.Windows.Forms.Panel();
+            this.PnlProd6 = new System.Windows.Forms.Panel();
             this.LblUniCeramicaDoceira = new System.Windows.Forms.Label();
             this.BtnSalvarCeramicaDoceira = new System.Windows.Forms.Button();
             this.LblCeramicaDoceira = new System.Windows.Forms.Label();
@@ -126,7 +126,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).BeginInit();
             this.PnlCopoCristal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).BeginInit();
-            this.PnlCeramicaDoceira.SuspendLayout();
+            this.PnlProd6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).BeginInit();
@@ -862,25 +862,25 @@
             this.TbxDescriçãoCeramicaDoceira.Size = new System.Drawing.Size(206, 46);
             this.TbxDescriçãoCeramicaDoceira.TabIndex = 20;
             // 
-            // PnlCeramicaDoceira
+            // PnlProd6
             // 
-            this.PnlCeramicaDoceira.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PnlCeramicaDoceira.BackColor = System.Drawing.SystemColors.Menu;
-            this.PnlCeramicaDoceira.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlCeramicaDoceira.Controls.Add(this.NudUniProd6);
-            this.PnlCeramicaDoceira.Controls.Add(this.LblUniCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.BtnSalvarCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.LblCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.TbxPriceCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.LblPriceCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.PtBxCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.label28);
-            this.PnlCeramicaDoceira.Controls.Add(this.LblCodCeramicaDoceira);
-            this.PnlCeramicaDoceira.Controls.Add(this.TxbCodCeramicaDoceira);
-            this.PnlCeramicaDoceira.Location = new System.Drawing.Point(880, 385);
-            this.PnlCeramicaDoceira.Name = "PnlCeramicaDoceira";
-            this.PnlCeramicaDoceira.Size = new System.Drawing.Size(362, 172);
-            this.PnlCeramicaDoceira.TabIndex = 19;
+            this.PnlProd6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PnlProd6.BackColor = System.Drawing.SystemColors.Menu;
+            this.PnlProd6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PnlProd6.Controls.Add(this.NudUniProd6);
+            this.PnlProd6.Controls.Add(this.LblUniCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.BtnSalvarCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.LblCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.TbxPriceCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.LblPriceCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.PtBxCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.label28);
+            this.PnlProd6.Controls.Add(this.LblCodCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.TxbCodCeramicaDoceira);
+            this.PnlProd6.Location = new System.Drawing.Point(880, 385);
+            this.PnlProd6.Name = "PnlProd6";
+            this.PnlProd6.Size = new System.Drawing.Size(362, 172);
+            this.PnlProd6.TabIndex = 19;
             // 
             // LblUniCeramicaDoceira
             // 
@@ -1092,7 +1092,7 @@
             this.Controls.Add(this.LblDescriçãoCopoCristal);
             this.Controls.Add(this.TbxDescriçãoCeramicaDoceira);
             this.Controls.Add(this.LblDescriçãoCopoÂmbar);
-            this.Controls.Add(this.PnlCeramicaDoceira);
+            this.Controls.Add(this.PnlProd6);
             this.Controls.Add(this.TxbDescriçãoCopoCristal);
             this.Controls.Add(this.LblDescriçãoPetisqueira);
             this.Controls.Add(this.PnlCopoCristal);
@@ -1134,8 +1134,8 @@
             this.PnlCopoCristal.ResumeLayout(false);
             this.PnlCopoCristal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).EndInit();
-            this.PnlCeramicaDoceira.ResumeLayout(false);
-            this.PnlCeramicaDoceira.PerformLayout();
+            this.PnlProd6.ResumeLayout(false);
+            this.PnlProd6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).EndInit();
@@ -1218,7 +1218,7 @@
         private System.Windows.Forms.TextBox TbxCopoCristal;
         private System.Windows.Forms.Label LblDescriçãoCeramicaDoceira;
         private System.Windows.Forms.TextBox TbxDescriçãoCeramicaDoceira;
-        private System.Windows.Forms.Panel PnlCeramicaDoceira;
+        private System.Windows.Forms.Panel PnlProd6;
         private System.Windows.Forms.Label LblUniCeramicaDoceira;
         private System.Windows.Forms.Button BtnSalvarCeramicaDoceira;
         private System.Windows.Forms.Label LblCeramicaDoceira;
