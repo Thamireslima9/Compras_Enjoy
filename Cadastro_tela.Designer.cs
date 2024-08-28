@@ -33,7 +33,7 @@
             this.BtnVoltar = new System.Windows.Forms.Button();
             this.lblNomeEnjoy = new System.Windows.Forms.Label();
             this.PnlCadastro = new System.Windows.Forms.Panel();
-            this.LblTitleRegistration = new System.Windows.Forms.Label();
+            this.LblTitleRegistratio = new System.Windows.Forms.Label();
             this.TxbAnoNasc = new System.Windows.Forms.TextBox();
             this.LblOR = new System.Windows.Forms.Label();
             this.BttEnviarCadastro = new System.Windows.Forms.Button();
@@ -105,7 +105,7 @@
             this.PnlCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlCadastro.BackColor = System.Drawing.Color.Maroon;
             this.PnlCadastro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlCadastro.Controls.Add(this.LblTitleRegistration);
+            this.PnlCadastro.Controls.Add(this.LblTitleRegistratio);
             this.PnlCadastro.Controls.Add(this.TxbAnoNasc);
             this.PnlCadastro.Controls.Add(this.LblOR);
             this.PnlCadastro.Controls.Add(this.BttEnviarCadastro);
@@ -128,17 +128,17 @@
             this.PnlCadastro.Size = new System.Drawing.Size(550, 501);
             this.PnlCadastro.TabIndex = 17;
             // 
-            // LblTitleRegistration
+            // LblTitleRegistratio
             // 
-            this.LblTitleRegistration.AutoSize = true;
-            this.LblTitleRegistration.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LblTitleRegistration.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitleRegistration.ForeColor = System.Drawing.Color.Maroon;
-            this.LblTitleRegistration.Location = new System.Drawing.Point(200, 37);
-            this.LblTitleRegistration.Name = "LblTitleRegistration";
-            this.LblTitleRegistration.Size = new System.Drawing.Size(123, 29);
-            this.LblTitleRegistration.TabIndex = 19;
-            this.LblTitleRegistration.Text = "Cadastro";
+            this.LblTitleRegistratio.AutoSize = true;
+            this.LblTitleRegistratio.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LblTitleRegistratio.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitleRegistratio.ForeColor = System.Drawing.Color.Maroon;
+            this.LblTitleRegistratio.Location = new System.Drawing.Point(200, 37);
+            this.LblTitleRegistratio.Name = "LblTitleRegistratio";
+            this.LblTitleRegistratio.Size = new System.Drawing.Size(123, 29);
+            this.LblTitleRegistratio.TabIndex = 19;
+            this.LblTitleRegistratio.Text = "Cadastro";
             // 
             // TxbAnoNasc
             // 
@@ -474,7 +474,7 @@
         private System.Windows.Forms.Button BttEnter;
         private System.Windows.Forms.Label LblOR;
         private System.Windows.Forms.TextBox TxbAnoNasc;
-        private System.Windows.Forms.Label LblTitleRegistration;
+        private System.Windows.Forms.Label LblTitleRegistratio;
         private System.Windows.Forms.Label LblTitleLogin;
         private System.Windows.Forms.TextBox TxbSenhaLogin;
         private System.Windows.Forms.Label LblSenhaLogin;
