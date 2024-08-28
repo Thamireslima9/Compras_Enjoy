@@ -82,7 +82,7 @@
             this.LblPriceCopoÂmbar = new System.Windows.Forms.Label();
             this.PcBxCopoÂmbar = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.LblCodCopoÂmbar = new System.Windows.Forms.Label();
+            this.LblCodProd3 = new System.Windows.Forms.Label();
             this.TxbCodCopoÂmbar = new System.Windows.Forms.TextBox();
             this.LblDescriçãoCopoCristal = new System.Windows.Forms.Label();
             this.TxbDescriçãoCopoCristal = new System.Windows.Forms.TextBox();
@@ -626,7 +626,7 @@
             this.PnlCopoÂmbar.Controls.Add(this.LblPriceCopoÂmbar);
             this.PnlCopoÂmbar.Controls.Add(this.PcBxCopoÂmbar);
             this.PnlCopoÂmbar.Controls.Add(this.label16);
-            this.PnlCopoÂmbar.Controls.Add(this.LblCodCopoÂmbar);
+            this.PnlCopoÂmbar.Controls.Add(this.LblCodProd3);
             this.PnlCopoÂmbar.Controls.Add(this.TxbCodCopoÂmbar);
             this.PnlCopoÂmbar.Location = new System.Drawing.Point(880, 122);
             this.PnlCopoÂmbar.Name = "PnlCopoÂmbar";
@@ -698,15 +698,15 @@
             this.label16.Size = new System.Drawing.Size(0, 13);
             this.label16.TabIndex = 9;
             // 
-            // LblCodCopoÂmbar
+            // LblCodProd3
             // 
-            this.LblCodCopoÂmbar.AccessibleName = "lblcode";
-            this.LblCodCopoÂmbar.AutoSize = true;
-            this.LblCodCopoÂmbar.Location = new System.Drawing.Point(154, 41);
-            this.LblCodCopoÂmbar.Name = "LblCodCopoÂmbar";
-            this.LblCodCopoÂmbar.Size = new System.Drawing.Size(43, 13);
-            this.LblCodCopoÂmbar.TabIndex = 1;
-            this.LblCodCopoÂmbar.Text = "Código:";
+            this.LblCodProd3.AccessibleName = "lblcode";
+            this.LblCodProd3.AutoSize = true;
+            this.LblCodProd3.Location = new System.Drawing.Point(154, 41);
+            this.LblCodProd3.Name = "LblCodProd3";
+            this.LblCodProd3.Size = new System.Drawing.Size(43, 13);
+            this.LblCodProd3.TabIndex = 1;
+            this.LblCodProd3.Text = "Código:";
             // 
             // TxbCodCopoÂmbar
             // 
@@ -1202,7 +1202,7 @@
         private System.Windows.Forms.Label LblPriceCopoÂmbar;
         private System.Windows.Forms.PictureBox PcBxCopoÂmbar;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label LblCodCopoÂmbar;
+        private System.Windows.Forms.Label LblCodProd3;
         private System.Windows.Forms.TextBox TxbCodCopoÂmbar;
         private System.Windows.Forms.Label LblDescriçãoCopoCristal;
         private System.Windows.Forms.TextBox TxbDescriçãoCopoCristal;
