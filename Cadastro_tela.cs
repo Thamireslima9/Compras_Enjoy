@@ -61,6 +61,7 @@ namespace Compras_Enjoy
         {
             Form1 telainicial = new Form1();
 
+            this.Visible = false;
             telainicial.ShowDialog();
         }
 

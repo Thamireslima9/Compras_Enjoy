@@ -66,6 +66,7 @@ namespace Compras_Enjoy
         {
              Cadastro_tela telaCadastro = new Cadastro_tela();
 
+            this.Visible = false;
             telaCadastro.ShowDialog();
         }
 

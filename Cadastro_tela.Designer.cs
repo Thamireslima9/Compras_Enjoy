@@ -58,6 +58,7 @@
             this.TxbEmailLogin = new System.Windows.Forms.TextBox();
             this.LblEmailLogin = new System.Windows.Forms.Label();
             this.LblTitleLogin = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.PnlLayout2.SuspendLayout();
             this.PnlCadastro.SuspendLayout();
             this.PnlLogin.SuspendLayout();
@@ -66,6 +67,7 @@
             // PnlLayout2
             // 
             this.PnlLayout2.BackColor = System.Drawing.Color.Maroon;
+            this.PnlLayout2.Controls.Add(this.button1);
             this.PnlLayout2.Controls.Add(this.BtnVoltar);
             this.PnlLayout2.Controls.Add(this.lblNomeEnjoy);
             this.PnlLayout2.Location = new System.Drawing.Point(-4, 0);
@@ -99,7 +101,7 @@
             // 
             // PnlCadastro
             // 
-            this.PnlCadastro.BackColor = System.Drawing.Color.White;
+            this.PnlCadastro.BackColor = System.Drawing.Color.Maroon;
             this.PnlCadastro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlCadastro.Controls.Add(this.LblTitleRegistration);
             this.PnlCadastro.Controls.Add(this.TxbAnoNasc);
@@ -127,6 +129,7 @@
             // LblTitleRegistration
             // 
             this.LblTitleRegistration.AutoSize = true;
+            this.LblTitleRegistration.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.LblTitleRegistration.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitleRegistration.ForeColor = System.Drawing.Color.Maroon;
             this.LblTitleRegistration.Location = new System.Drawing.Point(200, 37);
@@ -168,7 +171,7 @@
             // 
             this.LblAnoNasci.AutoSize = true;
             this.LblAnoNasci.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAnoNasci.ForeColor = System.Drawing.Color.Maroon;
+            this.LblAnoNasci.ForeColor = System.Drawing.Color.White;
             this.LblAnoNasci.Location = new System.Drawing.Point(348, 364);
             this.LblAnoNasci.Name = "LblAnoNasci";
             this.LblAnoNasci.Size = new System.Drawing.Size(29, 13);
@@ -179,7 +182,7 @@
             // 
             this.LblMesNasc.AutoSize = true;
             this.LblMesNasc.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMesNasc.ForeColor = System.Drawing.Color.Maroon;
+            this.LblMesNasc.ForeColor = System.Drawing.Color.White;
             this.LblMesNasc.Location = new System.Drawing.Point(167, 364);
             this.LblMesNasc.Name = "LblMesNasc";
             this.LblMesNasc.Size = new System.Drawing.Size(30, 13);
@@ -190,7 +193,7 @@
             // 
             this.LblDiaNasci.AutoSize = true;
             this.LblDiaNasci.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDiaNasci.ForeColor = System.Drawing.Color.Maroon;
+            this.LblDiaNasci.ForeColor = System.Drawing.Color.White;
             this.LblDiaNasci.Location = new System.Drawing.Point(70, 364);
             this.LblDiaNasci.Name = "LblDiaNasci";
             this.LblDiaNasci.Size = new System.Drawing.Size(26, 13);
@@ -200,7 +203,7 @@
             // LblDataAniversario
             // 
             this.LblDataAniversario.AutoSize = true;
-            this.LblDataAniversario.ForeColor = System.Drawing.Color.Maroon;
+            this.LblDataAniversario.ForeColor = System.Drawing.Color.White;
             this.LblDataAniversario.Location = new System.Drawing.Point(70, 331);
             this.LblDataAniversario.Name = "LblDataAniversario";
             this.LblDataAniversario.Size = new System.Drawing.Size(105, 13);
@@ -212,7 +215,7 @@
             // 
             this.LblSenhaConfirmação.AutoSize = true;
             this.LblSenhaConfirmação.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSenhaConfirmação.ForeColor = System.Drawing.Color.Maroon;
+            this.LblSenhaConfirmação.ForeColor = System.Drawing.Color.White;
             this.LblSenhaConfirmação.Location = new System.Drawing.Point(24, 274);
             this.LblSenhaConfirmação.Name = "LblSenhaConfirmação";
             this.LblSenhaConfirmação.Size = new System.Drawing.Size(86, 13);
@@ -231,8 +234,8 @@
             // 
             this.lblSenhaCadastro.AutoSize = true;
             this.lblSenhaCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenhaCadastro.ForeColor = System.Drawing.Color.Maroon;
-            this.lblSenhaCadastro.Location = new System.Drawing.Point(72, 207);
+            this.lblSenhaCadastro.ForeColor = System.Drawing.Color.White;
+            this.lblSenhaCadastro.Location = new System.Drawing.Point(65, 207);
             this.lblSenhaCadastro.Name = "lblSenhaCadastro";
             this.lblSenhaCadastro.Size = new System.Drawing.Size(44, 13);
             this.lblSenhaCadastro.TabIndex = 8;
@@ -242,7 +245,7 @@
             // LblEmailCadastro
             // 
             this.LblEmailCadastro.AutoSize = true;
-            this.LblEmailCadastro.ForeColor = System.Drawing.Color.Maroon;
+            this.LblEmailCadastro.ForeColor = System.Drawing.Color.White;
             this.LblEmailCadastro.Location = new System.Drawing.Point(72, 132);
             this.LblEmailCadastro.Name = "LblEmailCadastro";
             this.LblEmailCadastro.Size = new System.Drawing.Size(38, 13);
@@ -253,7 +256,8 @@
             // lblNameCadastro
             // 
             this.lblNameCadastro.AutoSize = true;
-            this.lblNameCadastro.ForeColor = System.Drawing.Color.Maroon;
+            this.lblNameCadastro.BackColor = System.Drawing.Color.Maroon;
+            this.lblNameCadastro.ForeColor = System.Drawing.Color.White;
             this.lblNameCadastro.Location = new System.Drawing.Point(72, 84);
             this.lblNameCadastro.Name = "lblNameCadastro";
             this.lblNameCadastro.Size = new System.Drawing.Size(38, 13);
@@ -392,7 +396,7 @@
             // 
             // TxbEmailLogin
             // 
-            this.TxbEmailLogin.Location = new System.Drawing.Point(100, 165);
+            this.TxbEmailLogin.Location = new System.Drawing.Point(100, 197);
             this.TxbEmailLogin.Name = "TxbEmailLogin";
             this.TxbEmailLogin.Size = new System.Drawing.Size(279, 20);
             this.TxbEmailLogin.TabIndex = 20;
@@ -401,7 +405,7 @@
             // 
             this.LblEmailLogin.AutoSize = true;
             this.LblEmailLogin.ForeColor = System.Drawing.Color.Maroon;
-            this.LblEmailLogin.Location = new System.Drawing.Point(44, 172);
+            this.LblEmailLogin.Location = new System.Drawing.Point(44, 204);
             this.LblEmailLogin.Name = "LblEmailLogin";
             this.LblEmailLogin.Size = new System.Drawing.Size(38, 13);
             this.LblEmailLogin.TabIndex = 20;
@@ -410,6 +414,7 @@
             // LblTitleLogin
             // 
             this.LblTitleLogin.AutoSize = true;
+            this.LblTitleLogin.BackColor = System.Drawing.Color.White;
             this.LblTitleLogin.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitleLogin.ForeColor = System.Drawing.Color.Maroon;
             this.LblTitleLogin.Location = new System.Drawing.Point(170, 123);
@@ -417,6 +422,16 @@
             this.LblTitleLogin.Size = new System.Drawing.Size(83, 29);
             this.LblTitleLogin.TabIndex = 20;
             this.LblTitleLogin.Text = "Login";
+            // 
+            // button1
+            // 
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageKey = "(nenhum/a)";
+            this.button1.Location = new System.Drawing.Point(742, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(43, 32);
+            this.button1.TabIndex = 17;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Cadastro_tela
             // 
@@ -471,5 +486,6 @@
         private System.Windows.Forms.Label LblSenhaLogin;
         private System.Windows.Forms.TextBox TxbEmailLogin;
         private System.Windows.Forms.Label LblEmailLogin;
+        private System.Windows.Forms.Button button1;
     }
 }
