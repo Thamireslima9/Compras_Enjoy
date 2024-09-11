@@ -21,5 +21,15 @@ namespace Compras_Enjoy
         {
             
         }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PnlLayout1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

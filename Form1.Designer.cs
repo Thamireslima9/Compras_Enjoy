@@ -34,6 +34,8 @@
             this.CbxFiltro = new System.Windows.Forms.ComboBox();
             this.lblFiltro = new System.Windows.Forms.Label();
             this.PnlCeramica = new System.Windows.Forms.Panel();
+            this.NudUniProd1 = new System.Windows.Forms.NumericUpDown();
+            this.LblUniProd1 = new System.Windows.Forms.Label();
             this.BtnSalveProd1 = new System.Windows.Forms.Button();
             this.LblProd1 = new System.Windows.Forms.Label();
             this.TxbPriceProd1 = new System.Windows.Forms.TextBox();
@@ -44,9 +46,13 @@
             this.TxbDescProd1 = new System.Windows.Forms.TextBox();
             this.LblDescProd1 = new System.Windows.Forms.Label();
             this.PnlProd4 = new System.Windows.Forms.Panel();
+            this.NudUniProd4 = new System.Windows.Forms.NumericUpDown();
+            this.LblUniProd4 = new System.Windows.Forms.Label();
+            this.TxbPriceProd4 = new System.Windows.Forms.TextBox();
             this.BtnSalveProd4 = new System.Windows.Forms.Button();
             this.LblProd4 = new System.Windows.Forms.Label();
             this.LblPriceProd4 = new System.Windows.Forms.Label();
+            this.PcBxProd4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.LblCodProd4 = new System.Windows.Forms.Label();
             this.TxbCodProd4 = new System.Windows.Forms.TextBox();
@@ -56,13 +62,10 @@
             this.BtnCadastro = new System.Windows.Forms.Button();
             this.lblNomeEnjoy = new System.Windows.Forms.Label();
             this.BtnFinish = new System.Windows.Forms.Button();
-            this.LblUniProd1 = new System.Windows.Forms.Label();
-            this.PcBxProd4 = new System.Windows.Forms.PictureBox();
-            this.TxbPriceProd4 = new System.Windows.Forms.TextBox();
-            this.LblUniProd4 = new System.Windows.Forms.Label();
             this.LblDescriçãoPetisqueira = new System.Windows.Forms.Label();
             this.TxbDescriçãoPetisqueira = new System.Windows.Forms.TextBox();
             this.PnlPPetisqueira = new System.Windows.Forms.Panel();
+            this.NudUniProd2 = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.BtnSalvarPetisqueira = new System.Windows.Forms.Button();
             this.LblPestiqueira = new System.Windows.Forms.Label();
@@ -75,6 +78,7 @@
             this.LblDescriçãoCopoÂmbar = new System.Windows.Forms.Label();
             this.TbxDescriçãoCopoÂmbar = new System.Windows.Forms.TextBox();
             this.PnlCopoÂmbar = new System.Windows.Forms.Panel();
+            this.NudUniProd3 = new System.Windows.Forms.NumericUpDown();
             this.LblUniCopoÂmbar = new System.Windows.Forms.Label();
             this.BtnSalveCopoÂmbar = new System.Windows.Forms.Button();
             this.LblCopoAmbar = new System.Windows.Forms.Label();
@@ -87,6 +91,7 @@
             this.LblDescriçãoCopoCristal = new System.Windows.Forms.Label();
             this.TxbDescriçãoCopoCristal = new System.Windows.Forms.TextBox();
             this.PnlCopoCristal = new System.Windows.Forms.Panel();
+            this.NudUniProd5 = new System.Windows.Forms.NumericUpDown();
             this.LblUniCopoCristal = new System.Windows.Forms.Label();
             this.BtnSalvarCopoCristal = new System.Windows.Forms.Button();
             this.LblCopoCristal = new System.Windows.Forms.Label();
@@ -99,6 +104,7 @@
             this.LblDescriçãoCeramicaDoceira = new System.Windows.Forms.Label();
             this.TbxDescriçãoCeramicaDoceira = new System.Windows.Forms.TextBox();
             this.PnlProd6 = new System.Windows.Forms.Panel();
+            this.NudUniProd6 = new System.Windows.Forms.NumericUpDown();
             this.LblUniCeramicaDoceira = new System.Windows.Forms.Label();
             this.BtnSalvarCeramicaDoceira = new System.Windows.Forms.Button();
             this.LblCeramicaDoceira = new System.Windows.Forms.Label();
@@ -109,31 +115,27 @@
             this.LblCodCeramicaDoceira = new System.Windows.Forms.Label();
             this.TxbCodCeramicaDoceira = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.NudUniProd1 = new System.Windows.Forms.NumericUpDown();
-            this.NudUniProd4 = new System.Windows.Forms.NumericUpDown();
-            this.NudUniProd2 = new System.Windows.Forms.NumericUpDown();
-            this.NudUniProd5 = new System.Windows.Forms.NumericUpDown();
-            this.NudUniProd6 = new System.Windows.Forms.NumericUpDown();
-            this.NudUniProd3 = new System.Windows.Forms.NumericUpDown();
+            this.Lbltipos = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.PnlCeramica.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).BeginInit();
             this.PnlProd4.SuspendLayout();
-            this.PnlLayout1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).BeginInit();
+            this.PnlLayout1.SuspendLayout();
             this.PnlPPetisqueira.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).BeginInit();
             this.PnlCopoÂmbar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).BeginInit();
             this.PnlCopoCristal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).BeginInit();
             this.PnlProd6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).BeginInit();
             this.SuspendLayout();
             // 
             // LblCodProd1
@@ -201,6 +203,34 @@
             this.PnlCeramica.Name = "PnlCeramica";
             this.PnlCeramica.Size = new System.Drawing.Size(362, 172);
             this.PnlCeramica.TabIndex = 8;
+            // 
+            // NudUniProd1
+            // 
+            this.NudUniProd1.Location = new System.Drawing.Point(203, 72);
+            this.NudUniProd1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd1.Name = "NudUniProd1";
+            this.NudUniProd1.Size = new System.Drawing.Size(67, 20);
+            this.NudUniProd1.TabIndex = 19;
+            this.NudUniProd1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // LblUniProd1
+            // 
+            this.LblUniProd1.AccessibleName = "LblPri";
+            this.LblUniProd1.AutoSize = true;
+            this.LblUniProd1.Location = new System.Drawing.Point(139, 74);
+            this.LblUniProd1.Name = "LblUniProd1";
+            this.LblUniProd1.Size = new System.Drawing.Size(58, 13);
+            this.LblUniProd1.TabIndex = 17;
+            this.LblUniProd1.Text = "Unidades: ";
             // 
             // BtnSalveProd1
             // 
@@ -306,6 +336,41 @@
             this.PnlProd4.Size = new System.Drawing.Size(362, 172);
             this.PnlProd4.TabIndex = 12;
             // 
+            // NudUniProd4
+            // 
+            this.NudUniProd4.Location = new System.Drawing.Point(199, 67);
+            this.NudUniProd4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd4.Name = "NudUniProd4";
+            this.NudUniProd4.Size = new System.Drawing.Size(67, 20);
+            this.NudUniProd4.TabIndex = 20;
+            this.NudUniProd4.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // LblUniProd4
+            // 
+            this.LblUniProd4.AccessibleName = "LblPri";
+            this.LblUniProd4.AutoSize = true;
+            this.LblUniProd4.Location = new System.Drawing.Point(139, 70);
+            this.LblUniProd4.Name = "LblUniProd4";
+            this.LblUniProd4.Size = new System.Drawing.Size(58, 13);
+            this.LblUniProd4.TabIndex = 19;
+            this.LblUniProd4.Text = "Unidades: ";
+            // 
+            // TxbPriceProd4
+            // 
+            this.TxbPriceProd4.Location = new System.Drawing.Point(203, 93);
+            this.TxbPriceProd4.Name = "TxbPriceProd4";
+            this.TxbPriceProd4.Size = new System.Drawing.Size(63, 20);
+            this.TxbPriceProd4.TabIndex = 18;
+            this.TxbPriceProd4.Text = "R$ 40.00";
+            // 
             // BtnSalveProd4
             // 
             this.BtnSalveProd4.Location = new System.Drawing.Point(193, 136);
@@ -334,6 +399,16 @@
             this.LblPriceProd4.Size = new System.Drawing.Size(38, 13);
             this.LblPriceProd4.TabIndex = 11;
             this.LblPriceProd4.Text = "Preço:";
+            // 
+            // PcBxProd4
+            // 
+            this.PcBxProd4.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxProd4.Image = global::Compras_Enjoy.Properties.Resources.Jardim_Secreto;
+            this.PcBxProd4.Location = new System.Drawing.Point(15, 38);
+            this.PcBxProd4.Name = "PcBxProd4";
+            this.PcBxProd4.Size = new System.Drawing.Size(102, 120);
+            this.PcBxProd4.TabIndex = 10;
+            this.PcBxProd4.TabStop = false;
             // 
             // label9
             // 
@@ -432,44 +507,6 @@
             this.BtnFinish.Text = "Finalizar";
             this.BtnFinish.UseVisualStyleBackColor = false;
             // 
-            // LblUniProd1
-            // 
-            this.LblUniProd1.AccessibleName = "LblPri";
-            this.LblUniProd1.AutoSize = true;
-            this.LblUniProd1.Location = new System.Drawing.Point(139, 74);
-            this.LblUniProd1.Name = "LblUniProd1";
-            this.LblUniProd1.Size = new System.Drawing.Size(58, 13);
-            this.LblUniProd1.TabIndex = 17;
-            this.LblUniProd1.Text = "Unidades: ";
-            // 
-            // PcBxProd4
-            // 
-            this.PcBxProd4.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxProd4.Image = global::Compras_Enjoy.Properties.Resources.Jardim_Secreto;
-            this.PcBxProd4.Location = new System.Drawing.Point(15, 38);
-            this.PcBxProd4.Name = "PcBxProd4";
-            this.PcBxProd4.Size = new System.Drawing.Size(102, 120);
-            this.PcBxProd4.TabIndex = 10;
-            this.PcBxProd4.TabStop = false;
-            // 
-            // TxbPriceProd4
-            // 
-            this.TxbPriceProd4.Location = new System.Drawing.Point(203, 93);
-            this.TxbPriceProd4.Name = "TxbPriceProd4";
-            this.TxbPriceProd4.Size = new System.Drawing.Size(63, 20);
-            this.TxbPriceProd4.TabIndex = 18;
-            this.TxbPriceProd4.Text = "R$ 40.00";
-            // 
-            // LblUniProd4
-            // 
-            this.LblUniProd4.AccessibleName = "LblPri";
-            this.LblUniProd4.AutoSize = true;
-            this.LblUniProd4.Location = new System.Drawing.Point(139, 70);
-            this.LblUniProd4.Name = "LblUniProd4";
-            this.LblUniProd4.Size = new System.Drawing.Size(58, 13);
-            this.LblUniProd4.TabIndex = 19;
-            this.LblUniProd4.Text = "Unidades: ";
-            // 
             // LblDescriçãoPetisqueira
             // 
             this.LblDescriçãoPetisqueira.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -508,6 +545,23 @@
             this.PnlPPetisqueira.Name = "PnlPPetisqueira";
             this.PnlPPetisqueira.Size = new System.Drawing.Size(362, 172);
             this.PnlPPetisqueira.TabIndex = 18;
+            // 
+            // NudUniProd2
+            // 
+            this.NudUniProd2.Location = new System.Drawing.Point(203, 74);
+            this.NudUniProd2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd2.Name = "NudUniProd2";
+            this.NudUniProd2.Size = new System.Drawing.Size(67, 20);
+            this.NudUniProd2.TabIndex = 20;
+            this.NudUniProd2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // label3
             // 
@@ -633,6 +687,23 @@
             this.PnlCopoÂmbar.Size = new System.Drawing.Size(362, 172);
             this.PnlCopoÂmbar.TabIndex = 19;
             // 
+            // NudUniProd3
+            // 
+            this.NudUniProd3.Location = new System.Drawing.Point(203, 72);
+            this.NudUniProd3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd3.Name = "NudUniProd3";
+            this.NudUniProd3.Size = new System.Drawing.Size(67, 20);
+            this.NudUniProd3.TabIndex = 23;
+            this.NudUniProd3.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // LblUniCopoÂmbar
             // 
             this.LblUniCopoÂmbar.AccessibleName = "LblPri";
@@ -756,6 +827,23 @@
             this.PnlCopoCristal.Name = "PnlCopoCristal";
             this.PnlCopoCristal.Size = new System.Drawing.Size(362, 172);
             this.PnlCopoCristal.TabIndex = 19;
+            // 
+            // NudUniProd5
+            // 
+            this.NudUniProd5.Location = new System.Drawing.Point(203, 72);
+            this.NudUniProd5.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd5.Name = "NudUniProd5";
+            this.NudUniProd5.Size = new System.Drawing.Size(67, 20);
+            this.NudUniProd5.TabIndex = 21;
+            this.NudUniProd5.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // LblUniCopoCristal
             // 
@@ -882,6 +970,23 @@
             this.PnlProd6.Size = new System.Drawing.Size(362, 172);
             this.PnlProd6.TabIndex = 19;
             // 
+            // NudUniProd6
+            // 
+            this.NudUniProd6.Location = new System.Drawing.Point(203, 72);
+            this.NudUniProd6.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NudUniProd6.Name = "NudUniProd6";
+            this.NudUniProd6.Size = new System.Drawing.Size(67, 20);
+            this.NudUniProd6.TabIndex = 22;
+            this.NudUniProd6.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // LblUniCeramicaDoceira
             // 
             this.LblUniCeramicaDoceira.AccessibleName = "LblPri";
@@ -970,7 +1075,6 @@
             // button6
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageKey = "(nenhum/a)";
             this.button6.Location = new System.Drawing.Point(1225, 53);
             this.button6.Name = "button6";
@@ -978,108 +1082,28 @@
             this.button6.TabIndex = 18;
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // NudUniProd1
+            // Lbltipos
             // 
-            this.NudUniProd1.Location = new System.Drawing.Point(203, 72);
-            this.NudUniProd1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd1.Name = "NudUniProd1";
-            this.NudUniProd1.Size = new System.Drawing.Size(67, 20);
-            this.NudUniProd1.TabIndex = 19;
-            this.NudUniProd1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.Lbltipos.AccessibleName = "lblcode";
+            this.Lbltipos.AutoSize = true;
+            this.Lbltipos.Location = new System.Drawing.Point(338, 74);
+            this.Lbltipos.Name = "Lbltipos";
+            this.Lbltipos.Size = new System.Drawing.Size(75, 13);
+            this.Lbltipos.TabIndex = 22;
+            this.Lbltipos.Text = "Tipo de louça:";
             // 
-            // NudUniProd4
+            // comboBox1
             // 
-            this.NudUniProd4.Location = new System.Drawing.Point(199, 67);
-            this.NudUniProd4.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd4.Name = "NudUniProd4";
-            this.NudUniProd4.Size = new System.Drawing.Size(67, 20);
-            this.NudUniProd4.TabIndex = 20;
-            this.NudUniProd4.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // NudUniProd2
-            // 
-            this.NudUniProd2.Location = new System.Drawing.Point(203, 74);
-            this.NudUniProd2.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd2.Name = "NudUniProd2";
-            this.NudUniProd2.Size = new System.Drawing.Size(67, 20);
-            this.NudUniProd2.TabIndex = 20;
-            this.NudUniProd2.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // NudUniProd5
-            // 
-            this.NudUniProd5.Location = new System.Drawing.Point(203, 72);
-            this.NudUniProd5.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd5.Name = "NudUniProd5";
-            this.NudUniProd5.Size = new System.Drawing.Size(67, 20);
-            this.NudUniProd5.TabIndex = 21;
-            this.NudUniProd5.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // NudUniProd6
-            // 
-            this.NudUniProd6.Location = new System.Drawing.Point(203, 72);
-            this.NudUniProd6.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd6.Name = "NudUniProd6";
-            this.NudUniProd6.Size = new System.Drawing.Size(67, 20);
-            this.NudUniProd6.TabIndex = 22;
-            this.NudUniProd6.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // NudUniProd3
-            // 
-            this.NudUniProd3.Location = new System.Drawing.Point(203, 72);
-            this.NudUniProd3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NudUniProd3.Name = "NudUniProd3";
-            this.NudUniProd3.Size = new System.Drawing.Size(67, 20);
-            this.NudUniProd3.TabIndex = 23;
-            this.NudUniProd3.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Pratos",
+            "Copos",
+            "Taças",
+            "Talheres"});
+            this.comboBox1.Location = new System.Drawing.Point(420, 71);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(143, 21);
+            this.comboBox1.TabIndex = 23;
             // 
             // Form1
             // 
@@ -1087,6 +1111,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1305, 642);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.Lbltipos);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.LblDescriçãoCeramicaDoceira);
             this.Controls.Add(this.LblDescriçãoCopoCristal);
@@ -1119,30 +1145,30 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.PnlCeramica.ResumeLayout(false);
             this.PnlCeramica.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).EndInit();
             this.PnlProd4.ResumeLayout(false);
             this.PnlProd4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).EndInit();
             this.PnlLayout1.ResumeLayout(false);
             this.PnlLayout1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).EndInit();
             this.PnlPPetisqueira.ResumeLayout(false);
             this.PnlPPetisqueira.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).EndInit();
             this.PnlCopoÂmbar.ResumeLayout(false);
             this.PnlCopoÂmbar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).EndInit();
             this.PnlCopoCristal.ResumeLayout(false);
             this.PnlCopoCristal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).EndInit();
             this.PnlProd6.ResumeLayout(false);
             this.PnlProd6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1235,6 +1261,8 @@
         private System.Windows.Forms.NumericUpDown NudUniProd3;
         private System.Windows.Forms.NumericUpDown NudUniProd5;
         private System.Windows.Forms.NumericUpDown NudUniProd6;
+        private System.Windows.Forms.Label Lbltipos;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
