@@ -40,7 +40,6 @@
             this.LblProd1 = new System.Windows.Forms.Label();
             this.TxbPriceProd1 = new System.Windows.Forms.TextBox();
             this.LblPriceProd1 = new System.Windows.Forms.Label();
-            this.PcBxProd1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.TxbDescProd1 = new System.Windows.Forms.TextBox();
@@ -52,7 +51,6 @@
             this.BtnSalveProd4 = new System.Windows.Forms.Button();
             this.LblProd4 = new System.Windows.Forms.Label();
             this.LblPriceProd4 = new System.Windows.Forms.Label();
-            this.PcBxProd4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.LblCodProd4 = new System.Windows.Forms.Label();
             this.TxbCodProd4 = new System.Windows.Forms.TextBox();
@@ -71,7 +69,6 @@
             this.LblPestiqueira = new System.Windows.Forms.Label();
             this.TxbPricePetisqueira = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.PcBxPetisqueira = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.LblCodPetisqueira = new System.Windows.Forms.Label();
             this.TbxCodPetisqueira = new System.Windows.Forms.TextBox();
@@ -84,7 +81,6 @@
             this.LblCopoAmbar = new System.Windows.Forms.Label();
             this.TxbPriceCopoÂmbar = new System.Windows.Forms.TextBox();
             this.LblPriceCopoÂmbar = new System.Windows.Forms.Label();
-            this.PcBxCopoÂmbar = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.LblCodProd3 = new System.Windows.Forms.Label();
             this.TxbCodCopoÂmbar = new System.Windows.Forms.TextBox();
@@ -97,7 +93,6 @@
             this.LblCopoCristal = new System.Windows.Forms.Label();
             this.TxbPriceCopoCristal = new System.Windows.Forms.TextBox();
             this.LblPriceCopoCristal = new System.Windows.Forms.Label();
-            this.PcBxCopoCristal = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.LblCodCopoCristal = new System.Windows.Forms.Label();
             this.TbxCopoCristal = new System.Windows.Forms.TextBox();
@@ -110,39 +105,44 @@
             this.LblCeramicaDoceira = new System.Windows.Forms.Label();
             this.TbxPriceCeramicaDoceira = new System.Windows.Forms.TextBox();
             this.LblPriceCeramicaDoceira = new System.Windows.Forms.Label();
-            this.PtBxCeramicaDoceira = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.LblCodCeramicaDoceira = new System.Windows.Forms.Label();
             this.TxbCodCeramicaDoceira = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.Lbltipos = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.PtBxCeramicaDoceira = new System.Windows.Forms.PictureBox();
+            this.PcBxCopoCristal = new System.Windows.Forms.PictureBox();
+            this.PcBxCopoÂmbar = new System.Windows.Forms.PictureBox();
+            this.PcBxPetisqueira = new System.Windows.Forms.PictureBox();
+            this.PcBxProd4 = new System.Windows.Forms.PictureBox();
+            this.PcBxProd1 = new System.Windows.Forms.PictureBox();
             this.PnlCeramica.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).BeginInit();
             this.PnlProd4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).BeginInit();
             this.PnlLayout1.SuspendLayout();
             this.PnlPPetisqueira.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).BeginInit();
             this.PnlCopoÂmbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).BeginInit();
             this.PnlCopoCristal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).BeginInit();
             this.PnlProd6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).BeginInit();
             this.SuspendLayout();
             // 
             // LblCodProd1
             // 
             this.LblCodProd1.AccessibleName = "lblcode";
             this.LblCodProd1.AutoSize = true;
-            this.LblCodProd1.Location = new System.Drawing.Point(154, 41);
+            this.LblCodProd1.Location = new System.Drawing.Point(160, 41);
             this.LblCodProd1.Name = "LblCodProd1";
             this.LblCodProd1.Size = new System.Drawing.Size(43, 13);
             this.LblCodProd1.TabIndex = 1;
@@ -153,7 +153,7 @@
             // 
             this.TxbCodProd1.AccessibleName = "txbcode";
             this.TxbCodProd1.Enabled = false;
-            this.TxbCodProd1.Location = new System.Drawing.Point(203, 41);
+            this.TxbCodProd1.Location = new System.Drawing.Point(209, 38);
             this.TxbCodProd1.Name = "TxbCodProd1";
             this.TxbCodProd1.Size = new System.Drawing.Size(40, 20);
             this.TxbCodProd1.TabIndex = 2;
@@ -190,12 +190,12 @@
             this.PnlCeramica.BackColor = System.Drawing.SystemColors.Menu;
             this.PnlCeramica.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlCeramica.Controls.Add(this.NudUniProd1);
-            this.PnlCeramica.Controls.Add(this.LblUniProd1);
             this.PnlCeramica.Controls.Add(this.BtnSalveProd1);
             this.PnlCeramica.Controls.Add(this.LblProd1);
-            this.PnlCeramica.Controls.Add(this.TxbPriceProd1);
             this.PnlCeramica.Controls.Add(this.LblPriceProd1);
             this.PnlCeramica.Controls.Add(this.PcBxProd1);
+            this.PnlCeramica.Controls.Add(this.LblUniProd1);
+            this.PnlCeramica.Controls.Add(this.TxbPriceProd1);
             this.PnlCeramica.Controls.Add(this.label2);
             this.PnlCeramica.Controls.Add(this.LblCodProd1);
             this.PnlCeramica.Controls.Add(this.TxbCodProd1);
@@ -206,7 +206,7 @@
             // 
             // NudUniProd1
             // 
-            this.NudUniProd1.Location = new System.Drawing.Point(203, 72);
+            this.NudUniProd1.Location = new System.Drawing.Point(209, 70);
             this.NudUniProd1.Minimum = new decimal(new int[] {
             1,
             0,
@@ -226,7 +226,7 @@
             // 
             this.LblUniProd1.AccessibleName = "LblPri";
             this.LblUniProd1.AutoSize = true;
-            this.LblUniProd1.Location = new System.Drawing.Point(139, 74);
+            this.LblUniProd1.Location = new System.Drawing.Point(145, 72);
             this.LblUniProd1.Name = "LblUniProd1";
             this.LblUniProd1.Size = new System.Drawing.Size(58, 13);
             this.LblUniProd1.TabIndex = 17;
@@ -234,11 +234,11 @@
             // 
             // BtnSalveProd1
             // 
-            this.BtnSalveProd1.Location = new System.Drawing.Point(189, 136);
+            this.BtnSalveProd1.Location = new System.Drawing.Point(192, 136);
             this.BtnSalveProd1.Name = "BtnSalveProd1";
-            this.BtnSalveProd1.Size = new System.Drawing.Size(77, 22);
+            this.BtnSalveProd1.Size = new System.Drawing.Size(104, 22);
             this.BtnSalveProd1.TabIndex = 16;
-            this.BtnSalveProd1.Text = "Salvar";
+            this.BtnSalveProd1.Text = "Exibir detalhes";
             this.BtnSalveProd1.UseVisualStyleBackColor = true;
             // 
             // LblProd1
@@ -253,7 +253,7 @@
             // 
             // TxbPriceProd1
             // 
-            this.TxbPriceProd1.Location = new System.Drawing.Point(203, 99);
+            this.TxbPriceProd1.Location = new System.Drawing.Point(209, 102);
             this.TxbPriceProd1.Name = "TxbPriceProd1";
             this.TxbPriceProd1.Size = new System.Drawing.Size(63, 20);
             this.TxbPriceProd1.TabIndex = 9;
@@ -263,22 +263,11 @@
             // 
             this.LblPriceProd1.AccessibleName = "LblPri";
             this.LblPriceProd1.AutoSize = true;
-            this.LblPriceProd1.Location = new System.Drawing.Point(154, 99);
+            this.LblPriceProd1.Location = new System.Drawing.Point(156, 102);
             this.LblPriceProd1.Name = "LblPriceProd1";
             this.LblPriceProd1.Size = new System.Drawing.Size(38, 13);
             this.LblPriceProd1.TabIndex = 11;
             this.LblPriceProd1.Text = "Preço:";
-            // 
-            // PcBxProd1
-            // 
-            this.PcBxProd1.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxProd1.Image = global::Compras_Enjoy.Properties.Resources.Mídia_123;
-            this.PcBxProd1.Location = new System.Drawing.Point(15, 38);
-            this.PcBxProd1.Name = "PcBxProd1";
-            this.PcBxProd1.Size = new System.Drawing.Size(100, 120);
-            this.PcBxProd1.TabIndex = 10;
-            this.PcBxProd1.TabStop = false;
-            this.PcBxProd1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
@@ -293,17 +282,17 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(674, 122);
+            this.label4.Location = new System.Drawing.Point(685, 122);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 13);
             this.label4.TabIndex = 9;
             // 
             // TxbDescProd1
             // 
-            this.TxbDescProd1.Location = new System.Drawing.Point(24, 313);
+            this.TxbDescProd1.Location = new System.Drawing.Point(22, 313);
             this.TxbDescProd1.Multiline = true;
             this.TxbDescProd1.Name = "TxbDescProd1";
-            this.TxbDescProd1.Size = new System.Drawing.Size(206, 46);
+            this.TxbDescProd1.Size = new System.Drawing.Size(197, 46);
             this.TxbDescProd1.TabIndex = 10;
             // 
             // LblDescProd1
@@ -400,16 +389,6 @@
             this.LblPriceProd4.TabIndex = 11;
             this.LblPriceProd4.Text = "Preço:";
             // 
-            // PcBxProd4
-            // 
-            this.PcBxProd4.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxProd4.Image = global::Compras_Enjoy.Properties.Resources.Jardim_Secreto;
-            this.PcBxProd4.Location = new System.Drawing.Point(15, 38);
-            this.PcBxProd4.Name = "PcBxProd4";
-            this.PcBxProd4.Size = new System.Drawing.Size(102, 120);
-            this.PcBxProd4.TabIndex = 10;
-            this.PcBxProd4.TabStop = false;
-            // 
             // label9
             // 
             this.label9.AccessibleName = "lblcode";
@@ -465,7 +444,7 @@
             this.PnlLayout1.Controls.Add(this.lblNomeEnjoy);
             this.PnlLayout1.Location = new System.Drawing.Point(0, -1);
             this.PnlLayout1.Name = "PnlLayout1";
-            this.PnlLayout1.Size = new System.Drawing.Size(1394, 48);
+            this.PnlLayout1.Size = new System.Drawing.Size(1416, 48);
             this.PnlLayout1.TabIndex = 15;
             // 
             // BtnCadastro
@@ -474,7 +453,7 @@
             this.BtnCadastro.BackColor = System.Drawing.Color.Maroon;
             this.BtnCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCadastro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnCadastro.Location = new System.Drawing.Point(1191, 10);
+            this.BtnCadastro.Location = new System.Drawing.Point(1213, 10);
             this.BtnCadastro.Name = "BtnCadastro";
             this.BtnCadastro.Size = new System.Drawing.Size(102, 23);
             this.BtnCadastro.TabIndex = 16;
@@ -500,7 +479,7 @@
             this.BtnFinish.BackColor = System.Drawing.Color.Maroon;
             this.BtnFinish.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnFinish.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnFinish.Location = new System.Drawing.Point(1191, 600);
+            this.BtnFinish.Location = new System.Drawing.Point(1213, 604);
             this.BtnFinish.Name = "BtnFinish";
             this.BtnFinish.Size = new System.Drawing.Size(77, 22);
             this.BtnFinish.TabIndex = 17;
@@ -511,7 +490,7 @@
             // 
             this.LblDescriçãoPetisqueira.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LblDescriçãoPetisqueira.AutoSize = true;
-            this.LblDescriçãoPetisqueira.Location = new System.Drawing.Point(449, 297);
+            this.LblDescriçãoPetisqueira.Location = new System.Drawing.Point(460, 297);
             this.LblDescriçãoPetisqueira.Name = "LblDescriçãoPetisqueira";
             this.LblDescriçãoPetisqueira.Size = new System.Drawing.Size(55, 13);
             this.LblDescriçãoPetisqueira.TabIndex = 20;
@@ -520,7 +499,7 @@
             // TxbDescriçãoPetisqueira
             // 
             this.TxbDescriçãoPetisqueira.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TxbDescriçãoPetisqueira.Location = new System.Drawing.Point(452, 313);
+            this.TxbDescriçãoPetisqueira.Location = new System.Drawing.Point(463, 313);
             this.TxbDescriçãoPetisqueira.Multiline = true;
             this.TxbDescriçãoPetisqueira.Name = "TxbDescriçãoPetisqueira";
             this.TxbDescriçãoPetisqueira.Size = new System.Drawing.Size(206, 46);
@@ -541,7 +520,7 @@
             this.PnlPPetisqueira.Controls.Add(this.label10);
             this.PnlPPetisqueira.Controls.Add(this.LblCodPetisqueira);
             this.PnlPPetisqueira.Controls.Add(this.TbxCodPetisqueira);
-            this.PnlPPetisqueira.Location = new System.Drawing.Point(452, 122);
+            this.PnlPPetisqueira.Location = new System.Drawing.Point(463, 122);
             this.PnlPPetisqueira.Name = "PnlPPetisqueira";
             this.PnlPPetisqueira.Size = new System.Drawing.Size(362, 172);
             this.PnlPPetisqueira.TabIndex = 18;
@@ -562,6 +541,7 @@
             0,
             0,
             0});
+            this.NudUniProd2.ValueChanged += new System.EventHandler(this.NudUniProd2_ValueChanged);
             // 
             // label3
             // 
@@ -609,16 +589,6 @@
             this.label8.TabIndex = 11;
             this.label8.Text = "Preço:";
             // 
-            // PcBxPetisqueira
-            // 
-            this.PcBxPetisqueira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxPetisqueira.Image = ((System.Drawing.Image)(resources.GetObject("PcBxPetisqueira.Image")));
-            this.PcBxPetisqueira.Location = new System.Drawing.Point(15, 38);
-            this.PcBxPetisqueira.Name = "PcBxPetisqueira";
-            this.PcBxPetisqueira.Size = new System.Drawing.Size(100, 120);
-            this.PcBxPetisqueira.TabIndex = 10;
-            this.PcBxPetisqueira.TabStop = false;
-            // 
             // label10
             // 
             this.label10.AccessibleName = "lblcode";
@@ -652,7 +622,7 @@
             // 
             this.LblDescriçãoCopoÂmbar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblDescriçãoCopoÂmbar.AutoSize = true;
-            this.LblDescriçãoCopoÂmbar.Location = new System.Drawing.Point(877, 297);
+            this.LblDescriçãoCopoÂmbar.Location = new System.Drawing.Point(899, 297);
             this.LblDescriçãoCopoÂmbar.Name = "LblDescriçãoCopoÂmbar";
             this.LblDescriçãoCopoÂmbar.Size = new System.Drawing.Size(55, 13);
             this.LblDescriçãoCopoÂmbar.TabIndex = 21;
@@ -661,7 +631,7 @@
             // TbxDescriçãoCopoÂmbar
             // 
             this.TbxDescriçãoCopoÂmbar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.TbxDescriçãoCopoÂmbar.Location = new System.Drawing.Point(880, 313);
+            this.TbxDescriçãoCopoÂmbar.Location = new System.Drawing.Point(902, 313);
             this.TbxDescriçãoCopoÂmbar.Multiline = true;
             this.TbxDescriçãoCopoÂmbar.Name = "TbxDescriçãoCopoÂmbar";
             this.TbxDescriçãoCopoÂmbar.Size = new System.Drawing.Size(206, 46);
@@ -682,7 +652,7 @@
             this.PnlCopoÂmbar.Controls.Add(this.label16);
             this.PnlCopoÂmbar.Controls.Add(this.LblCodProd3);
             this.PnlCopoÂmbar.Controls.Add(this.TxbCodCopoÂmbar);
-            this.PnlCopoÂmbar.Location = new System.Drawing.Point(880, 122);
+            this.PnlCopoÂmbar.Location = new System.Drawing.Point(902, 122);
             this.PnlCopoÂmbar.Name = "PnlCopoÂmbar";
             this.PnlCopoÂmbar.Size = new System.Drawing.Size(362, 172);
             this.PnlCopoÂmbar.TabIndex = 19;
@@ -750,16 +720,6 @@
             this.LblPriceCopoÂmbar.TabIndex = 11;
             this.LblPriceCopoÂmbar.Text = "Preço:";
             // 
-            // PcBxCopoÂmbar
-            // 
-            this.PcBxCopoÂmbar.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxCopoÂmbar.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoÂmbar.Image")));
-            this.PcBxCopoÂmbar.Location = new System.Drawing.Point(15, 38);
-            this.PcBxCopoÂmbar.Name = "PcBxCopoÂmbar";
-            this.PcBxCopoÂmbar.Size = new System.Drawing.Size(100, 120);
-            this.PcBxCopoÂmbar.TabIndex = 10;
-            this.PcBxCopoÂmbar.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AccessibleName = "lblcode";
@@ -793,7 +753,7 @@
             // 
             this.LblDescriçãoCopoCristal.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LblDescriçãoCopoCristal.AutoSize = true;
-            this.LblDescriçãoCopoCristal.Location = new System.Drawing.Point(449, 560);
+            this.LblDescriçãoCopoCristal.Location = new System.Drawing.Point(460, 560);
             this.LblDescriçãoCopoCristal.Name = "LblDescriçãoCopoCristal";
             this.LblDescriçãoCopoCristal.Size = new System.Drawing.Size(55, 13);
             this.LblDescriçãoCopoCristal.TabIndex = 21;
@@ -802,7 +762,7 @@
             // TxbDescriçãoCopoCristal
             // 
             this.TxbDescriçãoCopoCristal.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TxbDescriçãoCopoCristal.Location = new System.Drawing.Point(452, 576);
+            this.TxbDescriçãoCopoCristal.Location = new System.Drawing.Point(463, 576);
             this.TxbDescriçãoCopoCristal.Multiline = true;
             this.TxbDescriçãoCopoCristal.Name = "TxbDescriçãoCopoCristal";
             this.TxbDescriçãoCopoCristal.Size = new System.Drawing.Size(206, 46);
@@ -823,7 +783,7 @@
             this.PnlCopoCristal.Controls.Add(this.label22);
             this.PnlCopoCristal.Controls.Add(this.LblCodCopoCristal);
             this.PnlCopoCristal.Controls.Add(this.TbxCopoCristal);
-            this.PnlCopoCristal.Location = new System.Drawing.Point(452, 385);
+            this.PnlCopoCristal.Location = new System.Drawing.Point(463, 385);
             this.PnlCopoCristal.Name = "PnlCopoCristal";
             this.PnlCopoCristal.Size = new System.Drawing.Size(362, 172);
             this.PnlCopoCristal.TabIndex = 19;
@@ -891,16 +851,6 @@
             this.LblPriceCopoCristal.TabIndex = 11;
             this.LblPriceCopoCristal.Text = "Preço:";
             // 
-            // PcBxCopoCristal
-            // 
-            this.PcBxCopoCristal.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxCopoCristal.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoCristal.Image")));
-            this.PcBxCopoCristal.Location = new System.Drawing.Point(15, 38);
-            this.PcBxCopoCristal.Name = "PcBxCopoCristal";
-            this.PcBxCopoCristal.Size = new System.Drawing.Size(100, 120);
-            this.PcBxCopoCristal.TabIndex = 10;
-            this.PcBxCopoCristal.TabStop = false;
-            // 
             // label22
             // 
             this.label22.AccessibleName = "lblcode";
@@ -935,7 +885,7 @@
             // 
             this.LblDescriçãoCeramicaDoceira.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblDescriçãoCeramicaDoceira.AutoSize = true;
-            this.LblDescriçãoCeramicaDoceira.Location = new System.Drawing.Point(877, 560);
+            this.LblDescriçãoCeramicaDoceira.Location = new System.Drawing.Point(899, 560);
             this.LblDescriçãoCeramicaDoceira.Name = "LblDescriçãoCeramicaDoceira";
             this.LblDescriçãoCeramicaDoceira.Size = new System.Drawing.Size(55, 13);
             this.LblDescriçãoCeramicaDoceira.TabIndex = 21;
@@ -944,7 +894,7 @@
             // TbxDescriçãoCeramicaDoceira
             // 
             this.TbxDescriçãoCeramicaDoceira.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.TbxDescriçãoCeramicaDoceira.Location = new System.Drawing.Point(880, 576);
+            this.TbxDescriçãoCeramicaDoceira.Location = new System.Drawing.Point(902, 576);
             this.TbxDescriçãoCeramicaDoceira.Multiline = true;
             this.TbxDescriçãoCeramicaDoceira.Name = "TbxDescriçãoCeramicaDoceira";
             this.TbxDescriçãoCeramicaDoceira.Size = new System.Drawing.Size(206, 46);
@@ -965,7 +915,7 @@
             this.PnlProd6.Controls.Add(this.label28);
             this.PnlProd6.Controls.Add(this.LblCodCeramicaDoceira);
             this.PnlProd6.Controls.Add(this.TxbCodCeramicaDoceira);
-            this.PnlProd6.Location = new System.Drawing.Point(880, 385);
+            this.PnlProd6.Location = new System.Drawing.Point(902, 385);
             this.PnlProd6.Name = "PnlProd6";
             this.PnlProd6.Size = new System.Drawing.Size(362, 172);
             this.PnlProd6.TabIndex = 19;
@@ -1033,16 +983,6 @@
             this.LblPriceCeramicaDoceira.TabIndex = 11;
             this.LblPriceCeramicaDoceira.Text = "Preço:";
             // 
-            // PtBxCeramicaDoceira
-            // 
-            this.PtBxCeramicaDoceira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PtBxCeramicaDoceira.Image = ((System.Drawing.Image)(resources.GetObject("PtBxCeramicaDoceira.Image")));
-            this.PtBxCeramicaDoceira.Location = new System.Drawing.Point(15, 38);
-            this.PtBxCeramicaDoceira.Name = "PtBxCeramicaDoceira";
-            this.PtBxCeramicaDoceira.Size = new System.Drawing.Size(100, 120);
-            this.PtBxCeramicaDoceira.TabIndex = 10;
-            this.PtBxCeramicaDoceira.TabStop = false;
-            // 
             // label28
             // 
             this.label28.AccessibleName = "lblcode";
@@ -1076,7 +1016,7 @@
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.ImageKey = "(nenhum/a)";
-            this.button6.Location = new System.Drawing.Point(1225, 53);
+            this.button6.Location = new System.Drawing.Point(1247, 53);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(43, 39);
             this.button6.TabIndex = 18;
@@ -1105,14 +1045,77 @@
             this.comboBox1.Size = new System.Drawing.Size(143, 21);
             this.comboBox1.TabIndex = 23;
             // 
+            // PtBxCeramicaDoceira
+            // 
+            this.PtBxCeramicaDoceira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PtBxCeramicaDoceira.Image = ((System.Drawing.Image)(resources.GetObject("PtBxCeramicaDoceira.Image")));
+            this.PtBxCeramicaDoceira.Location = new System.Drawing.Point(15, 38);
+            this.PtBxCeramicaDoceira.Name = "PtBxCeramicaDoceira";
+            this.PtBxCeramicaDoceira.Size = new System.Drawing.Size(100, 120);
+            this.PtBxCeramicaDoceira.TabIndex = 10;
+            this.PtBxCeramicaDoceira.TabStop = false;
+            // 
+            // PcBxCopoCristal
+            // 
+            this.PcBxCopoCristal.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxCopoCristal.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoCristal.Image")));
+            this.PcBxCopoCristal.Location = new System.Drawing.Point(15, 38);
+            this.PcBxCopoCristal.Name = "PcBxCopoCristal";
+            this.PcBxCopoCristal.Size = new System.Drawing.Size(100, 120);
+            this.PcBxCopoCristal.TabIndex = 10;
+            this.PcBxCopoCristal.TabStop = false;
+            // 
+            // PcBxCopoÂmbar
+            // 
+            this.PcBxCopoÂmbar.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxCopoÂmbar.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoÂmbar.Image")));
+            this.PcBxCopoÂmbar.Location = new System.Drawing.Point(15, 38);
+            this.PcBxCopoÂmbar.Name = "PcBxCopoÂmbar";
+            this.PcBxCopoÂmbar.Size = new System.Drawing.Size(100, 120);
+            this.PcBxCopoÂmbar.TabIndex = 10;
+            this.PcBxCopoÂmbar.TabStop = false;
+            // 
+            // PcBxPetisqueira
+            // 
+            this.PcBxPetisqueira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxPetisqueira.Image = ((System.Drawing.Image)(resources.GetObject("PcBxPetisqueira.Image")));
+            this.PcBxPetisqueira.Location = new System.Drawing.Point(15, 38);
+            this.PcBxPetisqueira.Name = "PcBxPetisqueira";
+            this.PcBxPetisqueira.Size = new System.Drawing.Size(100, 120);
+            this.PcBxPetisqueira.TabIndex = 10;
+            this.PcBxPetisqueira.TabStop = false;
+            // 
+            // PcBxProd4
+            // 
+            this.PcBxProd4.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxProd4.Image = global::Compras_Enjoy.Properties.Resources.Jardim_Secreto;
+            this.PcBxProd4.Location = new System.Drawing.Point(15, 38);
+            this.PcBxProd4.Name = "PcBxProd4";
+            this.PcBxProd4.Size = new System.Drawing.Size(102, 120);
+            this.PcBxProd4.TabIndex = 10;
+            this.PcBxProd4.TabStop = false;
+            // 
+            // PcBxProd1
+            // 
+            this.PcBxProd1.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxProd1.Image = global::Compras_Enjoy.Properties.Resources.Mídia_123;
+            this.PcBxProd1.Location = new System.Drawing.Point(15, 38);
+            this.PcBxProd1.Name = "PcBxProd1";
+            this.PcBxProd1.Size = new System.Drawing.Size(100, 120);
+            this.PcBxProd1.TabIndex = 10;
+            this.PcBxProd1.TabStop = false;
+            this.PcBxProd1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1305, 642);
+            this.ClientSize = new System.Drawing.Size(1327, 646);
             this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.LblDescProd1);
             this.Controls.Add(this.Lbltipos);
+            this.Controls.Add(this.TxbDescProd1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.LblDescriçãoCeramicaDoceira);
             this.Controls.Add(this.LblDescriçãoCopoCristal);
@@ -1131,8 +1134,6 @@
             this.Controls.Add(this.TxbDescProd4);
             this.Controls.Add(this.LblDescProd4);
             this.Controls.Add(this.PnlProd4);
-            this.Controls.Add(this.LblDescProd1);
-            this.Controls.Add(this.TxbDescProd1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.PnlCeramica);
             this.Controls.Add(this.lblFiltro);
@@ -1146,29 +1147,29 @@
             this.PnlCeramica.ResumeLayout(false);
             this.PnlCeramica.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).EndInit();
             this.PnlProd4.ResumeLayout(false);
             this.PnlProd4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).EndInit();
             this.PnlLayout1.ResumeLayout(false);
             this.PnlLayout1.PerformLayout();
             this.PnlPPetisqueira.ResumeLayout(false);
             this.PnlPPetisqueira.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).EndInit();
             this.PnlCopoÂmbar.ResumeLayout(false);
             this.PnlCopoÂmbar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).EndInit();
             this.PnlCopoCristal.ResumeLayout(false);
             this.PnlCopoCristal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).EndInit();
             this.PnlProd6.ResumeLayout(false);
             this.PnlProd6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

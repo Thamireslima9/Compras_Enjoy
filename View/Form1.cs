@@ -89,5 +89,10 @@ namespace Compras_Enjoy
         {
 
         }
+
+        private void NudUniProd2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
