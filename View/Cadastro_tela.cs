@@ -67,10 +67,7 @@ namespace Compras_Enjoy
 
         private void BttEnter_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-               "Nome: " + TxbEmailLogin.Text +
-               "\nEmail: " + TxbSenhaLogin);
-               
+            
         }
 
         private void TxbSenhaLogin_TextChanged(object sender, EventArgs e)
