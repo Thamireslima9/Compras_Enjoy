@@ -37,7 +37,7 @@
             this.TxbCodLouca = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BtnSaveLouca = new System.Windows.Forms.Button();
-            this.PnlVendaLouca = new System.Windows.Forms.Panel();
+            this.PnlVendaLoucas = new System.Windows.Forms.Panel();
             this.LblVendaLouca = new System.Windows.Forms.Label();
             this.LblPrecoLouca = new System.Windows.Forms.Label();
             this.BtnEnviarFoto = new System.Windows.Forms.Button();
@@ -75,7 +75,7 @@
             this.LblCadas1 = new System.Windows.Forms.Label();
             this.PnlFotoUpdate.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.PnlVendaLouca.SuspendLayout();
+            this.PnlVendaLoucas.SuspendLayout();
             this.PnlVenda2.SuspendLayout();
             this.PnlLojaLouca.SuspendLayout();
             this.PnlNameLouca.SuspendLayout();
@@ -155,7 +155,7 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.BtnSaveLouca);
-            this.panel3.Controls.Add(this.PnlVendaLouca);
+            this.panel3.Controls.Add(this.PnlVendaLoucas);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
@@ -180,33 +180,33 @@
             this.BtnSaveLouca.UseVisualStyleBackColor = false;
             this.BtnSaveLouca.Click += new System.EventHandler(this.button1_Click);
             // 
-            // PnlVendaLouca
+            // PnlVendaLoucas
             // 
-            this.PnlVendaLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlVendaLouca.Controls.Add(this.LblVendaLouca);
-            this.PnlVendaLouca.Controls.Add(this.LblPrecoLouca);
-            this.PnlVendaLouca.Controls.Add(this.BtnEnviarFoto);
-            this.PnlVendaLouca.Controls.Add(this.LblEstoqueLouca);
-            this.PnlVendaLouca.Controls.Add(this.LblMarcaLoucaN);
-            this.PnlVendaLouca.Controls.Add(this.LblLojaVirtual);
-            this.PnlVendaLouca.Controls.Add(this.PnlVenda2);
-            this.PnlVendaLouca.Controls.Add(this.LblNomeLouçaNova);
-            this.PnlVendaLouca.Controls.Add(this.PnlLojaLouca);
-            this.PnlVendaLouca.Controls.Add(this.PnlFotoUpdate);
-            this.PnlVendaLouca.Controls.Add(this.LblDescLouca);
-            this.PnlVendaLouca.Controls.Add(this.PnlNameLouca);
-            this.PnlVendaLouca.Controls.Add(this.LblCodLoucaN);
-            this.PnlVendaLouca.Controls.Add(this.PnlCodLouca);
-            this.PnlVendaLouca.Controls.Add(this.LblTipoLoucaN);
-            this.PnlVendaLouca.Controls.Add(this.PnlPrecoLouca);
-            this.PnlVendaLouca.Controls.Add(this.PnlTipoLouca);
-            this.PnlVendaLouca.Controls.Add(this.PnlMarcaLouca);
-            this.PnlVendaLouca.Controls.Add(this.PnlDescLouca);
-            this.PnlVendaLouca.Controls.Add(this.PnlEstoqueLouca);
-            this.PnlVendaLouca.Location = new System.Drawing.Point(162, 146);
-            this.PnlVendaLouca.Name = "PnlVendaLouca";
-            this.PnlVendaLouca.Size = new System.Drawing.Size(1731, 675);
-            this.PnlVendaLouca.TabIndex = 42;
+            this.PnlVendaLoucas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PnlVendaLoucas.Controls.Add(this.LblVendaLouca);
+            this.PnlVendaLoucas.Controls.Add(this.LblPrecoLouca);
+            this.PnlVendaLoucas.Controls.Add(this.BtnEnviarFoto);
+            this.PnlVendaLoucas.Controls.Add(this.LblEstoqueLouca);
+            this.PnlVendaLoucas.Controls.Add(this.LblMarcaLoucaN);
+            this.PnlVendaLoucas.Controls.Add(this.LblLojaVirtual);
+            this.PnlVendaLoucas.Controls.Add(this.PnlVenda2);
+            this.PnlVendaLoucas.Controls.Add(this.LblNomeLouçaNova);
+            this.PnlVendaLoucas.Controls.Add(this.PnlLojaLouca);
+            this.PnlVendaLoucas.Controls.Add(this.PnlFotoUpdate);
+            this.PnlVendaLoucas.Controls.Add(this.LblDescLouca);
+            this.PnlVendaLoucas.Controls.Add(this.PnlNameLouca);
+            this.PnlVendaLoucas.Controls.Add(this.LblCodLoucaN);
+            this.PnlVendaLoucas.Controls.Add(this.PnlCodLouca);
+            this.PnlVendaLoucas.Controls.Add(this.LblTipoLoucaN);
+            this.PnlVendaLoucas.Controls.Add(this.PnlPrecoLouca);
+            this.PnlVendaLoucas.Controls.Add(this.PnlTipoLouca);
+            this.PnlVendaLoucas.Controls.Add(this.PnlMarcaLouca);
+            this.PnlVendaLoucas.Controls.Add(this.PnlDescLouca);
+            this.PnlVendaLoucas.Controls.Add(this.PnlEstoqueLouca);
+            this.PnlVendaLoucas.Location = new System.Drawing.Point(162, 146);
+            this.PnlVendaLoucas.Name = "PnlVendaLoucas";
+            this.PnlVendaLoucas.Size = new System.Drawing.Size(1731, 675);
+            this.PnlVendaLoucas.TabIndex = 42;
             // 
             // LblVendaLouca
             // 
@@ -618,8 +618,8 @@
             this.PnlFotoUpdate.ResumeLayout(false);
             this.PnlFotoUpdate.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.PnlVendaLouca.ResumeLayout(false);
-            this.PnlVendaLouca.PerformLayout();
+            this.PnlVendaLoucas.ResumeLayout(false);
+            this.PnlVendaLoucas.PerformLayout();
             this.PnlVenda2.ResumeLayout(false);
             this.PnlVenda2.PerformLayout();
             this.PnlLojaLouca.ResumeLayout(false);
@@ -684,7 +684,7 @@
         private System.Windows.Forms.Label LblCadas2;
         private System.Windows.Forms.Label LblFun;
         private System.Windows.Forms.Label LblNameLouca;
-        private System.Windows.Forms.Panel PnlVendaLouca;
+        private System.Windows.Forms.Panel PnlVendaLoucas;
         private System.Windows.Forms.Panel PnlDescLouca;
         private System.Windows.Forms.Label LblEstoqueLouca;
         private System.Windows.Forms.Label LblVendaLouca;
