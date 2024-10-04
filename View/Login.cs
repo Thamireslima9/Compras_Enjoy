@@ -40,14 +40,12 @@ namespace Compras_Enjoy
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void TxbCodLogin_KeyPress(object sender, KeyPressEventArgs e)
         {
-
-        }
-
-        private void TxbEmailLogin_TextChanged(object sender, EventArgs e)
-        {
-
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

@@ -104,16 +104,22 @@ namespace Compras_Enjoy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Produto inserido com sucesso!");
+            MessageBox.Show(
+                "Nome:" + TxbNomeLoucaN.Text + 
+                "\nCódigo:" + TxbCodLouca.Text +
+                "\nTipo:" + CbxTipoLouca.Text +
+                "\nMarca:" + TxbMarcaLouca.Text +
+                "\nPreço:" + TxbPrecoLouca.Text +                
+                "\nLiberar venda:" + CbxLiberarVenda.Text +
+                "\nLoja virtual:" + CbxLojaVitual.Text +
+                "\nEstoque disponivel:" + NudEstoqueProd.Text +
+                "\n" +
+                "\nProduto inserido com sucesso!");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form1 telaForm1 = new Form1();
-
-            this.Visible = false;
-
-            telaForm1.ShowDialog();
+            
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)

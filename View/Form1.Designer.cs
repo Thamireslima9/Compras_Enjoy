@@ -36,6 +36,7 @@
             this.BtnSalveProd1 = new System.Windows.Forms.Button();
             this.LblProd1 = new System.Windows.Forms.Label();
             this.LblPriceProd1 = new System.Windows.Forms.Label();
+            this.PcBxProd1 = new System.Windows.Forms.PictureBox();
             this.LblUniProd1 = new System.Windows.Forms.Label();
             this.TxbPriceProd1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,71 +50,67 @@
             this.BtnSalveProd4 = new System.Windows.Forms.Button();
             this.LblProd4 = new System.Windows.Forms.Label();
             this.LblPriceProd4 = new System.Windows.Forms.Label();
+            this.PcBxProd4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.LblCodProd4 = new System.Windows.Forms.Label();
             this.TxbCodProd4 = new System.Windows.Forms.TextBox();
             this.LblDescProd4 = new System.Windows.Forms.Label();
             this.TxbDescProd4 = new System.Windows.Forms.TextBox();
             this.BtnFinish = new System.Windows.Forms.Button();
-            this.LblDescriçãoPetisqueira = new System.Windows.Forms.Label();
-            this.TxbDescriçãoPetisqueira = new System.Windows.Forms.TextBox();
+            this.LblDescriçãoProd2 = new System.Windows.Forms.Label();
+            this.TxbDescriçãoProd2 = new System.Windows.Forms.TextBox();
             this.PnlPPetisqueira = new System.Windows.Forms.Panel();
             this.NudUniProd2 = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.BtnSalvarPetisqueira = new System.Windows.Forms.Button();
+            this.BtnSalvarProd2 = new System.Windows.Forms.Button();
             this.LblPestiqueira = new System.Windows.Forms.Label();
-            this.TxbPricePetisqueira = new System.Windows.Forms.TextBox();
+            this.TxbPriceProd2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.PcBxPetisqueira = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.LblCodPetisqueira = new System.Windows.Forms.Label();
             this.TbxCodPetisqueira = new System.Windows.Forms.TextBox();
-            this.LblDescriçãoCopoÂmbar = new System.Windows.Forms.Label();
-            this.TbxDescriçãoCopoÂmbar = new System.Windows.Forms.TextBox();
+            this.LblDescriçãoProd3 = new System.Windows.Forms.Label();
+            this.TbxDescriçãoPro3 = new System.Windows.Forms.TextBox();
             this.PnlCopoÂmbar = new System.Windows.Forms.Panel();
             this.NudUniProd3 = new System.Windows.Forms.NumericUpDown();
             this.LblUniCopoÂmbar = new System.Windows.Forms.Label();
-            this.BtnSalveCopoÂmbar = new System.Windows.Forms.Button();
+            this.BtnSalveprod3 = new System.Windows.Forms.Button();
             this.LblCopoAmbar = new System.Windows.Forms.Label();
-            this.TxbPriceCopoÂmbar = new System.Windows.Forms.TextBox();
+            this.TxbPriceProd3 = new System.Windows.Forms.TextBox();
             this.LblPriceCopoÂmbar = new System.Windows.Forms.Label();
+            this.PcBxCopoÂmbar = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.LblCodProd3 = new System.Windows.Forms.Label();
-            this.TxbCodCopoÂmbar = new System.Windows.Forms.TextBox();
+            this.TxbCodProd3 = new System.Windows.Forms.TextBox();
             this.LblDescriçãoCopoCristal = new System.Windows.Forms.Label();
             this.TxbDescriçãoCopoCristal = new System.Windows.Forms.TextBox();
             this.PnlCopoCristal = new System.Windows.Forms.Panel();
             this.NudUniProd5 = new System.Windows.Forms.NumericUpDown();
             this.LblUniCopoCristal = new System.Windows.Forms.Label();
-            this.BtnSalvarCopoCristal = new System.Windows.Forms.Button();
+            this.BtnSalvarProd5 = new System.Windows.Forms.Button();
             this.LblCopoCristal = new System.Windows.Forms.Label();
-            this.TxbPriceCopoCristal = new System.Windows.Forms.TextBox();
+            this.TxbPriceProd5 = new System.Windows.Forms.TextBox();
             this.LblPriceCopoCristal = new System.Windows.Forms.Label();
+            this.PcBxCopoCristal = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.LblCodCopoCristal = new System.Windows.Forms.Label();
-            this.TbxCopoCristal = new System.Windows.Forms.TextBox();
+            this.TbxProd5 = new System.Windows.Forms.TextBox();
             this.LblDescriçãoCeramicaDoceira = new System.Windows.Forms.Label();
             this.TbxDescriçãoCeramicaDoceira = new System.Windows.Forms.TextBox();
             this.PnlProd6 = new System.Windows.Forms.Panel();
             this.NudUniProd6 = new System.Windows.Forms.NumericUpDown();
             this.LblUniCeramicaDoceira = new System.Windows.Forms.Label();
-            this.BtnSalvarCeramicaDoceira = new System.Windows.Forms.Button();
+            this.BtnSalvarProd6 = new System.Windows.Forms.Button();
             this.LblCeramicaDoceira = new System.Windows.Forms.Label();
-            this.TbxPriceCeramicaDoceira = new System.Windows.Forms.TextBox();
+            this.TbxPriceProd6 = new System.Windows.Forms.TextBox();
             this.LblPriceCeramicaDoceira = new System.Windows.Forms.Label();
+            this.PtBxCeramicaDoceira = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.LblCodCeramicaDoceira = new System.Windows.Forms.Label();
-            this.TxbCodCeramicaDoceira = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.TxbCodProd6 = new System.Windows.Forms.TextBox();
             this.Lbltipos = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.PtBxCeramicaDoceira = new System.Windows.Forms.PictureBox();
-            this.PcBxCopoCristal = new System.Windows.Forms.PictureBox();
-            this.PcBxCopoÂmbar = new System.Windows.Forms.PictureBox();
-            this.PcBxPetisqueira = new System.Windows.Forms.PictureBox();
-            this.PcBxProd4 = new System.Windows.Forms.PictureBox();
-            this.PcBxProd1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.CbxTipoLouca = new System.Windows.Forms.ComboBox();
             this.PnlLayoutInserir = new System.Windows.Forms.Panel();
             this.LblNameLouca = new System.Windows.Forms.Label();
             this.LblFun = new System.Windows.Forms.Label();
@@ -126,22 +123,22 @@
             this.LblCadas1 = new System.Windows.Forms.Label();
             this.PnlCeramica.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).BeginInit();
             this.PnlProd4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).BeginInit();
             this.PnlPPetisqueira.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).BeginInit();
             this.PnlCopoÂmbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).BeginInit();
             this.PnlCopoCristal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).BeginInit();
             this.PnlProd6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).BeginInit();
             this.PnlLayoutInserir.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -162,8 +159,9 @@
             this.TxbCodProd1.AccessibleName = "txbcode";
             this.TxbCodProd1.Enabled = false;
             this.TxbCodProd1.Location = new System.Drawing.Point(279, 47);
-            this.TxbCodProd1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbCodProd1.Margin = new System.Windows.Forms.Padding(4);
             this.TxbCodProd1.Name = "TxbCodProd1";
+            this.TxbCodProd1.ReadOnly = true;
             this.TxbCodProd1.Size = new System.Drawing.Size(52, 22);
             this.TxbCodProd1.TabIndex = 2;
             this.TxbCodProd1.Text = "001";
@@ -184,7 +182,7 @@
             this.PnlCeramica.Controls.Add(this.LblCodProd1);
             this.PnlCeramica.Controls.Add(this.TxbCodProd1);
             this.PnlCeramica.Location = new System.Drawing.Point(82, 134);
-            this.PnlCeramica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlCeramica.Margin = new System.Windows.Forms.Padding(4);
             this.PnlCeramica.Name = "PnlCeramica";
             this.PnlCeramica.Size = new System.Drawing.Size(482, 211);
             this.PnlCeramica.TabIndex = 8;
@@ -192,7 +190,7 @@
             // NudUniProd1
             // 
             this.NudUniProd1.Location = new System.Drawing.Point(279, 86);
-            this.NudUniProd1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NudUniProd1.Margin = new System.Windows.Forms.Padding(4);
             this.NudUniProd1.Minimum = new decimal(new int[] {
             1,
             0,
@@ -211,11 +209,11 @@
             // BtnSalveProd1
             // 
             this.BtnSalveProd1.Location = new System.Drawing.Point(256, 167);
-            this.BtnSalveProd1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSalveProd1.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSalveProd1.Name = "BtnSalveProd1";
             this.BtnSalveProd1.Size = new System.Drawing.Size(139, 27);
             this.BtnSalveProd1.TabIndex = 16;
-            this.BtnSalveProd1.Text = "Exibir detalhes";
+            this.BtnSalveProd1.Text = "Salvar";
             this.BtnSalveProd1.UseVisualStyleBackColor = true;
             // 
             // LblProd1
@@ -240,6 +238,18 @@
             this.LblPriceProd1.TabIndex = 11;
             this.LblPriceProd1.Text = "Preço:";
             // 
+            // PcBxProd1
+            // 
+            this.PcBxProd1.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxProd1.Image = global::Compras_Enjoy.Properties.Resources.Mídia_123;
+            this.PcBxProd1.Location = new System.Drawing.Point(20, 47);
+            this.PcBxProd1.Margin = new System.Windows.Forms.Padding(4);
+            this.PcBxProd1.Name = "PcBxProd1";
+            this.PcBxProd1.Size = new System.Drawing.Size(120, 130);
+            this.PcBxProd1.TabIndex = 10;
+            this.PcBxProd1.TabStop = false;
+            this.PcBxProd1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // LblUniProd1
             // 
             this.LblUniProd1.AccessibleName = "LblPri";
@@ -254,8 +264,9 @@
             // TxbPriceProd1
             // 
             this.TxbPriceProd1.Location = new System.Drawing.Point(279, 126);
-            this.TxbPriceProd1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbPriceProd1.Margin = new System.Windows.Forms.Padding(4);
             this.TxbPriceProd1.Name = "TxbPriceProd1";
+            this.TxbPriceProd1.ReadOnly = true;
             this.TxbPriceProd1.Size = new System.Drawing.Size(83, 22);
             this.TxbPriceProd1.TabIndex = 9;
             this.TxbPriceProd1.Text = "R$ 24,99";
@@ -283,11 +294,13 @@
             // TxbDescProd1
             // 
             this.TxbDescProd1.Location = new System.Drawing.Point(79, 369);
-            this.TxbDescProd1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbDescProd1.Margin = new System.Windows.Forms.Padding(4);
             this.TxbDescProd1.Multiline = true;
             this.TxbDescProd1.Name = "TxbDescProd1";
+            this.TxbDescProd1.ReadOnly = true;
             this.TxbDescProd1.Size = new System.Drawing.Size(261, 56);
             this.TxbDescProd1.TabIndex = 10;
+            this.TxbDescProd1.Text = "(Sem descrição)";
             // 
             // LblDescProd1
             // 
@@ -316,7 +329,7 @@
             this.PnlProd4.Controls.Add(this.LblCodProd4);
             this.PnlProd4.Controls.Add(this.TxbCodProd4);
             this.PnlProd4.Location = new System.Drawing.Point(82, 458);
-            this.PnlProd4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlProd4.Margin = new System.Windows.Forms.Padding(4);
             this.PnlProd4.Name = "PnlProd4";
             this.PnlProd4.Size = new System.Drawing.Size(482, 211);
             this.PnlProd4.TabIndex = 12;
@@ -324,7 +337,7 @@
             // NudUniProd4
             // 
             this.NudUniProd4.Location = new System.Drawing.Point(265, 82);
-            this.NudUniProd4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NudUniProd4.Margin = new System.Windows.Forms.Padding(4);
             this.NudUniProd4.Minimum = new decimal(new int[] {
             1,
             0,
@@ -353,8 +366,9 @@
             // TxbPriceProd4
             // 
             this.TxbPriceProd4.Location = new System.Drawing.Point(271, 114);
-            this.TxbPriceProd4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbPriceProd4.Margin = new System.Windows.Forms.Padding(4);
             this.TxbPriceProd4.Name = "TxbPriceProd4";
+            this.TxbPriceProd4.ReadOnly = true;
             this.TxbPriceProd4.Size = new System.Drawing.Size(83, 22);
             this.TxbPriceProd4.TabIndex = 18;
             this.TxbPriceProd4.Text = "R$ 40.00";
@@ -362,7 +376,7 @@
             // BtnSalveProd4
             // 
             this.BtnSalveProd4.Location = new System.Drawing.Point(257, 167);
-            this.BtnSalveProd4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSalveProd4.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSalveProd4.Name = "BtnSalveProd4";
             this.BtnSalveProd4.Size = new System.Drawing.Size(103, 27);
             this.BtnSalveProd4.TabIndex = 17;
@@ -391,6 +405,17 @@
             this.LblPriceProd4.TabIndex = 11;
             this.LblPriceProd4.Text = "Preço:";
             // 
+            // PcBxProd4
+            // 
+            this.PcBxProd4.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxProd4.Image = global::Compras_Enjoy.Properties.Resources.Jardim_Secreto;
+            this.PcBxProd4.Location = new System.Drawing.Point(20, 47);
+            this.PcBxProd4.Margin = new System.Windows.Forms.Padding(4);
+            this.PcBxProd4.Name = "PcBxProd4";
+            this.PcBxProd4.Size = new System.Drawing.Size(118, 123);
+            this.PcBxProd4.TabIndex = 10;
+            this.PcBxProd4.TabStop = false;
+            // 
             // label9
             // 
             this.label9.AccessibleName = "lblcode";
@@ -417,8 +442,9 @@
             this.TxbCodProd4.AccessibleName = "txbcode";
             this.TxbCodProd4.Enabled = false;
             this.TxbCodProd4.Location = new System.Drawing.Point(271, 50);
-            this.TxbCodProd4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbCodProd4.Margin = new System.Windows.Forms.Padding(4);
             this.TxbCodProd4.Name = "TxbCodProd4";
+            this.TxbCodProd4.ReadOnly = true;
             this.TxbCodProd4.Size = new System.Drawing.Size(52, 22);
             this.TxbCodProd4.TabIndex = 2;
             this.TxbCodProd4.Text = "004";
@@ -436,11 +462,13 @@
             // TxbDescProd4
             // 
             this.TxbDescProd4.Location = new System.Drawing.Point(77, 693);
-            this.TxbDescProd4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbDescProd4.Margin = new System.Windows.Forms.Padding(4);
             this.TxbDescProd4.Multiline = true;
             this.TxbDescProd4.Name = "TxbDescProd4";
+            this.TxbDescProd4.ReadOnly = true;
             this.TxbDescProd4.Size = new System.Drawing.Size(273, 56);
             this.TxbDescProd4.TabIndex = 14;
+            this.TxbDescProd4.Text = "(Sem descrição)";
             // 
             // BtnFinish
             // 
@@ -448,8 +476,9 @@
             this.BtnFinish.BackColor = System.Drawing.Color.Maroon;
             this.BtnFinish.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnFinish.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnFinish.Image = ((System.Drawing.Image)(resources.GetObject("BtnFinish.Image")));
             this.BtnFinish.Location = new System.Drawing.Point(1279, 705);
-            this.BtnFinish.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnFinish.Margin = new System.Windows.Forms.Padding(4);
             this.BtnFinish.Name = "BtnFinish";
             this.BtnFinish.Size = new System.Drawing.Size(103, 27);
             this.BtnFinish.TabIndex = 17;
@@ -457,26 +486,28 @@
             this.BtnFinish.UseVisualStyleBackColor = false;
             this.BtnFinish.Click += new System.EventHandler(this.BtnFinish_Click);
             // 
-            // LblDescriçãoPetisqueira
+            // LblDescriçãoProd2
             // 
-            this.LblDescriçãoPetisqueira.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblDescriçãoPetisqueira.AutoSize = true;
-            this.LblDescriçãoPetisqueira.Location = new System.Drawing.Point(494, 350);
-            this.LblDescriçãoPetisqueira.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LblDescriçãoPetisqueira.Name = "LblDescriçãoPetisqueira";
-            this.LblDescriçãoPetisqueira.Size = new System.Drawing.Size(69, 16);
-            this.LblDescriçãoPetisqueira.TabIndex = 20;
-            this.LblDescriçãoPetisqueira.Text = "Descrição";
+            this.LblDescriçãoProd2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.LblDescriçãoProd2.AutoSize = true;
+            this.LblDescriçãoProd2.Location = new System.Drawing.Point(494, 350);
+            this.LblDescriçãoProd2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblDescriçãoProd2.Name = "LblDescriçãoProd2";
+            this.LblDescriçãoProd2.Size = new System.Drawing.Size(69, 16);
+            this.LblDescriçãoProd2.TabIndex = 20;
+            this.LblDescriçãoProd2.Text = "Descrição";
             // 
-            // TxbDescriçãoPetisqueira
+            // TxbDescriçãoProd2
             // 
-            this.TxbDescriçãoPetisqueira.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TxbDescriçãoPetisqueira.Location = new System.Drawing.Point(498, 369);
-            this.TxbDescriçãoPetisqueira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TxbDescriçãoPetisqueira.Multiline = true;
-            this.TxbDescriçãoPetisqueira.Name = "TxbDescriçãoPetisqueira";
-            this.TxbDescriçãoPetisqueira.Size = new System.Drawing.Size(273, 56);
-            this.TxbDescriçãoPetisqueira.TabIndex = 19;
+            this.TxbDescriçãoProd2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.TxbDescriçãoProd2.Location = new System.Drawing.Point(498, 369);
+            this.TxbDescriçãoProd2.Margin = new System.Windows.Forms.Padding(4);
+            this.TxbDescriçãoProd2.Multiline = true;
+            this.TxbDescriçãoProd2.Name = "TxbDescriçãoProd2";
+            this.TxbDescriçãoProd2.ReadOnly = true;
+            this.TxbDescriçãoProd2.Size = new System.Drawing.Size(273, 56);
+            this.TxbDescriçãoProd2.TabIndex = 19;
+            this.TxbDescriçãoProd2.Text = "(Sem descrição)";
             // 
             // PnlPPetisqueira
             // 
@@ -485,16 +516,16 @@
             this.PnlPPetisqueira.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlPPetisqueira.Controls.Add(this.NudUniProd2);
             this.PnlPPetisqueira.Controls.Add(this.label3);
-            this.PnlPPetisqueira.Controls.Add(this.BtnSalvarPetisqueira);
+            this.PnlPPetisqueira.Controls.Add(this.BtnSalvarProd2);
             this.PnlPPetisqueira.Controls.Add(this.LblPestiqueira);
-            this.PnlPPetisqueira.Controls.Add(this.TxbPricePetisqueira);
+            this.PnlPPetisqueira.Controls.Add(this.TxbPriceProd2);
             this.PnlPPetisqueira.Controls.Add(this.label8);
             this.PnlPPetisqueira.Controls.Add(this.PcBxPetisqueira);
             this.PnlPPetisqueira.Controls.Add(this.label10);
             this.PnlPPetisqueira.Controls.Add(this.LblCodPetisqueira);
             this.PnlPPetisqueira.Controls.Add(this.TbxCodPetisqueira);
             this.PnlPPetisqueira.Location = new System.Drawing.Point(498, 134);
-            this.PnlPPetisqueira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlPPetisqueira.Margin = new System.Windows.Forms.Padding(4);
             this.PnlPPetisqueira.Name = "PnlPPetisqueira";
             this.PnlPPetisqueira.Size = new System.Drawing.Size(482, 211);
             this.PnlPPetisqueira.TabIndex = 18;
@@ -502,7 +533,7 @@
             // NudUniProd2
             // 
             this.NudUniProd2.Location = new System.Drawing.Point(271, 91);
-            this.NudUniProd2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NudUniProd2.Margin = new System.Windows.Forms.Padding(4);
             this.NudUniProd2.Minimum = new decimal(new int[] {
             1,
             0,
@@ -529,15 +560,15 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "Unidades: ";
             // 
-            // BtnSalvarPetisqueira
+            // BtnSalvarProd2
             // 
-            this.BtnSalvarPetisqueira.Location = new System.Drawing.Point(252, 167);
-            this.BtnSalvarPetisqueira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.BtnSalvarPetisqueira.Name = "BtnSalvarPetisqueira";
-            this.BtnSalvarPetisqueira.Size = new System.Drawing.Size(103, 27);
-            this.BtnSalvarPetisqueira.TabIndex = 16;
-            this.BtnSalvarPetisqueira.Text = "Salvar";
-            this.BtnSalvarPetisqueira.UseVisualStyleBackColor = true;
+            this.BtnSalvarProd2.Location = new System.Drawing.Point(252, 167);
+            this.BtnSalvarProd2.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSalvarProd2.Name = "BtnSalvarProd2";
+            this.BtnSalvarProd2.Size = new System.Drawing.Size(103, 27);
+            this.BtnSalvarProd2.TabIndex = 16;
+            this.BtnSalvarProd2.Text = "Salvar";
+            this.BtnSalvarProd2.UseVisualStyleBackColor = true;
             // 
             // LblPestiqueira
             // 
@@ -549,14 +580,15 @@
             this.LblPestiqueira.TabIndex = 10;
             this.LblPestiqueira.Text = "Petisqueira concha";
             // 
-            // TxbPricePetisqueira
+            // TxbPriceProd2
             // 
-            this.TxbPricePetisqueira.Location = new System.Drawing.Point(271, 122);
-            this.TxbPricePetisqueira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TxbPricePetisqueira.Name = "TxbPricePetisqueira";
-            this.TxbPricePetisqueira.Size = new System.Drawing.Size(83, 22);
-            this.TxbPricePetisqueira.TabIndex = 9;
-            this.TxbPricePetisqueira.Text = "R$ 28,00";
+            this.TxbPriceProd2.Location = new System.Drawing.Point(271, 122);
+            this.TxbPriceProd2.Margin = new System.Windows.Forms.Padding(4);
+            this.TxbPriceProd2.Name = "TxbPriceProd2";
+            this.TxbPriceProd2.ReadOnly = true;
+            this.TxbPriceProd2.Size = new System.Drawing.Size(83, 22);
+            this.TxbPriceProd2.TabIndex = 9;
+            this.TxbPriceProd2.Text = "R$ 28,00";
             // 
             // label8
             // 
@@ -568,6 +600,17 @@
             this.label8.Size = new System.Drawing.Size(46, 16);
             this.label8.TabIndex = 11;
             this.label8.Text = "Preço:";
+            // 
+            // PcBxPetisqueira
+            // 
+            this.PcBxPetisqueira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxPetisqueira.Image = ((System.Drawing.Image)(resources.GetObject("PcBxPetisqueira.Image")));
+            this.PcBxPetisqueira.Location = new System.Drawing.Point(20, 47);
+            this.PcBxPetisqueira.Margin = new System.Windows.Forms.Padding(4);
+            this.PcBxPetisqueira.Name = "PcBxPetisqueira";
+            this.PcBxPetisqueira.Size = new System.Drawing.Size(99, 130);
+            this.PcBxPetisqueira.TabIndex = 10;
+            this.PcBxPetisqueira.TabStop = false;
             // 
             // label10
             // 
@@ -595,32 +638,35 @@
             this.TbxCodPetisqueira.AccessibleName = "txbcode";
             this.TbxCodPetisqueira.Enabled = false;
             this.TbxCodPetisqueira.Location = new System.Drawing.Point(271, 50);
-            this.TbxCodPetisqueira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TbxCodPetisqueira.Margin = new System.Windows.Forms.Padding(4);
             this.TbxCodPetisqueira.Name = "TbxCodPetisqueira";
+            this.TbxCodPetisqueira.ReadOnly = true;
             this.TbxCodPetisqueira.Size = new System.Drawing.Size(52, 22);
             this.TbxCodPetisqueira.TabIndex = 2;
             this.TbxCodPetisqueira.Text = "002";
             // 
-            // LblDescriçãoCopoÂmbar
+            // LblDescriçãoProd3
             // 
-            this.LblDescriçãoCopoÂmbar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblDescriçãoCopoÂmbar.AutoSize = true;
-            this.LblDescriçãoCopoÂmbar.Location = new System.Drawing.Point(911, 350);
-            this.LblDescriçãoCopoÂmbar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LblDescriçãoCopoÂmbar.Name = "LblDescriçãoCopoÂmbar";
-            this.LblDescriçãoCopoÂmbar.Size = new System.Drawing.Size(69, 16);
-            this.LblDescriçãoCopoÂmbar.TabIndex = 21;
-            this.LblDescriçãoCopoÂmbar.Text = "Descrição";
+            this.LblDescriçãoProd3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.LblDescriçãoProd3.AutoSize = true;
+            this.LblDescriçãoProd3.Location = new System.Drawing.Point(911, 350);
+            this.LblDescriçãoProd3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblDescriçãoProd3.Name = "LblDescriçãoProd3";
+            this.LblDescriçãoProd3.Size = new System.Drawing.Size(69, 16);
+            this.LblDescriçãoProd3.TabIndex = 21;
+            this.LblDescriçãoProd3.Text = "Descrição";
             // 
-            // TbxDescriçãoCopoÂmbar
+            // TbxDescriçãoPro3
             // 
-            this.TbxDescriçãoCopoÂmbar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.TbxDescriçãoCopoÂmbar.Location = new System.Drawing.Point(915, 369);
-            this.TbxDescriçãoCopoÂmbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TbxDescriçãoCopoÂmbar.Multiline = true;
-            this.TbxDescriçãoCopoÂmbar.Name = "TbxDescriçãoCopoÂmbar";
-            this.TbxDescriçãoCopoÂmbar.Size = new System.Drawing.Size(273, 56);
-            this.TbxDescriçãoCopoÂmbar.TabIndex = 20;
+            this.TbxDescriçãoPro3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.TbxDescriçãoPro3.Location = new System.Drawing.Point(915, 369);
+            this.TbxDescriçãoPro3.Margin = new System.Windows.Forms.Padding(4);
+            this.TbxDescriçãoPro3.Multiline = true;
+            this.TbxDescriçãoPro3.Name = "TbxDescriçãoPro3";
+            this.TbxDescriçãoPro3.ReadOnly = true;
+            this.TbxDescriçãoPro3.Size = new System.Drawing.Size(273, 56);
+            this.TbxDescriçãoPro3.TabIndex = 20;
+            this.TbxDescriçãoPro3.Text = "(Sem descrição)";
             // 
             // PnlCopoÂmbar
             // 
@@ -629,16 +675,16 @@
             this.PnlCopoÂmbar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlCopoÂmbar.Controls.Add(this.NudUniProd3);
             this.PnlCopoÂmbar.Controls.Add(this.LblUniCopoÂmbar);
-            this.PnlCopoÂmbar.Controls.Add(this.BtnSalveCopoÂmbar);
+            this.PnlCopoÂmbar.Controls.Add(this.BtnSalveprod3);
             this.PnlCopoÂmbar.Controls.Add(this.LblCopoAmbar);
-            this.PnlCopoÂmbar.Controls.Add(this.TxbPriceCopoÂmbar);
+            this.PnlCopoÂmbar.Controls.Add(this.TxbPriceProd3);
             this.PnlCopoÂmbar.Controls.Add(this.LblPriceCopoÂmbar);
             this.PnlCopoÂmbar.Controls.Add(this.PcBxCopoÂmbar);
             this.PnlCopoÂmbar.Controls.Add(this.label16);
             this.PnlCopoÂmbar.Controls.Add(this.LblCodProd3);
-            this.PnlCopoÂmbar.Controls.Add(this.TxbCodCopoÂmbar);
+            this.PnlCopoÂmbar.Controls.Add(this.TxbCodProd3);
             this.PnlCopoÂmbar.Location = new System.Drawing.Point(915, 134);
-            this.PnlCopoÂmbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlCopoÂmbar.Margin = new System.Windows.Forms.Padding(4);
             this.PnlCopoÂmbar.Name = "PnlCopoÂmbar";
             this.PnlCopoÂmbar.Size = new System.Drawing.Size(482, 211);
             this.PnlCopoÂmbar.TabIndex = 19;
@@ -646,7 +692,7 @@
             // NudUniProd3
             // 
             this.NudUniProd3.Location = new System.Drawing.Point(271, 89);
-            this.NudUniProd3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NudUniProd3.Margin = new System.Windows.Forms.Padding(4);
             this.NudUniProd3.Minimum = new decimal(new int[] {
             1,
             0,
@@ -672,15 +718,15 @@
             this.LblUniCopoÂmbar.TabIndex = 17;
             this.LblUniCopoÂmbar.Text = "Unidades: ";
             // 
-            // BtnSalveCopoÂmbar
+            // BtnSalveprod3
             // 
-            this.BtnSalveCopoÂmbar.Location = new System.Drawing.Point(252, 167);
-            this.BtnSalveCopoÂmbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.BtnSalveCopoÂmbar.Name = "BtnSalveCopoÂmbar";
-            this.BtnSalveCopoÂmbar.Size = new System.Drawing.Size(103, 27);
-            this.BtnSalveCopoÂmbar.TabIndex = 16;
-            this.BtnSalveCopoÂmbar.Text = "Salvar";
-            this.BtnSalveCopoÂmbar.UseVisualStyleBackColor = true;
+            this.BtnSalveprod3.Location = new System.Drawing.Point(252, 167);
+            this.BtnSalveprod3.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSalveprod3.Name = "BtnSalveprod3";
+            this.BtnSalveprod3.Size = new System.Drawing.Size(103, 27);
+            this.BtnSalveprod3.TabIndex = 16;
+            this.BtnSalveprod3.Text = "Salvar";
+            this.BtnSalveprod3.UseVisualStyleBackColor = true;
             // 
             // LblCopoAmbar
             // 
@@ -692,14 +738,15 @@
             this.LblCopoAmbar.TabIndex = 10;
             this.LblCopoAmbar.Text = "Copo Âmbar duo";
             // 
-            // TxbPriceCopoÂmbar
+            // TxbPriceProd3
             // 
-            this.TxbPriceCopoÂmbar.Location = new System.Drawing.Point(271, 122);
-            this.TxbPriceCopoÂmbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TxbPriceCopoÂmbar.Name = "TxbPriceCopoÂmbar";
-            this.TxbPriceCopoÂmbar.Size = new System.Drawing.Size(83, 22);
-            this.TxbPriceCopoÂmbar.TabIndex = 9;
-            this.TxbPriceCopoÂmbar.Text = "R$ 12,99";
+            this.TxbPriceProd3.Location = new System.Drawing.Point(271, 122);
+            this.TxbPriceProd3.Margin = new System.Windows.Forms.Padding(4);
+            this.TxbPriceProd3.Name = "TxbPriceProd3";
+            this.TxbPriceProd3.ReadOnly = true;
+            this.TxbPriceProd3.Size = new System.Drawing.Size(83, 22);
+            this.TxbPriceProd3.TabIndex = 9;
+            this.TxbPriceProd3.Text = "R$ 12,99";
             // 
             // LblPriceCopoÂmbar
             // 
@@ -711,6 +758,17 @@
             this.LblPriceCopoÂmbar.Size = new System.Drawing.Size(46, 16);
             this.LblPriceCopoÂmbar.TabIndex = 11;
             this.LblPriceCopoÂmbar.Text = "Preço:";
+            // 
+            // PcBxCopoÂmbar
+            // 
+            this.PcBxCopoÂmbar.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxCopoÂmbar.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoÂmbar.Image")));
+            this.PcBxCopoÂmbar.Location = new System.Drawing.Point(20, 47);
+            this.PcBxCopoÂmbar.Margin = new System.Windows.Forms.Padding(4);
+            this.PcBxCopoÂmbar.Name = "PcBxCopoÂmbar";
+            this.PcBxCopoÂmbar.Size = new System.Drawing.Size(93, 122);
+            this.PcBxCopoÂmbar.TabIndex = 10;
+            this.PcBxCopoÂmbar.TabStop = false;
             // 
             // label16
             // 
@@ -733,16 +791,17 @@
             this.LblCodProd3.TabIndex = 1;
             this.LblCodProd3.Text = "Código:";
             // 
-            // TxbCodCopoÂmbar
+            // TxbCodProd3
             // 
-            this.TxbCodCopoÂmbar.AccessibleName = "txbcode";
-            this.TxbCodCopoÂmbar.Enabled = false;
-            this.TxbCodCopoÂmbar.Location = new System.Drawing.Point(271, 50);
-            this.TxbCodCopoÂmbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TxbCodCopoÂmbar.Name = "TxbCodCopoÂmbar";
-            this.TxbCodCopoÂmbar.Size = new System.Drawing.Size(52, 22);
-            this.TxbCodCopoÂmbar.TabIndex = 2;
-            this.TxbCodCopoÂmbar.Text = "003";
+            this.TxbCodProd3.AccessibleName = "txbcode";
+            this.TxbCodProd3.Enabled = false;
+            this.TxbCodProd3.Location = new System.Drawing.Point(271, 50);
+            this.TxbCodProd3.Margin = new System.Windows.Forms.Padding(4);
+            this.TxbCodProd3.Name = "TxbCodProd3";
+            this.TxbCodProd3.ReadOnly = true;
+            this.TxbCodProd3.Size = new System.Drawing.Size(52, 22);
+            this.TxbCodProd3.TabIndex = 2;
+            this.TxbCodProd3.Text = "003";
             // 
             // LblDescriçãoCopoCristal
             // 
@@ -759,11 +818,13 @@
             // 
             this.TxbDescriçãoCopoCristal.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.TxbDescriçãoCopoCristal.Location = new System.Drawing.Point(471, 696);
-            this.TxbDescriçãoCopoCristal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxbDescriçãoCopoCristal.Margin = new System.Windows.Forms.Padding(4);
             this.TxbDescriçãoCopoCristal.Multiline = true;
             this.TxbDescriçãoCopoCristal.Name = "TxbDescriçãoCopoCristal";
+            this.TxbDescriçãoCopoCristal.ReadOnly = true;
             this.TxbDescriçãoCopoCristal.Size = new System.Drawing.Size(273, 56);
             this.TxbDescriçãoCopoCristal.TabIndex = 20;
+            this.TxbDescriçãoCopoCristal.Text = "(Sem descrição)";
             // 
             // PnlCopoCristal
             // 
@@ -772,16 +833,16 @@
             this.PnlCopoCristal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlCopoCristal.Controls.Add(this.NudUniProd5);
             this.PnlCopoCristal.Controls.Add(this.LblUniCopoCristal);
-            this.PnlCopoCristal.Controls.Add(this.BtnSalvarCopoCristal);
+            this.PnlCopoCristal.Controls.Add(this.BtnSalvarProd5);
             this.PnlCopoCristal.Controls.Add(this.LblCopoCristal);
-            this.PnlCopoCristal.Controls.Add(this.TxbPriceCopoCristal);
+            this.PnlCopoCristal.Controls.Add(this.TxbPriceProd5);
             this.PnlCopoCristal.Controls.Add(this.LblPriceCopoCristal);
             this.PnlCopoCristal.Controls.Add(this.PcBxCopoCristal);
             this.PnlCopoCristal.Controls.Add(this.label22);
             this.PnlCopoCristal.Controls.Add(this.LblCodCopoCristal);
-            this.PnlCopoCristal.Controls.Add(this.TbxCopoCristal);
+            this.PnlCopoCristal.Controls.Add(this.TbxProd5);
             this.PnlCopoCristal.Location = new System.Drawing.Point(498, 458);
-            this.PnlCopoCristal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlCopoCristal.Margin = new System.Windows.Forms.Padding(4);
             this.PnlCopoCristal.Name = "PnlCopoCristal";
             this.PnlCopoCristal.Size = new System.Drawing.Size(422, 211);
             this.PnlCopoCristal.TabIndex = 19;
@@ -789,7 +850,7 @@
             // NudUniProd5
             // 
             this.NudUniProd5.Location = new System.Drawing.Point(271, 89);
-            this.NudUniProd5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NudUniProd5.Margin = new System.Windows.Forms.Padding(4);
             this.NudUniProd5.Minimum = new decimal(new int[] {
             1,
             0,
@@ -815,15 +876,15 @@
             this.LblUniCopoCristal.TabIndex = 17;
             this.LblUniCopoCristal.Text = "Unidades: ";
             // 
-            // BtnSalvarCopoCristal
+            // BtnSalvarProd5
             // 
-            this.BtnSalvarCopoCristal.Location = new System.Drawing.Point(252, 167);
-            this.BtnSalvarCopoCristal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.BtnSalvarCopoCristal.Name = "BtnSalvarCopoCristal";
-            this.BtnSalvarCopoCristal.Size = new System.Drawing.Size(103, 27);
-            this.BtnSalvarCopoCristal.TabIndex = 16;
-            this.BtnSalvarCopoCristal.Text = "Salvar";
-            this.BtnSalvarCopoCristal.UseVisualStyleBackColor = true;
+            this.BtnSalvarProd5.Location = new System.Drawing.Point(252, 167);
+            this.BtnSalvarProd5.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSalvarProd5.Name = "BtnSalvarProd5";
+            this.BtnSalvarProd5.Size = new System.Drawing.Size(103, 27);
+            this.BtnSalvarProd5.TabIndex = 16;
+            this.BtnSalvarProd5.Text = "Salvar";
+            this.BtnSalvarProd5.UseVisualStyleBackColor = true;
             // 
             // LblCopoCristal
             // 
@@ -835,14 +896,15 @@
             this.LblCopoCristal.TabIndex = 10;
             this.LblCopoCristal.Text = "Copo cristal";
             // 
-            // TxbPriceCopoCristal
+            // TxbPriceProd5
             // 
-            this.TxbPriceCopoCristal.Location = new System.Drawing.Point(271, 122);
-            this.TxbPriceCopoCristal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TxbPriceCopoCristal.Name = "TxbPriceCopoCristal";
-            this.TxbPriceCopoCristal.Size = new System.Drawing.Size(83, 22);
-            this.TxbPriceCopoCristal.TabIndex = 9;
-            this.TxbPriceCopoCristal.Text = "R$ 15,00";
+            this.TxbPriceProd5.Location = new System.Drawing.Point(271, 122);
+            this.TxbPriceProd5.Margin = new System.Windows.Forms.Padding(4);
+            this.TxbPriceProd5.Name = "TxbPriceProd5";
+            this.TxbPriceProd5.ReadOnly = true;
+            this.TxbPriceProd5.Size = new System.Drawing.Size(83, 22);
+            this.TxbPriceProd5.TabIndex = 9;
+            this.TxbPriceProd5.Text = "R$ 15,00";
             // 
             // LblPriceCopoCristal
             // 
@@ -854,6 +916,17 @@
             this.LblPriceCopoCristal.Size = new System.Drawing.Size(46, 16);
             this.LblPriceCopoCristal.TabIndex = 11;
             this.LblPriceCopoCristal.Text = "Preço:";
+            // 
+            // PcBxCopoCristal
+            // 
+            this.PcBxCopoCristal.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PcBxCopoCristal.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoCristal.Image")));
+            this.PcBxCopoCristal.Location = new System.Drawing.Point(20, 47);
+            this.PcBxCopoCristal.Margin = new System.Windows.Forms.Padding(4);
+            this.PcBxCopoCristal.Name = "PcBxCopoCristal";
+            this.PcBxCopoCristal.Size = new System.Drawing.Size(99, 133);
+            this.PcBxCopoCristal.TabIndex = 10;
+            this.PcBxCopoCristal.TabStop = false;
             // 
             // label22
             // 
@@ -876,17 +949,18 @@
             this.LblCodCopoCristal.TabIndex = 1;
             this.LblCodCopoCristal.Text = "Código:";
             // 
-            // TbxCopoCristal
+            // TbxProd5
             // 
-            this.TbxCopoCristal.AccessibleName = "txbcode";
-            this.TbxCopoCristal.Enabled = false;
-            this.TbxCopoCristal.Location = new System.Drawing.Point(271, 50);
-            this.TbxCopoCristal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TbxCopoCristal.Name = "TbxCopoCristal";
-            this.TbxCopoCristal.Size = new System.Drawing.Size(52, 22);
-            this.TbxCopoCristal.TabIndex = 2;
-            this.TbxCopoCristal.Text = "005";
-            this.TbxCopoCristal.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
+            this.TbxProd5.AccessibleName = "txbcode";
+            this.TbxProd5.Enabled = false;
+            this.TbxProd5.Location = new System.Drawing.Point(271, 50);
+            this.TbxProd5.Margin = new System.Windows.Forms.Padding(4);
+            this.TbxProd5.Name = "TbxProd5";
+            this.TbxProd5.ReadOnly = true;
+            this.TbxProd5.Size = new System.Drawing.Size(52, 22);
+            this.TbxProd5.TabIndex = 2;
+            this.TbxProd5.Text = "005";
+            this.TbxProd5.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
             // LblDescriçãoCeramicaDoceira
             // 
@@ -903,11 +977,13 @@
             // 
             this.TbxDescriçãoCeramicaDoceira.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TbxDescriçãoCeramicaDoceira.Location = new System.Drawing.Point(888, 696);
-            this.TbxDescriçãoCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TbxDescriçãoCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4);
             this.TbxDescriçãoCeramicaDoceira.Multiline = true;
             this.TbxDescriçãoCeramicaDoceira.Name = "TbxDescriçãoCeramicaDoceira";
+            this.TbxDescriçãoCeramicaDoceira.ReadOnly = true;
             this.TbxDescriçãoCeramicaDoceira.Size = new System.Drawing.Size(273, 56);
             this.TbxDescriçãoCeramicaDoceira.TabIndex = 20;
+            this.TbxDescriçãoCeramicaDoceira.Text = "(Sem descrição)";
             // 
             // PnlProd6
             // 
@@ -916,16 +992,16 @@
             this.PnlProd6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlProd6.Controls.Add(this.NudUniProd6);
             this.PnlProd6.Controls.Add(this.LblUniCeramicaDoceira);
-            this.PnlProd6.Controls.Add(this.BtnSalvarCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.BtnSalvarProd6);
             this.PnlProd6.Controls.Add(this.LblCeramicaDoceira);
-            this.PnlProd6.Controls.Add(this.TbxPriceCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.TbxPriceProd6);
             this.PnlProd6.Controls.Add(this.LblPriceCeramicaDoceira);
             this.PnlProd6.Controls.Add(this.PtBxCeramicaDoceira);
             this.PnlProd6.Controls.Add(this.label28);
             this.PnlProd6.Controls.Add(this.LblCodCeramicaDoceira);
-            this.PnlProd6.Controls.Add(this.TxbCodCeramicaDoceira);
+            this.PnlProd6.Controls.Add(this.TxbCodProd6);
             this.PnlProd6.Location = new System.Drawing.Point(915, 458);
-            this.PnlProd6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlProd6.Margin = new System.Windows.Forms.Padding(4);
             this.PnlProd6.Name = "PnlProd6";
             this.PnlProd6.Size = new System.Drawing.Size(482, 211);
             this.PnlProd6.TabIndex = 19;
@@ -933,7 +1009,7 @@
             // NudUniProd6
             // 
             this.NudUniProd6.Location = new System.Drawing.Point(271, 89);
-            this.NudUniProd6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NudUniProd6.Margin = new System.Windows.Forms.Padding(4);
             this.NudUniProd6.Minimum = new decimal(new int[] {
             1,
             0,
@@ -959,15 +1035,15 @@
             this.LblUniCeramicaDoceira.TabIndex = 17;
             this.LblUniCeramicaDoceira.Text = "Unidades: ";
             // 
-            // BtnSalvarCeramicaDoceira
+            // BtnSalvarProd6
             // 
-            this.BtnSalvarCeramicaDoceira.Location = new System.Drawing.Point(252, 167);
-            this.BtnSalvarCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.BtnSalvarCeramicaDoceira.Name = "BtnSalvarCeramicaDoceira";
-            this.BtnSalvarCeramicaDoceira.Size = new System.Drawing.Size(103, 27);
-            this.BtnSalvarCeramicaDoceira.TabIndex = 16;
-            this.BtnSalvarCeramicaDoceira.Text = "Salvar";
-            this.BtnSalvarCeramicaDoceira.UseVisualStyleBackColor = true;
+            this.BtnSalvarProd6.Location = new System.Drawing.Point(252, 167);
+            this.BtnSalvarProd6.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSalvarProd6.Name = "BtnSalvarProd6";
+            this.BtnSalvarProd6.Size = new System.Drawing.Size(103, 27);
+            this.BtnSalvarProd6.TabIndex = 16;
+            this.BtnSalvarProd6.Text = "Salvar";
+            this.BtnSalvarProd6.UseVisualStyleBackColor = true;
             // 
             // LblCeramicaDoceira
             // 
@@ -979,14 +1055,15 @@
             this.LblCeramicaDoceira.TabIndex = 10;
             this.LblCeramicaDoceira.Text = "Cerâmica artesanal";
             // 
-            // TbxPriceCeramicaDoceira
+            // TbxPriceProd6
             // 
-            this.TbxPriceCeramicaDoceira.Location = new System.Drawing.Point(271, 122);
-            this.TbxPriceCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TbxPriceCeramicaDoceira.Name = "TbxPriceCeramicaDoceira";
-            this.TbxPriceCeramicaDoceira.Size = new System.Drawing.Size(83, 22);
-            this.TbxPriceCeramicaDoceira.TabIndex = 9;
-            this.TbxPriceCeramicaDoceira.Text = "R$ 32,00";
+            this.TbxPriceProd6.Location = new System.Drawing.Point(271, 122);
+            this.TbxPriceProd6.Margin = new System.Windows.Forms.Padding(4);
+            this.TbxPriceProd6.Name = "TbxPriceProd6";
+            this.TbxPriceProd6.ReadOnly = true;
+            this.TbxPriceProd6.Size = new System.Drawing.Size(83, 22);
+            this.TbxPriceProd6.TabIndex = 9;
+            this.TbxPriceProd6.Text = "R$ 32,00";
             // 
             // LblPriceCeramicaDoceira
             // 
@@ -998,6 +1075,18 @@
             this.LblPriceCeramicaDoceira.Size = new System.Drawing.Size(46, 16);
             this.LblPriceCeramicaDoceira.TabIndex = 11;
             this.LblPriceCeramicaDoceira.Text = "Preço:";
+            // 
+            // PtBxCeramicaDoceira
+            // 
+            this.PtBxCeramicaDoceira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
+            this.PtBxCeramicaDoceira.Image = ((System.Drawing.Image)(resources.GetObject("PtBxCeramicaDoceira.Image")));
+            this.PtBxCeramicaDoceira.Location = new System.Drawing.Point(20, 47);
+            this.PtBxCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4);
+            this.PtBxCeramicaDoceira.Name = "PtBxCeramicaDoceira";
+            this.PtBxCeramicaDoceira.Size = new System.Drawing.Size(93, 133);
+            this.PtBxCeramicaDoceira.TabIndex = 10;
+            this.PtBxCeramicaDoceira.TabStop = false;
+            this.PtBxCeramicaDoceira.Click += new System.EventHandler(this.PtBxCeramicaDoceira_Click);
             // 
             // label28
             // 
@@ -1020,27 +1109,17 @@
             this.LblCodCeramicaDoceira.TabIndex = 1;
             this.LblCodCeramicaDoceira.Text = "Código:";
             // 
-            // TxbCodCeramicaDoceira
+            // TxbCodProd6
             // 
-            this.TxbCodCeramicaDoceira.AccessibleName = "txbcode";
-            this.TxbCodCeramicaDoceira.Enabled = false;
-            this.TxbCodCeramicaDoceira.Location = new System.Drawing.Point(271, 50);
-            this.TxbCodCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TxbCodCeramicaDoceira.Name = "TxbCodCeramicaDoceira";
-            this.TxbCodCeramicaDoceira.Size = new System.Drawing.Size(52, 22);
-            this.TxbCodCeramicaDoceira.TabIndex = 2;
-            this.TxbCodCeramicaDoceira.Text = "006";
-            // 
-            // button6
-            // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.ImageKey = "(nenhum/a)";
-            this.button6.Location = new System.Drawing.Point(1325, 65);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(57, 48);
-            this.button6.TabIndex = 18;
-            this.button6.UseVisualStyleBackColor = true;
+            this.TxbCodProd6.AccessibleName = "txbcode";
+            this.TxbCodProd6.Enabled = false;
+            this.TxbCodProd6.Location = new System.Drawing.Point(271, 50);
+            this.TxbCodProd6.Margin = new System.Windows.Forms.Padding(4);
+            this.TxbCodProd6.Name = "TxbCodProd6";
+            this.TxbCodProd6.ReadOnly = true;
+            this.TxbCodProd6.Size = new System.Drawing.Size(52, 22);
+            this.TxbCodProd6.TabIndex = 2;
+            this.TxbCodProd6.Text = "006";
             // 
             // Lbltipos
             // 
@@ -1053,107 +1132,19 @@
             this.Lbltipos.TabIndex = 22;
             this.Lbltipos.Text = "Tipo de louça:";
             // 
-            // comboBox1
+            // CbxTipoLouca
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CbxTipoLouca.FormattingEnabled = true;
+            this.CbxTipoLouca.Items.AddRange(new object[] {
             "Chá e Café",
             "Decorações",
             "Pratos",
             "Taças e Copos"});
-            this.comboBox1.Location = new System.Drawing.Point(180, 94);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(189, 24);
-            this.comboBox1.TabIndex = 23;
-            // 
-            // PtBxCeramicaDoceira
-            // 
-            this.PtBxCeramicaDoceira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PtBxCeramicaDoceira.Image = ((System.Drawing.Image)(resources.GetObject("PtBxCeramicaDoceira.Image")));
-            this.PtBxCeramicaDoceira.Location = new System.Drawing.Point(20, 47);
-            this.PtBxCeramicaDoceira.Margin = new System.Windows.Forms.Padding(4);
-            this.PtBxCeramicaDoceira.Name = "PtBxCeramicaDoceira";
-            this.PtBxCeramicaDoceira.Size = new System.Drawing.Size(93, 133);
-            this.PtBxCeramicaDoceira.TabIndex = 10;
-            this.PtBxCeramicaDoceira.TabStop = false;
-            this.PtBxCeramicaDoceira.Click += new System.EventHandler(this.PtBxCeramicaDoceira_Click);
-            // 
-            // PcBxCopoCristal
-            // 
-            this.PcBxCopoCristal.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxCopoCristal.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoCristal.Image")));
-            this.PcBxCopoCristal.Location = new System.Drawing.Point(20, 47);
-            this.PcBxCopoCristal.Margin = new System.Windows.Forms.Padding(4);
-            this.PcBxCopoCristal.Name = "PcBxCopoCristal";
-            this.PcBxCopoCristal.Size = new System.Drawing.Size(99, 133);
-            this.PcBxCopoCristal.TabIndex = 10;
-            this.PcBxCopoCristal.TabStop = false;
-            // 
-            // PcBxCopoÂmbar
-            // 
-            this.PcBxCopoÂmbar.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxCopoÂmbar.Image = ((System.Drawing.Image)(resources.GetObject("PcBxCopoÂmbar.Image")));
-            this.PcBxCopoÂmbar.Location = new System.Drawing.Point(20, 47);
-            this.PcBxCopoÂmbar.Margin = new System.Windows.Forms.Padding(4);
-            this.PcBxCopoÂmbar.Name = "PcBxCopoÂmbar";
-            this.PcBxCopoÂmbar.Size = new System.Drawing.Size(93, 122);
-            this.PcBxCopoÂmbar.TabIndex = 10;
-            this.PcBxCopoÂmbar.TabStop = false;
-            // 
-            // PcBxPetisqueira
-            // 
-            this.PcBxPetisqueira.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxPetisqueira.Image = ((System.Drawing.Image)(resources.GetObject("PcBxPetisqueira.Image")));
-            this.PcBxPetisqueira.Location = new System.Drawing.Point(20, 47);
-            this.PcBxPetisqueira.Margin = new System.Windows.Forms.Padding(4);
-            this.PcBxPetisqueira.Name = "PcBxPetisqueira";
-            this.PcBxPetisqueira.Size = new System.Drawing.Size(99, 130);
-            this.PcBxPetisqueira.TabIndex = 10;
-            this.PcBxPetisqueira.TabStop = false;
-            // 
-            // PcBxProd4
-            // 
-            this.PcBxProd4.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxProd4.Image = global::Compras_Enjoy.Properties.Resources.Jardim_Secreto;
-            this.PcBxProd4.Location = new System.Drawing.Point(20, 47);
-            this.PcBxProd4.Margin = new System.Windows.Forms.Padding(4);
-            this.PcBxProd4.Name = "PcBxProd4";
-            this.PcBxProd4.Size = new System.Drawing.Size(118, 123);
-            this.PcBxProd4.TabIndex = 10;
-            this.PcBxProd4.TabStop = false;
-            // 
-            // PcBxProd1
-            // 
-            this.PcBxProd1.BackgroundImage = global::Compras_Enjoy.Properties.Resources.Mídia;
-            this.PcBxProd1.Image = global::Compras_Enjoy.Properties.Resources.Mídia_123;
-            this.PcBxProd1.Location = new System.Drawing.Point(20, 47);
-            this.PcBxProd1.Margin = new System.Windows.Forms.Padding(4);
-            this.PcBxProd1.Name = "PcBxProd1";
-            this.PcBxProd1.Size = new System.Drawing.Size(120, 130);
-            this.PcBxProd1.TabIndex = 10;
-            this.PcBxProd1.TabStop = false;
-            this.PcBxProd1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1297, 134);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(965, 104);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.CbxTipoLouca.Location = new System.Drawing.Point(180, 94);
+            this.CbxTipoLouca.Margin = new System.Windows.Forms.Padding(4);
+            this.CbxTipoLouca.Name = "CbxTipoLouca";
+            this.CbxTipoLouca.Size = new System.Drawing.Size(189, 24);
+            this.CbxTipoLouca.TabIndex = 23;
             // 
             // PnlLayoutInserir
             // 
@@ -1233,6 +1224,7 @@
             this.BtnTelaIni.Size = new System.Drawing.Size(60, 45);
             this.BtnTelaIni.TabIndex = 41;
             this.BtnTelaIni.UseVisualStyleBackColor = true;
+            this.BtnTelaIni.Click += new System.EventHandler(this.BtnTelaIni_Click);
             // 
             // BtnCaadasLouca
             // 
@@ -1285,23 +1277,20 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1431, 757);
             this.Controls.Add(this.PnlLayoutInserir);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CbxTipoLouca);
             this.Controls.Add(this.LblDescProd1);
             this.Controls.Add(this.Lbltipos);
             this.Controls.Add(this.TxbDescProd1);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.LblDescriçãoCeramicaDoceira);
             this.Controls.Add(this.LblDescriçãoCopoCristal);
             this.Controls.Add(this.TbxDescriçãoCeramicaDoceira);
-            this.Controls.Add(this.LblDescriçãoCopoÂmbar);
+            this.Controls.Add(this.LblDescriçãoProd3);
             this.Controls.Add(this.PnlProd6);
             this.Controls.Add(this.TxbDescriçãoCopoCristal);
-            this.Controls.Add(this.LblDescriçãoPetisqueira);
+            this.Controls.Add(this.LblDescriçãoProd2);
             this.Controls.Add(this.PnlCopoCristal);
-            this.Controls.Add(this.TbxDescriçãoCopoÂmbar);
-            this.Controls.Add(this.TxbDescriçãoPetisqueira);
+            this.Controls.Add(this.TbxDescriçãoPro3);
+            this.Controls.Add(this.TxbDescriçãoProd2);
             this.Controls.Add(this.PnlCopoÂmbar);
             this.Controls.Add(this.PnlPPetisqueira);
             this.Controls.Add(this.BtnFinish);
@@ -1312,7 +1301,7 @@
             this.Controls.Add(this.PnlCeramica);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enjoy Louças";
@@ -1321,27 +1310,27 @@
             this.PnlCeramica.ResumeLayout(false);
             this.PnlCeramica.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).EndInit();
             this.PnlProd4.ResumeLayout(false);
             this.PnlProd4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).EndInit();
             this.PnlPPetisqueira.ResumeLayout(false);
             this.PnlPPetisqueira.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).EndInit();
             this.PnlCopoÂmbar.ResumeLayout(false);
             this.PnlCopoÂmbar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).EndInit();
             this.PnlCopoCristal.ResumeLayout(false);
             this.PnlCopoCristal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).EndInit();
             this.PnlProd6.ResumeLayout(false);
             this.PnlProd6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudUniProd6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PtBxCeramicaDoceira)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoCristal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxCopoÂmbar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxPetisqueira)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcBxProd1)).EndInit();
             this.PnlLayoutInserir.ResumeLayout(false);
             this.PnlLayoutInserir.PerformLayout();
             this.ResumeLayout(false);
@@ -1376,55 +1365,54 @@
         private System.Windows.Forms.PictureBox PcBxProd4;
         private System.Windows.Forms.TextBox TxbPriceProd4;
         private System.Windows.Forms.Label LblUniProd4;
-        private System.Windows.Forms.Label LblDescriçãoPetisqueira;
-        private System.Windows.Forms.TextBox TxbDescriçãoPetisqueira;
+        private System.Windows.Forms.Label LblDescriçãoProd2;
+        private System.Windows.Forms.TextBox TxbDescriçãoProd2;
         private System.Windows.Forms.Panel PnlPPetisqueira;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button BtnSalvarPetisqueira;
+        private System.Windows.Forms.Button BtnSalvarProd2;
         private System.Windows.Forms.Label LblPestiqueira;
-        private System.Windows.Forms.TextBox TxbPricePetisqueira;
+        private System.Windows.Forms.TextBox TxbPriceProd2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox PcBxPetisqueira;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label LblCodPetisqueira;
         private System.Windows.Forms.TextBox TbxCodPetisqueira;
-        private System.Windows.Forms.Label LblDescriçãoCopoÂmbar;
-        private System.Windows.Forms.TextBox TbxDescriçãoCopoÂmbar;
+        private System.Windows.Forms.Label LblDescriçãoProd3;
+        private System.Windows.Forms.TextBox TbxDescriçãoPro3;
         private System.Windows.Forms.Panel PnlCopoÂmbar;
         private System.Windows.Forms.Label LblUniCopoÂmbar;
-        private System.Windows.Forms.Button BtnSalveCopoÂmbar;
+        private System.Windows.Forms.Button BtnSalveprod3;
         private System.Windows.Forms.Label LblCopoAmbar;
-        private System.Windows.Forms.TextBox TxbPriceCopoÂmbar;
+        private System.Windows.Forms.TextBox TxbPriceProd3;
         private System.Windows.Forms.Label LblPriceCopoÂmbar;
         private System.Windows.Forms.PictureBox PcBxCopoÂmbar;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label LblCodProd3;
-        private System.Windows.Forms.TextBox TxbCodCopoÂmbar;
+        private System.Windows.Forms.TextBox TxbCodProd3;
         private System.Windows.Forms.Label LblDescriçãoCopoCristal;
         private System.Windows.Forms.TextBox TxbDescriçãoCopoCristal;
         private System.Windows.Forms.Panel PnlCopoCristal;
         private System.Windows.Forms.Label LblUniCopoCristal;
-        private System.Windows.Forms.Button BtnSalvarCopoCristal;
+        private System.Windows.Forms.Button BtnSalvarProd5;
         private System.Windows.Forms.Label LblCopoCristal;
-        private System.Windows.Forms.TextBox TxbPriceCopoCristal;
+        private System.Windows.Forms.TextBox TxbPriceProd5;
         private System.Windows.Forms.Label LblPriceCopoCristal;
         private System.Windows.Forms.PictureBox PcBxCopoCristal;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label LblCodCopoCristal;
-        private System.Windows.Forms.TextBox TbxCopoCristal;
+        private System.Windows.Forms.TextBox TbxProd5;
         private System.Windows.Forms.Label LblDescriçãoCeramicaDoceira;
         private System.Windows.Forms.TextBox TbxDescriçãoCeramicaDoceira;
         private System.Windows.Forms.Panel PnlProd6;
         private System.Windows.Forms.Label LblUniCeramicaDoceira;
-        private System.Windows.Forms.Button BtnSalvarCeramicaDoceira;
+        private System.Windows.Forms.Button BtnSalvarProd6;
         private System.Windows.Forms.Label LblCeramicaDoceira;
-        private System.Windows.Forms.TextBox TbxPriceCeramicaDoceira;
+        private System.Windows.Forms.TextBox TbxPriceProd6;
         private System.Windows.Forms.Label LblPriceCeramicaDoceira;
         private System.Windows.Forms.PictureBox PtBxCeramicaDoceira;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label LblCodCeramicaDoceira;
-        private System.Windows.Forms.TextBox TxbCodCeramicaDoceira;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox TxbCodProd6;
         private System.Windows.Forms.NumericUpDown NudUniProd1;
         private System.Windows.Forms.NumericUpDown NudUniProd4;
         private System.Windows.Forms.NumericUpDown NudUniProd2;
@@ -1432,9 +1420,7 @@
         private System.Windows.Forms.NumericUpDown NudUniProd5;
         private System.Windows.Forms.NumericUpDown NudUniProd6;
         private System.Windows.Forms.Label Lbltipos;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox CbxTipoLouca;
         private System.Windows.Forms.Panel PnlLayoutInserir;
         private System.Windows.Forms.Label LblNameLouca;
         private System.Windows.Forms.Label LblFun;
