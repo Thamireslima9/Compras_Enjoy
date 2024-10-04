@@ -33,7 +33,7 @@
             this.LblTitleRegistratio = new System.Windows.Forms.Label();
             this.TxbAnoNasc = new System.Windows.Forms.TextBox();
             this.LblOR = new System.Windows.Forms.Label();
-            this.BttEnviarCadastro = new System.Windows.Forms.Button();
+            this.BttEnviarCadastros = new System.Windows.Forms.Button();
             this.LblAnoNasci = new System.Windows.Forms.Label();
             this.LblMesNasc = new System.Windows.Forms.Label();
             this.LblDiaNasci = new System.Windows.Forms.Label();
@@ -95,7 +95,7 @@
             this.PnlCadastro.Controls.Add(this.LblTitleRegistratio);
             this.PnlCadastro.Controls.Add(this.TxbAnoNasc);
             this.PnlCadastro.Controls.Add(this.LblOR);
-            this.PnlCadastro.Controls.Add(this.BttEnviarCadastro);
+            this.PnlCadastro.Controls.Add(this.BttEnviarCadastros);
             this.PnlCadastro.Controls.Add(this.LblAnoNasci);
             this.PnlCadastro.Controls.Add(this.LblMesNasc);
             this.PnlCadastro.Controls.Add(this.LblDiaNasci);
@@ -151,19 +151,19 @@
             this.LblOR.TabIndex = 16;
             this.LblOR.Click += new System.EventHandler(this.LblOR_Click);
             // 
-            // BttEnviarCadastro
+            // BttEnviarCadastros
             // 
-            this.BttEnviarCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.BttEnviarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttEnviarCadastro.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.BttEnviarCadastro.Location = new System.Drawing.Point(571, 564);
-            this.BttEnviarCadastro.Margin = new System.Windows.Forms.Padding(4);
-            this.BttEnviarCadastro.Name = "BttEnviarCadastro";
-            this.BttEnviarCadastro.Size = new System.Drawing.Size(149, 39);
-            this.BttEnviarCadastro.TabIndex = 15;
-            this.BttEnviarCadastro.Text = "Cadastrar";
-            this.BttEnviarCadastro.UseVisualStyleBackColor = true;
-            this.BttEnviarCadastro.Click += new System.EventHandler(this.BttEnviarCadastro_Click);
+            this.BttEnviarCadastros.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.BttEnviarCadastros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttEnviarCadastros.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.BttEnviarCadastros.Location = new System.Drawing.Point(571, 564);
+            this.BttEnviarCadastros.Margin = new System.Windows.Forms.Padding(4);
+            this.BttEnviarCadastros.Name = "BttEnviarCadastros";
+            this.BttEnviarCadastros.Size = new System.Drawing.Size(149, 39);
+            this.BttEnviarCadastros.TabIndex = 15;
+            this.BttEnviarCadastros.Text = "Cadastrar";
+            this.BttEnviarCadastros.UseVisualStyleBackColor = true;
+            this.BttEnviarCadastros.Click += new System.EventHandler(this.BttEnviarCadastro_Click);
             // 
             // LblAnoNasci
             // 
@@ -692,7 +692,7 @@
         private System.Windows.Forms.Label LblAnoNasci;
         private System.Windows.Forms.Label LblMesNasc;
         private System.Windows.Forms.Label LblDiaNasci;
-        private System.Windows.Forms.Button BttEnviarCadastro;
+        private System.Windows.Forms.Button BttEnviarCadastros;
         private System.Windows.Forms.Label LblOR;
         private System.Windows.Forms.TextBox TxbAnoNasc;
         private System.Windows.Forms.Label LblTitleRegistratio;
