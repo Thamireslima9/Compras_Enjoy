@@ -124,5 +124,15 @@ namespace Compras_Enjoy
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblCodCopoCristal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
