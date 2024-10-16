@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Compras_Enjoy.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.Design;
 
 namespace Compras_Enjoy
 {
@@ -104,8 +108,24 @@ namespace Compras_Enjoy
 
         private void button1_Click(object sender, EventArgs e)
         {
+            float Preco = float.Parse(TxbPrecoLouca.Text);
+            string Tipo = CbxTipoLouca.Text;
+            string Nome = TxbNomeLouca.Text;
+            string Descricao = TxbDescLouca.Text;
+
+           
+            //Cria objeto do tipo da entidade manipulada.
+            Louca louca = new Louca(Nome, Tipo, Descricao, Preco);
+
+            //Cria objeto para interação com o banco de dados.
+            LoucaDAO loucaDAO = new LoucaDAO();
+
+            //Chama o insert
+            loucaDAO.Insert(louca);
+
+
             MessageBox.Show(
-                "Nome:" + TxbNomeLoucaN.Text + 
+                "Nome:" + TxbNomeLouca.Text + 
                 "\nCódigo:" + TxbCodLouca.Text +
                 "\nTipo:" + CbxTipoLouca.Text +
                 "\nMarca:" + TxbMarcaLouca.Text +
@@ -129,10 +149,7 @@ namespace Compras_Enjoy
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+          
         }
 
         private void button4_Click(object sender, EventArgs e)
