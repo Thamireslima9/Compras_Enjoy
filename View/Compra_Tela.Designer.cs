@@ -153,7 +153,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1351, 752);
+            this.panel3.Size = new System.Drawing.Size(1838, 897);
             this.panel3.TabIndex = 23;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -164,7 +164,7 @@
             this.BtnSaveLouca.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSaveLouca.BackgroundImage")));
             this.BtnSaveLouca.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSaveLouca.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnSaveLouca.Location = new System.Drawing.Point(1205, 698);
+            this.BtnSaveLouca.Location = new System.Drawing.Point(1692, 698);
             this.BtnSaveLouca.Name = "BtnSaveLouca";
             this.BtnSaveLouca.Size = new System.Drawing.Size(75, 37);
             this.BtnSaveLouca.TabIndex = 27;
@@ -196,7 +196,7 @@
             this.PnlVendaLoucas.Controls.Add(this.PnlDescLouca);
             this.PnlVendaLoucas.Controls.Add(this.PnlEstoqueLouca);
             this.PnlVendaLoucas.Location = new System.Drawing.Point(122, 119);
-            this.PnlVendaLoucas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlVendaLoucas.Margin = new System.Windows.Forms.Padding(2);
             this.PnlVendaLoucas.Name = "PnlVendaLoucas";
             this.PnlVendaLoucas.Size = new System.Drawing.Size(1299, 549);
             this.PnlVendaLoucas.TabIndex = 42;
@@ -225,7 +225,7 @@
             // 
             this.BtnEnviarFoto.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnviarFoto.Location = new System.Drawing.Point(53, 387);
-            this.BtnEnviarFoto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnEnviarFoto.Margin = new System.Windows.Forms.Padding(2);
             this.BtnEnviarFoto.Name = "BtnEnviarFoto";
             this.BtnEnviarFoto.Size = new System.Drawing.Size(111, 33);
             this.BtnEnviarFoto.TabIndex = 40;
@@ -270,7 +270,7 @@
             this.PnlVenda2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlVenda2.Controls.Add(this.CbxLiberarVenda);
             this.PnlVenda2.Location = new System.Drawing.Point(915, 157);
-            this.PnlVenda2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlVenda2.Margin = new System.Windows.Forms.Padding(2);
             this.PnlVenda2.Name = "PnlVenda2";
             this.PnlVenda2.Size = new System.Drawing.Size(358, 47);
             this.PnlVenda2.TabIndex = 36;
@@ -279,7 +279,7 @@
             // 
             this.CbxLiberarVenda.AutoSize = true;
             this.CbxLiberarVenda.Location = new System.Drawing.Point(5, 12);
-            this.CbxLiberarVenda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbxLiberarVenda.Margin = new System.Windows.Forms.Padding(2);
             this.CbxLiberarVenda.Name = "CbxLiberarVenda";
             this.CbxLiberarVenda.Size = new System.Drawing.Size(43, 17);
             this.CbxLiberarVenda.TabIndex = 35;
@@ -294,7 +294,7 @@
             this.PnlLojaLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlLojaLouca.Controls.Add(this.CbxLojaVitual);
             this.PnlLojaLouca.Location = new System.Drawing.Point(915, 236);
-            this.PnlLojaLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlLojaLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlLojaLouca.Name = "PnlLojaLouca";
             this.PnlLojaLouca.Size = new System.Drawing.Size(358, 47);
             this.PnlLojaLouca.TabIndex = 38;
@@ -303,7 +303,7 @@
             // 
             this.CbxLojaVitual.AutoSize = true;
             this.CbxLojaVitual.Location = new System.Drawing.Point(5, 12);
-            this.CbxLojaVitual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbxLojaVitual.Margin = new System.Windows.Forms.Padding(2);
             this.CbxLojaVitual.Name = "CbxLojaVitual";
             this.CbxLojaVitual.Size = new System.Drawing.Size(43, 17);
             this.CbxLojaVitual.TabIndex = 35;
@@ -328,7 +328,7 @@
             this.PnlNameLouca.Controls.Add(this.TxbNomeLouca);
             this.PnlNameLouca.ForeColor = System.Drawing.Color.IndianRed;
             this.PnlNameLouca.Location = new System.Drawing.Point(424, 80);
-            this.PnlNameLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlNameLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlNameLouca.Name = "PnlNameLouca";
             this.PnlNameLouca.Size = new System.Drawing.Size(358, 46);
             this.PnlNameLouca.TabIndex = 32;
@@ -340,7 +340,7 @@
             this.PnlCodLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlCodLouca.Controls.Add(this.TxbCodLouca);
             this.PnlCodLouca.Location = new System.Drawing.Point(424, 158);
-            this.PnlCodLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlCodLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlCodLouca.Name = "PnlCodLouca";
             this.PnlCodLouca.Size = new System.Drawing.Size(358, 46);
             this.PnlCodLouca.TabIndex = 34;
@@ -365,7 +365,7 @@
             this.PnlPrecoLouca.Controls.Add(this.LblPrecoLouca2);
             this.PnlPrecoLouca.Controls.Add(this.TxbPrecoLouca);
             this.PnlPrecoLouca.Location = new System.Drawing.Point(915, 80);
-            this.PnlPrecoLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlPrecoLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlPrecoLouca.Name = "PnlPrecoLouca";
             this.PnlPrecoLouca.Size = new System.Drawing.Size(358, 47);
             this.PnlPrecoLouca.TabIndex = 34;
@@ -383,7 +383,7 @@
             // TxbPrecoLouca
             // 
             this.TxbPrecoLouca.Location = new System.Drawing.Point(16, 28);
-            this.TxbPrecoLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxbPrecoLouca.Margin = new System.Windows.Forms.Padding(2);
             this.TxbPrecoLouca.Name = "TxbPrecoLouca";
             this.TxbPrecoLouca.Size = new System.Drawing.Size(338, 20);
             this.TxbPrecoLouca.TabIndex = 0;
@@ -397,7 +397,7 @@
             this.PnlTipoLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlTipoLouca.Controls.Add(this.CbxTipoLouca);
             this.PnlTipoLouca.Location = new System.Drawing.Point(424, 236);
-            this.PnlTipoLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlTipoLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlTipoLouca.Name = "PnlTipoLouca";
             this.PnlTipoLouca.Size = new System.Drawing.Size(358, 47);
             this.PnlTipoLouca.TabIndex = 33;
@@ -412,7 +412,7 @@
             "Pratos",
             "Taças e Copos"});
             this.CbxTipoLouca.Location = new System.Drawing.Point(-1, 26);
-            this.CbxTipoLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbxTipoLouca.Margin = new System.Windows.Forms.Padding(2);
             this.CbxTipoLouca.Name = "CbxTipoLouca";
             this.CbxTipoLouca.Size = new System.Drawing.Size(359, 21);
             this.CbxTipoLouca.TabIndex = 35;
@@ -424,7 +424,7 @@
             this.PnlMarcaLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlMarcaLouca.Controls.Add(this.TxbMarcaLouca);
             this.PnlMarcaLouca.Location = new System.Drawing.Point(424, 315);
-            this.PnlMarcaLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlMarcaLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlMarcaLouca.Name = "PnlMarcaLouca";
             this.PnlMarcaLouca.Size = new System.Drawing.Size(358, 47);
             this.PnlMarcaLouca.TabIndex = 34;
@@ -441,7 +441,7 @@
             this.PnlDescLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlDescLouca.Controls.Add(this.TxbDescLouca);
             this.PnlDescLouca.Location = new System.Drawing.Point(664, 427);
-            this.PnlDescLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlDescLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlDescLouca.Name = "PnlDescLouca";
             this.PnlDescLouca.Size = new System.Drawing.Size(238, 82);
             this.PnlDescLouca.TabIndex = 35;
@@ -461,7 +461,7 @@
             this.PnlEstoqueLouca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlEstoqueLouca.Controls.Add(this.NudEstoqueProd);
             this.PnlEstoqueLouca.Location = new System.Drawing.Point(915, 315);
-            this.PnlEstoqueLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnlEstoqueLouca.Margin = new System.Windows.Forms.Padding(2);
             this.PnlEstoqueLouca.Name = "PnlEstoqueLouca";
             this.PnlEstoqueLouca.Size = new System.Drawing.Size(358, 47);
             this.PnlEstoqueLouca.TabIndex = 38;
@@ -469,7 +469,7 @@
             // NudEstoqueProd
             // 
             this.NudEstoqueProd.Location = new System.Drawing.Point(-1, 28);
-            this.NudEstoqueProd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NudEstoqueProd.Margin = new System.Windows.Forms.Padding(2);
             this.NudEstoqueProd.Name = "NudEstoqueProd";
             this.NudEstoqueProd.Size = new System.Drawing.Size(358, 20);
             this.NudEstoqueProd.TabIndex = 41;
@@ -491,7 +491,7 @@
             this.PnlLayoutInserir.Controls.Add(this.LblCadas1);
             this.PnlLayoutInserir.Location = new System.Drawing.Point(-2, -4);
             this.PnlLayoutInserir.Name = "PnlLayoutInserir";
-            this.PnlLayoutInserir.Size = new System.Drawing.Size(1360, 67);
+            this.PnlLayoutInserir.Size = new System.Drawing.Size(1847, 67);
             this.PnlLayoutInserir.TabIndex = 24;
             // 
             // LblNameLouca
@@ -551,7 +551,7 @@
             // 
             this.BtnTelaIni.Image = ((System.Drawing.Image)(resources.GetObject("BtnTelaIni.Image")));
             this.BtnTelaIni.Location = new System.Drawing.Point(297, 17);
-            this.BtnTelaIni.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnTelaIni.Margin = new System.Windows.Forms.Padding(2);
             this.BtnTelaIni.Name = "BtnTelaIni";
             this.BtnTelaIni.Size = new System.Drawing.Size(38, 35);
             this.BtnTelaIni.TabIndex = 41;
@@ -562,7 +562,7 @@
             // 
             this.BtnCaadasLouca.Image = ((System.Drawing.Image)(resources.GetObject("BtnCaadasLouca.Image")));
             this.BtnCaadasLouca.Location = new System.Drawing.Point(556, 15);
-            this.BtnCaadasLouca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnCaadasLouca.Margin = new System.Windows.Forms.Padding(2);
             this.BtnCaadasLouca.Name = "BtnCaadasLouca";
             this.BtnCaadasLouca.Size = new System.Drawing.Size(38, 41);
             this.BtnCaadasLouca.TabIndex = 25;
@@ -586,7 +586,7 @@
             // 
             this.BtnCadasFun.Image = ((System.Drawing.Image)(resources.GetObject("BtnCadasFun.Image")));
             this.BtnCadasFun.Location = new System.Drawing.Point(417, 14);
-            this.BtnCadasFun.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnCadasFun.Margin = new System.Windows.Forms.Padding(2);
             this.BtnCadasFun.Name = "BtnCadasFun";
             this.BtnCadasFun.Size = new System.Drawing.Size(38, 41);
             this.BtnCadasFun.TabIndex = 43;
@@ -612,7 +612,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1351, 752);
+            this.ClientSize = new System.Drawing.Size(1838, 897);
             this.Controls.Add(this.PnlLayoutInserir);
             this.Controls.Add(this.panel3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
