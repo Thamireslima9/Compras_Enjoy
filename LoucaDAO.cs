@@ -127,6 +127,33 @@ namespace Compras_Enjoy
             {
                 Connect.CloseConnection();
             }
+        }
+
+        public void Atualizar(Louca LoucaAtualizada)
+        {
+            Command.Connection = Connect.ReturnConnection();
+            Command.CommandText = @"UPDATE Loucas SET Preco = @preco, Tipo = @tipo, Nome = @nome, DescricaoLouca = @descricao
+            WHERE CodLouca = @code";
+
+            Command.Parameters.AddWithValue("@preco", LoucaAtualizada.Preco);
+            Command.Parameters.AddWithValue("@tipo", LoucaAtualizada.Tipolouca);
+            Command.Parameters.AddWithValue("@nome", LoucaAtualizada.NomeLouca);
+            Command.Parameters.AddWithValue("@descricao", LoucaAtualizada.DescricaoLouca);
+            Command.Parameters.AddWithValue("@code", LoucaAtualizada.CodLouca);
+
+            
+            try
+            {
+                Command.ExecuteNonQuery();
+            }
+            catch (Exception err)
+            {
+                throw new Exception("Erro: Problemas ao realizar atualização de usuário no banco.\n" + err.Message);
+            }
+            finally
+            {
+                Connect.CloseConnection();
+            }
 
             return listaLoucas;
         }
