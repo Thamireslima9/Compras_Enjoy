@@ -17,9 +17,10 @@ namespace Compras_Enjoy
             InitializeComponent();
         }
 
+       
         private void Cadastro_tela_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -147,6 +148,21 @@ namespace Compras_Enjoy
             this.Visible = false;
 
             telainicial.ShowDialog();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PnlCadastro_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void LblTitleRegistratio_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

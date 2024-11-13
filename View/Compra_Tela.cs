@@ -16,14 +16,51 @@ namespace Compras_Enjoy
 {
     public partial class Compra_Tela : Form
     {
+        private int CodLouca = -1;
         public Compra_Tela()
         {
             InitializeComponent();
         }
 
+        private void ClearFields()
+        {
+            TxbNomeLouca.Clear();
+            TxbCodLouca.Clear();
+            TxbMarcaLouca.Clear();
+            TxbPrecoLouca.Clear();
+            TxbDescLouca.Clear();
+
+            BtnDelete.Visible = false;
+            BtnUpdate.Visible = false;
+        }
+
+        private void UpdateListView()
+        {
+            LtvLouca.Items.Clear();
+
+            LoucaDAO loucaDAO = new LoucaDAO();
+            List<Louca> loucas = loucaDAO.ListarTodasLoucas();
+
+            //This code part access all brokers received from database and iterate by them.
+            foreach (Louca louca in loucas)
+            {
+                //Creating a fully line of listview with items from database.
+                ListViewItem item = new ListViewItem(louca.NomeLouca);
+                item.SubItems.Add(louca.CodLouca.ToString());
+                item.SubItems.Add(louca.Tipolouca);
+                item.SubItems.Add(louca.Marca);       
+                item.SubItems.Add(louca.Preco.ToString());
+                item.SubItems.Add(louca.Estoque.ToString());
+                
+                //Adding the fully line to the listview.
+                LtvLouca.Items.Add(item);
+            }
+        }
+
+      
         private void Compra_tela_Load(object sender, EventArgs e)
         {
-            
+            UpdateListView();
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -105,36 +142,51 @@ namespace Compras_Enjoy
         {
 
         }
+       
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float Preco = float.Parse(TxbPrecoLouca.Text);
-            string Tipo = CbxTipoLouca.Text;
-            string Nome = TxbNomeLouca.Text;
-            string Descricao = TxbDescLouca.Text;
+
+                    float Preco = float.Parse(TxbPrecoLouca.Text);
+                    string Tipo = CbxTipoLouca.Text;
+                    string Nome = TxbNomeLouca.Text;
+                    string Descricao = TxbDescLouca.Text;
+                    string Marca = TxbMarcaLouca.Text;
+                    int Estoque = int.Parse(NudEstoqueProd.Text);
 
            
-            //Cria objeto do tipo da entidade manipulada.
-            Louca louca = new Louca(Nome, Tipo, Descricao, Preco);
 
-            //Cria objeto para interação com o banco de dados.
-            LoucaDAO loucaDAO = new LoucaDAO();
+                    //Cria objeto do tipo da entidade manipulada.
+                    Louca louca = new Louca(Nome, Tipo, Descricao, Preco, Estoque, Marca);
 
-            //Chama o insert
-            loucaDAO.Insert(louca);
+                    //Cria objeto para interação com o banco de dados.
+                    LoucaDAO loucaDAO = new LoucaDAO();
+
+                    //Chama o insert
+                    loucaDAO.Insert(louca);
 
 
-            MessageBox.Show(
-                "Nome:" + TxbNomeLouca.Text + 
-                "\nCódigo:" + TxbCodLouca.Text +
-                "\nTipo:" + CbxTipoLouca.Text +
-                "\nMarca:" + TxbMarcaLouca.Text +
-                "\nPreço:" + TxbPrecoLouca.Text +                
-                "\nLiberar venda:" + CbxLiberarVenda.Text +
-                "\nLoja virtual:" + CbxLojaVitual.Text +
-                "\nEstoque disponivel:" + NudEstoqueProd.Text +
-                "\n" +
-                "\nProduto inserido com sucesso!");
+                    MessageBox.Show(
+                        "Nome:" + TxbNomeLouca.Text +
+                        "\nCódigo:" + TxbCodLouca.Text +
+                        "\nTipo:" + CbxTipoLouca.Text +
+                        "\nMarca:" + TxbMarcaLouca.Text +
+                        "\nPreço:" + TxbPrecoLouca.Text +
+                        "\nLiberar venda:" + CbxLiberarVenda.Text +
+                        "\nLoja virtual:" + CbxLojaVitual.Text +
+                        "\nEstoque disponivel:" + NudEstoqueProd.Text +
+                        "\n" +
+                        "\nProduto inserido com sucesso!");
+
+            UpdateListView();
+            ClearFields();
+
+        }
+
+        private void Compra_Tela_Load(object sender, EventArgs e)
+        {
+            UpdateListView();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -197,6 +249,79 @@ namespace Compras_Enjoy
                 e.Handled = true;
             }
 
+        }
+
+        private void LtvLouca_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            int index;
+            try
+            {
+                index = LtvLouca.FocusedItem.Index;
+                TxbNomeLouca.Text = LtvLouca.Items[index].SubItems[0].Text;
+                CodLouca = int.Parse (LtvLouca.Items[index].SubItems[1].Text);
+                CbxTipoLouca.Text = LtvLouca.Items[index].SubItems[2].Text;
+                TxbMarcaLouca.Text = LtvLouca.Items[index].SubItems[3].Text;
+                TxbPrecoLouca.Text = LtvLouca.Items[index].SubItems[4].Text;
+                NudEstoqueProd.Text = LtvLouca.Items[index].SubItems[5].Text;
+               
+
+                BtnDelete.Visible = true;
+                BtnUpdate.Visible = true;
+
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Você precisa selecionar uma linha", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            LoucaDAO loucaDao = new LoucaDAO();
+
+            DialogResult resultado = MessageBox.Show("Tem certeza" +
+            " que deseja excluir?", "CONFIRMAÇÃO", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (resultado == DialogResult.Yes)
+            {
+                try
+                {
+                    loucaDao.Delete(CodLouca);
+                }
+                catch (Exception err)
+                {
+                    MessageBox.Show(err.Message, "AVISO DE ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                UpdateListView();
+                ClearFields();
+            }
+        }
+
+        private void BtnUpdate_Click(object sender, EventArgs e)
+        {
+            if (ValidateFields())
+            {
+                try
+                {
+                    //Capture inputed text from fields.
+                    new LoucaDAO().Update(new Louca(
+                     int.Parse(TxbCodLouca.Text), TxbNomeLouca.Text, CbxTipoLouca.Text, TxbDescLouca.Text, float.Parse(TxbPrecoLouca.Text),int.Parse(NudEstoqueProd.Text), TxbMarcaLouca.Text));
+                    MessageBox.Show("Corretor atualizado!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show(error.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                UpdateListView();
+                ClearFields();
+            }
+
+
+        }
+
+        private bool ValidateFields()
+        {
+            throw new NotImplementedException();
         }
     }
 }

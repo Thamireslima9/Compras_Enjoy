@@ -13,6 +13,7 @@ using System.Linq;
 using System.Text;
 
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Compras_Enjoy
 
@@ -50,7 +51,8 @@ namespace Compras_Enjoy
 
             Loucas VALUES 
 
-            (@nome, @tipo, @descricao, @preco)";
+             (@preco, @tipo, @nome, @descricao, @marca, @estoque)";
+
 
             Command.Parameters.AddWithValue("@nome", prop.NomeLouca);
 
@@ -60,6 +62,9 @@ namespace Compras_Enjoy
 
             Command.Parameters.AddWithValue("@preco", prop.Preco);
 
+            Command.Parameters.AddWithValue("@marca", prop.Marca);
+
+            Command.Parameters.AddWithValue("@estoque", prop.Estoque);
 
             try
 
@@ -107,8 +112,14 @@ namespace Compras_Enjoy
             Descricao = @descricao,
 
             Preco = @preco 
+            
+            Marca = @marca
+
+            Estoque = @estoque
 
             WHERE CodLouca = @code";
+
+            Command.Parameters.AddWithValue("@code", prop.CodLouca);
 
             Command.Parameters.AddWithValue("@nome", prop.NomeLouca);
 
@@ -118,6 +129,10 @@ namespace Compras_Enjoy
 
             Command.Parameters.AddWithValue("@preco", prop.Preco);
 
+            Command.Parameters.AddWithValue("@marca", prop.Marca);
+
+            Command.Parameters.AddWithValue("@estoque", prop.Estoque);
+            
 
             try
 
@@ -205,19 +220,23 @@ namespace Compras_Enjoy
                 while (rd.Read())
 
                 {
-
+                    MessageBox.Show(rd["Preco"].ToString());
                     Louca louca = new Louca(
 
                       (int)rd["CodLouca"],
 
-                      (string)rd["TipoLouca"],
-
                       (string)rd["NomeLouca"],
 
-                      (string)rd["Descricao"],
+                      (string)rd["TipoLouca"],
 
-                      (float)rd["Preco"]);
+                      (string)rd["DescricaoLouca"],
 
+                      float.Parse(rd["Preco"].ToString()),
+
+                      (int)rd["Estoque"],
+
+                      (string)rd["MarcaLouca"]);
+                      
                     listaLoucas.Add(louca);
 
                 }
@@ -248,6 +267,15 @@ namespace Compras_Enjoy
 
         }
 
+        internal void Delete(int codLouca)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Update(Louca louca)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
