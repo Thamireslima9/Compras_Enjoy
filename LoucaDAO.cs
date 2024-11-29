@@ -220,7 +220,7 @@ namespace Compras_Enjoy
                 while (rd.Read())
 
                 {
-                    MessageBox.Show(rd["Preco"].ToString());
+                   
                     Louca louca = new Louca(
 
                       (int)rd["CodLouca"],

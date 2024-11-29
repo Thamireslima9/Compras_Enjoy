@@ -82,6 +82,7 @@
             this.LblTelaIni = new System.Windows.Forms.Label();
             this.BtnCadasFun = new System.Windows.Forms.Button();
             this.LblCadas1 = new System.Windows.Forms.Label();
+            this.ClhDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PnlFotoUpdate.SuspendLayout();
             this.panel3.SuspendLayout();
             this.PnlVendaLoucas.SuspendLayout();
@@ -195,25 +196,29 @@
             this.ClhNome,
             this.ClhCod,
             this.ClhTipo,
+            this.ClhDesc,
             this.ClhMarca,
             this.ClhPreco,
             this.ClhEstoque});
             this.LtvLouca.FullRowSelect = true;
             this.LtvLouca.HideSelection = false;
-            this.LtvLouca.Location = new System.Drawing.Point(122, 698);
+            this.LtvLouca.Location = new System.Drawing.Point(154, 702);
             this.LtvLouca.Name = "LtvLouca";
-            this.LtvLouca.Size = new System.Drawing.Size(827, 97);
+            this.LtvLouca.Size = new System.Drawing.Size(428, 97);
             this.LtvLouca.TabIndex = 25;
             this.LtvLouca.UseCompatibleStateImageBehavior = false;
             this.LtvLouca.View = System.Windows.Forms.View.Details;
+            this.LtvLouca.SelectedIndexChanged += new System.EventHandler(this.LtvLouca_SelectedIndexChanged);
             this.LtvLouca.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.LtvLouca_MouseDoubleClick);
             // 
             // ClhNome
             // 
+            this.ClhNome.DisplayIndex = 0;
             this.ClhNome.Text = "Nome";
             // 
             // ClhCod
             // 
+            this.ClhCod.DisplayIndex = 1;
             this.ClhCod.Text = "Código";
             // 
             // ClhTipo
@@ -222,6 +227,7 @@
             // 
             // ClhMarca
             // 
+            this.ClhMarca.DisplayIndex = 3;
             this.ClhMarca.Text = "Marca";
             // 
             // ClhPreco
@@ -230,6 +236,7 @@
             // 
             // ClhEstoque
             // 
+            this.ClhEstoque.DisplayIndex = 5;
             this.ClhEstoque.Text = "Estoque ";
             // 
             // PnlVendaLoucas
@@ -458,7 +465,7 @@
             // 
             // TxbPrecoLouca
             // 
-            this.TxbPrecoLouca.Location = new System.Drawing.Point(16, 28);
+            this.TxbPrecoLouca.Location = new System.Drawing.Point(25, 28);
             this.TxbPrecoLouca.Margin = new System.Windows.Forms.Padding(2);
             this.TxbPrecoLouca.Name = "TxbPrecoLouca";
             this.TxbPrecoLouca.Size = new System.Drawing.Size(338, 20);
@@ -683,6 +690,11 @@
             this.LblCadas1.Text = "Cadastro";
             this.LblCadas1.Click += new System.EventHandler(this.label13_Click);
             // 
+            // ClhDesc
+            // 
+            this.ClhDesc.DisplayIndex = 6;
+            this.ClhDesc.Text = "Descrição";
+            // 
             // Compra_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -771,12 +783,13 @@
         private System.Windows.Forms.Label LblVendaLouca;
         private System.Windows.Forms.ListView LtvLouca;
         private System.Windows.Forms.ColumnHeader ClhNome;
-        private System.Windows.Forms.ColumnHeader ClhCod;
         private System.Windows.Forms.ColumnHeader ClhTipo;
         private System.Windows.Forms.ColumnHeader ClhMarca;
         private System.Windows.Forms.ColumnHeader ClhPreco;
         private System.Windows.Forms.ColumnHeader ClhEstoque;
         private System.Windows.Forms.Button BtnUpdate;
         private System.Windows.Forms.Button BtnDelete;
+        private System.Windows.Forms.ColumnHeader ClhCod;
+        private System.Windows.Forms.ColumnHeader ClhDesc;
     }
 }

@@ -48,7 +48,8 @@ namespace Compras_Enjoy
                 ListViewItem item = new ListViewItem(louca.NomeLouca);
                 item.SubItems.Add(louca.CodLouca.ToString());
                 item.SubItems.Add(louca.Tipolouca);
-                item.SubItems.Add(louca.Marca);       
+                item.SubItems.Add(louca.DescricaoLouca);
+                item.SubItems.Add(louca.Marca);     
                 item.SubItems.Add(louca.Preco.ToString());
                 item.SubItems.Add(louca.Estoque.ToString());
                 
@@ -63,10 +64,7 @@ namespace Compras_Enjoy
             UpdateListView();
         }
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void PnlLayout1_Paint(object sender, PaintEventArgs e)
         {
@@ -184,10 +182,6 @@ namespace Compras_Enjoy
 
         }
 
-        private void Compra_Tela_Load(object sender, EventArgs e)
-        {
-            UpdateListView();
-        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -257,12 +251,14 @@ namespace Compras_Enjoy
             try
             {
                 index = LtvLouca.FocusedItem.Index;
-                TxbNomeLouca.Text = LtvLouca.Items[index].SubItems[0].Text;
-                CodLouca = int.Parse (LtvLouca.Items[index].SubItems[1].Text);
+                CodLouca = int.Parse(LtvLouca.Items[index].SubItems[0].Text);
+                TxbNomeLouca.Text = LtvLouca.Items[index].SubItems[1].Text;
                 CbxTipoLouca.Text = LtvLouca.Items[index].SubItems[2].Text;
-                TxbMarcaLouca.Text = LtvLouca.Items[index].SubItems[3].Text;
+                TxbDescLouca.Text = LtvLouca.Items[index].SubItems[3].Text;
                 TxbPrecoLouca.Text = LtvLouca.Items[index].SubItems[4].Text;
                 NudEstoqueProd.Text = LtvLouca.Items[index].SubItems[5].Text;
+                TxbMarcaLouca.Text = LtvLouca.Items[index].SubItems[6].Text;
+
                
 
                 BtnDelete.Visible = true;
@@ -297,6 +293,7 @@ namespace Compras_Enjoy
             }
         }
 
+
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
             if (ValidateFields())
@@ -305,7 +302,13 @@ namespace Compras_Enjoy
                 {
                     //Capture inputed text from fields.
                     new LoucaDAO().Update(new Louca(
-                     int.Parse(TxbCodLouca.Text), TxbNomeLouca.Text, CbxTipoLouca.Text, TxbDescLouca.Text, float.Parse(TxbPrecoLouca.Text),int.Parse(NudEstoqueProd.Text), TxbMarcaLouca.Text));
+                     int.Parse(TxbCodLouca.Text),
+                     TxbNomeLouca.Text,
+                     CbxTipoLouca.Text,
+                     TxbDescLouca.Text,
+                     float.Parse(TxbPrecoLouca.Text),
+                     int.Parse(NudEstoqueProd.Text),
+                     TxbMarcaLouca.Text));
                     MessageBox.Show("Corretor atualizado!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception error)
@@ -322,6 +325,11 @@ namespace Compras_Enjoy
         private bool ValidateFields()
         {
             throw new NotImplementedException();
+        }
+
+        private void LtvLouca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
