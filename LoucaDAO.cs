@@ -276,6 +276,11 @@ namespace Compras_Enjoy
         {
             throw new NotImplementedException();
         }
+
+        internal void Update(object louca)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
