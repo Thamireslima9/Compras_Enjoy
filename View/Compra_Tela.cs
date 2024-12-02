@@ -324,7 +324,6 @@ namespace Compras_Enjoy
 
         private bool ValidateFields()
         {
-            throw new NotImplementedException();
         }
 
         private void LtvLouca_SelectedIndexChanged(object sender, EventArgs e)
