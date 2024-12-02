@@ -36,11 +36,20 @@
             this.LblCodLoucaN = new System.Windows.Forms.Label();
             this.TxbCodLouca = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.BtnSaveLouca = new System.Windows.Forms.Button();
+            this.BtnUpdate = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
+            this.LtvLouca = new System.Windows.Forms.ListView();
+            this.ClhNome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClhCod = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClhTipo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClhMarca = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClhPreco = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClhEstoque = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PnlVendaLoucas = new System.Windows.Forms.Panel();
             this.LblVendaLouca = new System.Windows.Forms.Label();
             this.LblPrecoLouca = new System.Windows.Forms.Label();
             this.BtnEnviarFoto = new System.Windows.Forms.Button();
+            this.BtnSaveLouca = new System.Windows.Forms.Button();
             this.LblEstoqueLouca = new System.Windows.Forms.Label();
             this.LblMarcaLoucaN = new System.Windows.Forms.Label();
             this.LblLojaVirtual = new System.Windows.Forms.Label();
@@ -73,6 +82,7 @@
             this.LblTelaIni = new System.Windows.Forms.Label();
             this.BtnCadasFun = new System.Windows.Forms.Button();
             this.LblCadas1 = new System.Windows.Forms.Label();
+            this.ClhDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PnlFotoUpdate.SuspendLayout();
             this.panel3.SuspendLayout();
             this.PnlVendaLoucas.SuspendLayout();
@@ -148,7 +158,9 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.BtnSaveLouca);
+            this.panel3.Controls.Add(this.BtnUpdate);
+            this.panel3.Controls.Add(this.BtnDelete);
+            this.panel3.Controls.Add(this.LtvLouca);
             this.panel3.Controls.Add(this.PnlVendaLoucas);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
@@ -157,20 +169,75 @@
             this.panel3.TabIndex = 23;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // BtnSaveLouca
+            // BtnUpdate
             // 
-            this.BtnSaveLouca.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSaveLouca.BackColor = System.Drawing.Color.Maroon;
-            this.BtnSaveLouca.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSaveLouca.BackgroundImage")));
-            this.BtnSaveLouca.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSaveLouca.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnSaveLouca.Location = new System.Drawing.Point(1273, 698);
-            this.BtnSaveLouca.Name = "BtnSaveLouca";
-            this.BtnSaveLouca.Size = new System.Drawing.Size(75, 37);
-            this.BtnSaveLouca.TabIndex = 27;
-            this.BtnSaveLouca.Text = "Salvar";
-            this.BtnSaveLouca.UseVisualStyleBackColor = false;
-            this.BtnSaveLouca.Click += new System.EventHandler(this.button1_Click);
+            this.BtnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
+            this.BtnUpdate.Location = new System.Drawing.Point(1045, 749);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.BtnUpdate.TabIndex = 44;
+            this.BtnUpdate.Text = "atualizar";
+            this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
+            // 
+            // BtnDelete
+            // 
+            this.BtnDelete.Location = new System.Drawing.Point(1045, 711);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete.TabIndex = 43;
+            this.BtnDelete.Text = "Deletar";
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            // 
+            // LtvLouca
+            // 
+            this.LtvLouca.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ClhNome,
+            this.ClhCod,
+            this.ClhTipo,
+            this.ClhDesc,
+            this.ClhMarca,
+            this.ClhPreco,
+            this.ClhEstoque});
+            this.LtvLouca.FullRowSelect = true;
+            this.LtvLouca.HideSelection = false;
+            this.LtvLouca.Location = new System.Drawing.Point(154, 702);
+            this.LtvLouca.Name = "LtvLouca";
+            this.LtvLouca.Size = new System.Drawing.Size(428, 97);
+            this.LtvLouca.TabIndex = 25;
+            this.LtvLouca.UseCompatibleStateImageBehavior = false;
+            this.LtvLouca.View = System.Windows.Forms.View.Details;
+            this.LtvLouca.SelectedIndexChanged += new System.EventHandler(this.LtvLouca_SelectedIndexChanged);
+            this.LtvLouca.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.LtvLouca_MouseDoubleClick);
+            // 
+            // ClhNome
+            // 
+            this.ClhNome.DisplayIndex = 0;
+            this.ClhNome.Text = "Nome";
+            // 
+            // ClhCod
+            // 
+            this.ClhCod.DisplayIndex = 1;
+            this.ClhCod.Text = "Código";
+            // 
+            // ClhTipo
+            // 
+            this.ClhTipo.Text = "Tipo";
+            // 
+            // ClhMarca
+            // 
+            this.ClhMarca.DisplayIndex = 3;
+            this.ClhMarca.Text = "Marca";
+            // 
+            // ClhPreco
+            // 
+            this.ClhPreco.Text = "Preço";
+            // 
+            // ClhEstoque
+            // 
+            this.ClhEstoque.DisplayIndex = 5;
+            this.ClhEstoque.Text = "Estoque ";
             // 
             // PnlVendaLoucas
             // 
@@ -178,6 +245,7 @@
             this.PnlVendaLoucas.Controls.Add(this.LblVendaLouca);
             this.PnlVendaLoucas.Controls.Add(this.LblPrecoLouca);
             this.PnlVendaLoucas.Controls.Add(this.BtnEnviarFoto);
+            this.PnlVendaLoucas.Controls.Add(this.BtnSaveLouca);
             this.PnlVendaLoucas.Controls.Add(this.LblEstoqueLouca);
             this.PnlVendaLoucas.Controls.Add(this.LblMarcaLoucaN);
             this.PnlVendaLoucas.Controls.Add(this.LblLojaVirtual);
@@ -232,6 +300,21 @@
             this.BtnEnviarFoto.Text = "Enviar foto";
             this.BtnEnviarFoto.UseVisualStyleBackColor = true;
             this.BtnEnviarFoto.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // BtnSaveLouca
+            // 
+            this.BtnSaveLouca.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSaveLouca.BackColor = System.Drawing.Color.Maroon;
+            this.BtnSaveLouca.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSaveLouca.BackgroundImage")));
+            this.BtnSaveLouca.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSaveLouca.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnSaveLouca.Location = new System.Drawing.Point(1124, 486);
+            this.BtnSaveLouca.Name = "BtnSaveLouca";
+            this.BtnSaveLouca.Size = new System.Drawing.Size(75, 37);
+            this.BtnSaveLouca.TabIndex = 27;
+            this.BtnSaveLouca.Text = "Salvar";
+            this.BtnSaveLouca.UseVisualStyleBackColor = false;
+            this.BtnSaveLouca.Click += new System.EventHandler(this.button1_Click);
             // 
             // LblEstoqueLouca
             // 
@@ -382,7 +465,7 @@
             // 
             // TxbPrecoLouca
             // 
-            this.TxbPrecoLouca.Location = new System.Drawing.Point(16, 28);
+            this.TxbPrecoLouca.Location = new System.Drawing.Point(25, 28);
             this.TxbPrecoLouca.Margin = new System.Windows.Forms.Padding(2);
             this.TxbPrecoLouca.Name = "TxbPrecoLouca";
             this.TxbPrecoLouca.Size = new System.Drawing.Size(338, 20);
@@ -607,6 +690,11 @@
             this.LblCadas1.Text = "Cadastro";
             this.LblCadas1.Click += new System.EventHandler(this.label13_Click);
             // 
+            // ClhDesc
+            // 
+            this.ClhDesc.DisplayIndex = 6;
+            this.ClhDesc.Text = "Descrição";
+            // 
             // Compra_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -693,5 +781,15 @@
         private System.Windows.Forms.Panel PnlDescLouca;
         private System.Windows.Forms.Label LblEstoqueLouca;
         private System.Windows.Forms.Label LblVendaLouca;
+        private System.Windows.Forms.ListView LtvLouca;
+        private System.Windows.Forms.ColumnHeader ClhNome;
+        private System.Windows.Forms.ColumnHeader ClhTipo;
+        private System.Windows.Forms.ColumnHeader ClhMarca;
+        private System.Windows.Forms.ColumnHeader ClhPreco;
+        private System.Windows.Forms.ColumnHeader ClhEstoque;
+        private System.Windows.Forms.Button BtnUpdate;
+        private System.Windows.Forms.Button BtnDelete;
+        private System.Windows.Forms.ColumnHeader ClhCod;
+        private System.Windows.Forms.ColumnHeader ClhDesc;
     }
 }
