@@ -42,6 +42,7 @@
             this.ClhNome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ClhCod = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ClhTipo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ClhDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ClhMarca = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ClhPreco = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ClhEstoque = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -82,7 +83,7 @@
             this.LblTelaIni = new System.Windows.Forms.Label();
             this.BtnCadasFun = new System.Windows.Forms.Button();
             this.LblCadas1 = new System.Windows.Forms.Label();
-            this.ClhDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.BtnClear = new System.Windows.Forms.Button();
             this.PnlFotoUpdate.SuspendLayout();
             this.panel3.SuspendLayout();
             this.PnlVendaLoucas.SuspendLayout();
@@ -158,6 +159,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.BtnClear);
             this.panel3.Controls.Add(this.BtnUpdate);
             this.panel3.Controls.Add(this.BtnDelete);
             this.panel3.Controls.Add(this.LtvLouca);
@@ -172,17 +174,17 @@
             // BtnUpdate
             // 
             this.BtnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
-            this.BtnUpdate.Location = new System.Drawing.Point(1045, 749);
+            this.BtnUpdate.Location = new System.Drawing.Point(702, 743);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(75, 23);
             this.BtnUpdate.TabIndex = 44;
-            this.BtnUpdate.Text = "atualizar";
+            this.BtnUpdate.Text = "Atualizar";
             this.BtnUpdate.UseVisualStyleBackColor = true;
             this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // BtnDelete
             // 
-            this.BtnDelete.Location = new System.Drawing.Point(1045, 711);
+            this.BtnDelete.Location = new System.Drawing.Point(702, 702);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(75, 23);
             this.BtnDelete.TabIndex = 43;
@@ -204,7 +206,7 @@
             this.LtvLouca.HideSelection = false;
             this.LtvLouca.Location = new System.Drawing.Point(154, 702);
             this.LtvLouca.Name = "LtvLouca";
-            this.LtvLouca.Size = new System.Drawing.Size(428, 97);
+            this.LtvLouca.Size = new System.Drawing.Size(491, 97);
             this.LtvLouca.TabIndex = 25;
             this.LtvLouca.UseCompatibleStateImageBehavior = false;
             this.LtvLouca.View = System.Windows.Forms.View.Details;
@@ -213,21 +215,22 @@
             // 
             // ClhNome
             // 
-            this.ClhNome.DisplayIndex = 0;
             this.ClhNome.Text = "Nome";
             // 
             // ClhCod
             // 
-            this.ClhCod.DisplayIndex = 1;
             this.ClhCod.Text = "Código";
             // 
             // ClhTipo
             // 
             this.ClhTipo.Text = "Tipo";
             // 
+            // ClhDesc
+            // 
+            this.ClhDesc.Text = "Descrição";
+            // 
             // ClhMarca
             // 
-            this.ClhMarca.DisplayIndex = 3;
             this.ClhMarca.Text = "Marca";
             // 
             // ClhPreco
@@ -236,7 +239,6 @@
             // 
             // ClhEstoque
             // 
-            this.ClhEstoque.DisplayIndex = 5;
             this.ClhEstoque.Text = "Estoque ";
             // 
             // PnlVendaLoucas
@@ -268,6 +270,7 @@
             this.PnlVendaLoucas.Name = "PnlVendaLoucas";
             this.PnlVendaLoucas.Size = new System.Drawing.Size(1299, 549);
             this.PnlVendaLoucas.TabIndex = 42;
+            this.PnlVendaLoucas.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlVendaLoucas_Paint);
             // 
             // LblVendaLouca
             // 
@@ -312,7 +315,7 @@
             this.BtnSaveLouca.Name = "BtnSaveLouca";
             this.BtnSaveLouca.Size = new System.Drawing.Size(75, 37);
             this.BtnSaveLouca.TabIndex = 27;
-            this.BtnSaveLouca.Text = "Salvar";
+            this.BtnSaveLouca.Text = "Inserir";
             this.BtnSaveLouca.UseVisualStyleBackColor = false;
             this.BtnSaveLouca.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -532,7 +535,7 @@
             // TxbDescLouca
             // 
             this.TxbDescLouca.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TxbDescLouca.Location = new System.Drawing.Point(53, 26);
+            this.TxbDescLouca.Location = new System.Drawing.Point(49, 35);
             this.TxbDescLouca.Name = "TxbDescLouca";
             this.TxbDescLouca.Size = new System.Drawing.Size(129, 20);
             this.TxbDescLouca.TabIndex = 24;
@@ -690,10 +693,15 @@
             this.LblCadas1.Text = "Cadastro";
             this.LblCadas1.Click += new System.EventHandler(this.label13_Click);
             // 
-            // ClhDesc
+            // BtnClear
             // 
-            this.ClhDesc.DisplayIndex = 6;
-            this.ClhDesc.Text = "Descrição";
+            this.BtnClear.Location = new System.Drawing.Point(702, 776);
+            this.BtnClear.Name = "BtnClear";
+            this.BtnClear.Size = new System.Drawing.Size(75, 23);
+            this.BtnClear.TabIndex = 45;
+            this.BtnClear.Text = "Limpar";
+            this.BtnClear.UseVisualStyleBackColor = true;
+            this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
             // Compra_Tela
             // 
@@ -791,5 +799,6 @@
         private System.Windows.Forms.Button BtnDelete;
         private System.Windows.Forms.ColumnHeader ClhCod;
         private System.Windows.Forms.ColumnHeader ClhDesc;
+        private System.Windows.Forms.Button BtnClear;
     }
 }

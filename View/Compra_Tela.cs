@@ -16,7 +16,7 @@ namespace Compras_Enjoy
 {
     public partial class Compra_Tela : Form
     {
-        private int CodLouca = -1;
+        private int code = -1;
         public Compra_Tela()
         {
             InitializeComponent();
@@ -29,7 +29,6 @@ namespace Compras_Enjoy
             TxbMarcaLouca.Clear();
             TxbPrecoLouca.Clear();
             TxbDescLouca.Clear();
-
         }
 
         private void UpdateListView()
@@ -55,7 +54,6 @@ namespace Compras_Enjoy
                 LtvLouca.Items.Add(item);
             }
         }
-
       
         private void Compra_tela_Load(object sender, EventArgs e)
         {
@@ -99,12 +97,10 @@ namespace Compras_Enjoy
             MessageBox.Show("Selecione uma imagem." );
         }
 
-
         private void lblNomeEnjoy_Click(object sender, EventArgs e)
         {
 
         }
-       
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -143,8 +139,6 @@ namespace Compras_Enjoy
             ClearFields();
 
         }
-
-
         private void button3_Click(object sender, EventArgs e)
         {
             
@@ -177,8 +171,7 @@ namespace Compras_Enjoy
 
             telaCadastro.ShowDialog();
         }
-
-
+ 
         private void label13_Click(object sender, EventArgs e)
         {
 
@@ -194,114 +187,90 @@ namespace Compras_Enjoy
 
         }
 
-        private void textBox8_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-
-        }
-
         private void LtvLouca_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             int index;
             try
             {
-                index = LtvLouca.FocusedItem.Index;
-
-                // Garantir que estamos obtendo o código correto da linha
-                CodLouca = int.Parse(LtvLouca.Items[index].SubItems[1].Text);
-
-                // Preencher os campos com os dados do item selecionado
+                index = LtvLouca.FocusedItem.Index;              
                 TxbNomeLouca.Text = LtvLouca.Items[index].SubItems[0].Text;
+                TxbCodLouca.Text = LtvLouca.Items[index].SubItems[1].Text;
                 CbxTipoLouca.Text = LtvLouca.Items[index].SubItems[2].Text;
-                TxbDescLouca.Text = LtvLouca.Items[index].SubItems[6].Text;
+                TxbDescLouca.Text = LtvLouca.Items[index].SubItems[3].Text;
                 TxbPrecoLouca.Text = LtvLouca.Items[index].SubItems[5].Text;
-                NudEstoqueProd.Text = LtvLouca.Items[index].SubItems[4].Text;
-                TxbMarcaLouca.Text = LtvLouca.Items[index].SubItems[3].Text;
-
-                // Tornar os botões de deletar e atualizar visíveis
-                BtnDelete.Visible = true;
-                BtnUpdate.Visible = true;
+                NudEstoqueProd.Text = LtvLouca.Items[index].SubItems[6].Text;
+                TxbMarcaLouca.Text = LtvLouca.Items[index].SubItems[4].Text;
             }
+
             catch (Exception)
             {
                 MessageBox.Show("Você precisa selecionar uma linha", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-
         private void BtnDelete_Click(object sender, EventArgs e)
         {
-            if (CodLouca == -1)
-            {
-                MessageBox.Show("Nenhuma louça selecionada para exclusão.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
             LoucaDAO loucaDao = new LoucaDAO();
+
 
             DialogResult resultado = MessageBox.Show("Tem certeza" +
             " que deseja excluir?", "CONFIRMAÇÃO", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
             if (resultado == DialogResult.Yes)
             {
                 try
                 {
-                    loucaDao.Delete(CodLouca);
-                    MessageBox.Show("Louça excluída com sucesso!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    UpdateListView();
-                    ClearFields();
+                    loucaDao.Excluir(int.Parse(TxbCodLouca.Text));
                 }
                 catch (Exception err)
                 {
                     MessageBox.Show(err.Message, "AVISO DE ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                UpdateListView();
+                ClearFields();
             }
         }
 
+
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
-            if (CodLouca == -1)
-            {
-                MessageBox.Show("Nenhuma louça selecionada para atualização.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            // Verificar se os campos estão corretamente preenchidos
-            if (string.IsNullOrEmpty(TxbNomeLouca.Text) || string.IsNullOrEmpty(TxbPrecoLouca.Text) || string.IsNullOrEmpty(TxbMarcaLouca.Text))
-            {
-                MessageBox.Show("Preencha todos os campos obrigatórios para atualizar.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            try
+            
+            
+                try
                 {
                     //Capture inputed text from fields.
-                    new LoucaDAO().Update(new Louca(
-
-                     CodLouca,
+                    new LoucaDAO().Atualizar(new Louca(
+                    int.Parse(TxbCodLouca.Text),
                      TxbNomeLouca.Text,
                      CbxTipoLouca.Text,
                      TxbDescLouca.Text,
                      float.Parse(TxbPrecoLouca.Text),
                      int.Parse(NudEstoqueProd.Text),
                      TxbMarcaLouca.Text));
-                     MessageBox.Show("Louça atualizada com sucesso!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Louca atualizada!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                
                 catch (Exception error)
                 {
                     MessageBox.Show(error.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 UpdateListView();
                 ClearFields();
+
         }
 
+   
         private void LtvLouca_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void PnlVendaLoucas_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            ClearFields();
         }
     }
 }

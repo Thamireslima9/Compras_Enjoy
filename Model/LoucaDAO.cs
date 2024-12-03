@@ -104,16 +104,16 @@ namespace Compras_Enjoy
             Command.Connection = Connect.ReturnConnection();
 
             Command.CommandText = @"UPDATE Loucas SET 
-
-            Nome = @nome,
-
-            Tipo = @tipo, 
-
-            Descricao = @descricao,
-
-            Preco = @preco 
             
-            Marca = @marca
+            Preco = @preco,
+
+            TipoLouca = @tipo, 
+            
+            NomeLouca = @nome,
+
+            DescricaoLouca = @descricao,
+            
+            MarcaLouca = @marca,
 
             Estoque = @estoque
 
@@ -146,7 +146,7 @@ namespace Compras_Enjoy
 
             {
 
-                throw new Exception("Erro: Problemas ao realizar atualização de usuário no banco.\n" + err.Message);
+                throw new Exception("Erro: Problemas ao realizar atualização da louça no banco.\n" + err.Message);
 
             }
 
@@ -160,7 +160,7 @@ namespace Compras_Enjoy
 
         }
 
-        public void Excluir(int codLouca)
+        public void Excluir(int code)
 
         {
 
@@ -168,9 +168,11 @@ namespace Compras_Enjoy
 
             Command.CommandText = @"DELETE FROM Loucas 
 
-            WHERE CodLouca = @cod";
+            WHERE CodLouca = @code";
 
-            Command.Parameters.AddWithValue("@cod", codLouca);
+            Command.Parameters.Clear();
+
+            Command.Parameters.AddWithValue("@code", code);
 
             try
 
@@ -184,7 +186,7 @@ namespace Compras_Enjoy
 
             {
 
-                throw new Exception("Erro: Problemas ao excluir usuário no banco.\n" + err.Message);
+                throw new Exception("Erro: Problemas ao excluir louça no banco.\n" + err.Message);
 
             }
 
@@ -267,20 +269,7 @@ namespace Compras_Enjoy
 
         }
 
-        internal void Delete(int codLouca)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void Update(Louca louca)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void Update(object louca)
-        {
-            throw new NotImplementedException();
-        }
+     
     }
 
 }
